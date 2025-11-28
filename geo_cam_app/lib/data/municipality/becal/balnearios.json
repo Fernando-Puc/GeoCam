@@ -1,0 +1,86 @@
+{
+    "municipalityId": "calkini",
+    "municipalityName": "Calkiní",
+    "categoryId": "balnearios",
+    "categoryName": "Balnearios",
+    "description": "Listado de balnearios del municipio de Calkiní.",
+    "items": [
+      {
+        "id": 1,
+        "name": "Los Baxal Haa",
+        "shortName": "Baxal Haa",
+        "address": {
+          "street": "Calle 41",
+          "postalCode": "24936",
+          "city": "Calkiní",
+          "state": "Campeche",
+          "country": "México",
+          "maps": {
+            "latitude": null,
+            "longitude": null,
+            "googleMapsUrl": null
+          }
+        },
+        "image": "assets/images/balnearios/baxal-haa.png",
+        "description": "Balneario Los Baxal Haa ubicado en la ciudad de Calkiní, Campeche."
+      },
+      {
+        "id": 2,
+        "name": "Balneario Martín",
+        "shortName": "Martín",
+        "address": {
+          "street": "Calle 23",
+          "postalCode": "24904",
+          "city": "Calkiní",
+          "state": "Campeche",
+          "country": "México",
+          "maps": {
+            "latitude": null,
+            "longitude": null,
+            "googleMapsUrl": null
+          }
+        },
+        "image": "assets/images/balnearios/martin.png",
+        "description": "Balneario Martín ubicado en la ciudad de Calkiní, Campeche."
+      },
+      {
+        "id": 3,
+        "name": "Chuc Say",
+        "shortName": "Chuc Say",
+        "address": {
+          "street": "Calle 20",
+          "postalCode": "24903",
+          "city": "Calkiní",
+          "state": "Campeche",
+          "country": "México",
+          "maps": {
+            "latitude": null,
+            "longitude": null,
+            "googleMapsUrl": null
+          }
+        },
+        "image": "assets/images/balnearios/chuc-say.png",
+        "description": "Balneario Chuc Say ubicado en la ciudad de Calkiní, Campeche."
+      },
+      {
+        "id": 4,
+        "name": "El Remate",
+        "shortName": "El Remate",
+        "address": {
+          "street": "Calle 20",
+          "postalCode": "24903",
+          "city": "Calkiní",
+          "state": "Campeche",
+          "country": "México",
+          "maps": {
+            "latitude": null,
+            "longitude": null,
+            "googleMapsUrl": null
+          }
+        },
+        "image": "assets/images/balnearios/el-remate.png",
+        "description": "Balneario El Remate ubicado en la ciudad de Calkiní, Campeche."
+      }
+    ]
+  }
+  
