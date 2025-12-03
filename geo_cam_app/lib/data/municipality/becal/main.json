@@ -1,0 +1,60 @@
+{
+    "name": "Becal",
+    "latitude": 10.0,
+    "longitude": 10.0,
+    "title": "Becal",
+    "description": "Becal is lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "assets/images/becal.png",
+    "optionsMenu": [
+        {
+            "name": "Locales artesanales",
+            "description": "Locales artesanales are lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image": "assets/images/artesanales.png"
+        },
+        {
+            "name": "Tiendas o negocios",
+            "description": "Tiendas o negocios are lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image": "assets/images/negocios.png"
+        },
+        {
+            "name": "Restaurantes",
+            "description": "Restaurantes are lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image": "assets/images/restaurantes.png"
+        },
+        {
+            "name": "Hoteles",
+            "description": "Hoteles are lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image": "assets/images/hoteles.png"
+        },
+        {
+            "name": "Balnearios",
+            "description": "Balnearios are lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image": "assets/images/balnearios.png"
+        },
+        {
+            "name": "Zonas arqueologicas",
+            "description": "Zonas arqueologicas are lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image": "assets/images/arqueologicas.png"
+        },
+        {
+            "name": "Centros religiosos",
+            "description": "Centros religiosos are lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image": "assets/images/religiosos.png"
+        },
+        {
+            "name": "Cafeterias",
+            "description": "Cafeterias are lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image": "assets/images/cafeterias.png"
+        },
+        {
+            "name": "Transporte",
+            "description": "Transporte are lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image": "assets/images/transporte.png"
+        },
+        {
+            "name": "Dias festivos",
+            "description": "Dias festivos are lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image": "assets/images/festivos.png"
+        }
+    ]
+}
