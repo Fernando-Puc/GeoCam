@@ -161,7 +161,7 @@ class HomeScreen extends StatelessWidget {
       ),
       body: const Center(
         child: Text(
-          '¡Esta es la Pantalla Principal!',
+          '¡Bienvenido a la Pantalla Principal!',
           style: TextStyle(fontSize: 22),
           textAlign: TextAlign.center,
         ),
