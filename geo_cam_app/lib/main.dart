@@ -90,7 +90,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                   ClipOval(
                     child: Image.asset(
                      
-                      width: 220, 'assets/images/geocam_1.png', 
+                      width: 220, 'lib/assets/images/geocam_1.png', 
                       height: 220,
                       fit: BoxFit.cover,
                     ),
