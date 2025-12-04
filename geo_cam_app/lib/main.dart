@@ -109,7 +109,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                   ),
                   const SizedBox(height: 10),
                   const Text(
-                    'Â¡Bienvenido!',
+                    '¡Bienvenido!',
                     style: TextStyle(
                       fontSize: 22,
                       color: Colors.white70,
