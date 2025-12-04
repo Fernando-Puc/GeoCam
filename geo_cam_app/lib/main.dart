@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-
+import 'screens/pantallaCK.dart';
+import 'screens/pantallaBC.dart';
+import 'screens/pantallaDZ.dart';
+import 'screens/pantallaNK.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -147,7 +150,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
   }
 }
 
-//Segunda pantalla 
+// Segunda pantalla 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
@@ -159,12 +162,61 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Color.fromARGB(255, 196, 14, 14),
         foregroundColor: Colors.white,
       ),
-      body: const Center(
-        child: Text(
-          '¡Bienvenido a la Pantalla Principal!',
-          style: TextStyle(fontSize: 22),
-          textAlign: TextAlign.center,
+
+      body: Column(
+        children: [
+          const SizedBox(height: 20),
+
+          const Text(
+            '¡Bienvenido a la Pantalla Principal!',
+            style: TextStyle(fontSize: 22),
+            textAlign: TextAlign.center,
+          ),
+
+          const SizedBox(height: 30),
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.all(30),
+              child: GridView.count(
+                crossAxisCount: 2, 
+                crossAxisSpacing: 40,
+                mainAxisSpacing: 40,
+                childAspectRatio: 2, 
+                children: [
+                  _buildButton(context, "Calkiní", const PantallaCK()),
+                  _buildButton(context, "Bécal", const PantallaBC()),
+                  _buildButton(context, "Dzitbalché", const PantallaDZ()),
+                  _buildButton(context, "Nunkiní", const PantallaNK()),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  // Aquí se controlan los botones 
+  Widget _buildButton(BuildContext context, String text, Widget screen) {
+    return ElevatedButton(
+      onPressed: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => screen),
+        );
+      },
+      style: ElevatedButton.styleFrom(
+        backgroundColor: const Color.fromARGB(255, 196, 14, 14),
+        foregroundColor: Colors.white,
+        padding: const EdgeInsets.all(12),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20),
         ),
+      ),
+      child: Text(
+        text,
+        textAlign: TextAlign.center,
+        style: const TextStyle(fontSize: 20),
       ),
     );
   }
