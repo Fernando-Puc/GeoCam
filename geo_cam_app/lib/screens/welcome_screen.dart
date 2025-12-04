@@ -1,29 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/pantallaCK.dart';
-import 'screens/pantallaBC.dart';
-import 'screens/pantallaDZ.dart';
-import 'screens/pantallaNK.dart';import 'package:geo_cam_app/screens/welcome_screen.dart';
-
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'GeoCam App',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const WelcomeScreen(),
-    );
-  }
-}
+import 'package:geo_cam_app/screens/home_screen.dart';
 
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({super.key});
@@ -49,8 +25,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
 
     _fadeInAnimation =
         CurvedAnimation(parent: _controller, curve: Curves.easeInOut);
-    _scaleAnimation =
-        Tween<double>(begin: 0.8, end: 1.0).animate(_controller);
+    _scaleAnimation = Tween<double>(begin: 0.8, end: 1.0).animate(_controller);
 
     _controller.forward();
   }
@@ -74,7 +49,11 @@ class _WelcomeScreenState extends State<WelcomeScreen>
       body: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [Color.fromARGB(255, 156, 32, 32), Color.fromARGB(255, 190, 30, 30), Color.fromARGB(255, 204, 100, 100)],
+            colors: [
+              Color.fromARGB(255, 156, 32, 32),
+              Color.fromARGB(255, 190, 30, 30),
+              Color.fromARGB(255, 204, 100, 100)
+            ],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
@@ -89,8 +68,8 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                 children: [
                   ClipOval(
                     child: Image.asset(
-                     
-                      width: 220, 'assets/images/geocam_1.png', 
+                      width: 220,
+                      'lib/assets/images/geocam_1.png',
                       height: 220,
                       fit: BoxFit.cover,
                     ),
@@ -146,78 +125,6 @@ class _WelcomeScreenState extends State<WelcomeScreen>
             ),
           ),
         ),
-      ),
-    );
-  }
-}
-
-// Segunda pantalla 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Pantalla Principal'),
-        backgroundColor: Color.fromARGB(255, 196, 14, 14),
-        foregroundColor: Colors.white,
-      ),
-
-      body: Column(
-        children: [
-          const SizedBox(height: 20),
-
-          const Text(
-            '¡Bienvenido a la Pantalla Principal!',
-            style: TextStyle(fontSize: 22),
-            textAlign: TextAlign.center,
-          ),
-
-          const SizedBox(height: 30),
-          Expanded(
-            child: Padding(
-              padding: const EdgeInsets.all(30),
-              child: GridView.count(
-                crossAxisCount: 2, 
-                crossAxisSpacing: 40,
-                mainAxisSpacing: 40,
-                childAspectRatio: 2, 
-                children: [
-                  _buildButton(context, "Calkiní", const PantallaCK()),
-                  _buildButton(context, "Bécal", const PantallaBC()),
-                  _buildButton(context, "Dzitbalché", const PantallaDZ()),
-                  _buildButton(context, "Nunkiní", const PantallaNK()),
-                ],
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  // Aquí se controlan los botones 
-  Widget _buildButton(BuildContext context, String text, Widget screen) {
-    return ElevatedButton(
-      onPressed: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => screen),
-        );
-      },
-      style: ElevatedButton.styleFrom(
-        backgroundColor: const Color.fromARGB(255, 196, 14, 14),
-        foregroundColor: Colors.white,
-        padding: const EdgeInsets.all(12),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(20),
-        ),
-      ),
-      child: Text(
-        text,
-        textAlign: TextAlign.center,
-        style: const TextStyle(fontSize: 20),
       ),
     );
   }
