@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'screens/pantallaCK.dart';
 import 'screens/pantallaBC.dart';
 import 'screens/pantallaDZ.dart';
-import 'screens/pantallaNK.dart';import 'package:geo_cam_app/screens/welcome_screen.dart';
+import 'screens/pantallaNK.dart';
 
 void main() {
   runApp(const MyApp());
