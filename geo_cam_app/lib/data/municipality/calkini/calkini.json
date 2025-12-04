@@ -1,0 +1,6 @@
+{
+  "name": "Calkiní",
+  "image": "lib/assets/images/calkini.jpg",
+  "description": "Calkiní es un municipio del estado de Campeche, México, conocido por su cultura y tradiciones.",
+  "options": ["Más visitados", "Guardado", "Historia"]
+}
