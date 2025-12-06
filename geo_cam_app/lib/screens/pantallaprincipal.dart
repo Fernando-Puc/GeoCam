@@ -12,17 +12,18 @@ class pantallaprincipal extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-     appBar: AppBar(
-  title: const Text('Pantalla Principal'),
-  backgroundColor: const Color.fromARGB(255, 196, 14, 14),
-  foregroundColor: Colors.white,
-  actions: [
-    IconButton(
-      icon: const Icon(Icons.help_outline),
-      onPressed: () => pantallatutorial(context),
-    )
-  ],
-),
+      backgroundColor: const Color.fromARGB(255, 234, 228, 205),
+      appBar: AppBar(
+        title: const Text('Pantalla Principal'),
+        backgroundColor: const Color.fromARGB(255, 196, 14, 14),
+        foregroundColor: Colors.white,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.help_outline),
+            onPressed: () => pantallatutorial(context),
+          )
+        ],
+      ),
       body: Column(
         children: [
           const SizedBox(height: 20),
