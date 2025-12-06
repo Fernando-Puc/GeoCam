@@ -1,6 +1,9 @@
 {
   "name": "Calkiní",
+  "appbarimage": "lib/assets/images/DiseñoHF.png",
+  "title": "MUNICIPIO DE CALKINÍ",
   "image": "lib/assets/images/calkini.jpg",
-  "description": "Calkiní es un municipio del estado de Campeche, México, conocido por su cultura y tradiciones.",
+  "description": "En lengua maya significa \"garganta del sol\" conocida como la \"Atenas del camino real\" y llamada \"Cuna de las Artesanías Campechanas\"; cuenta con una gran riqueza cultural, natural y artesanal así como servicios indispensables para disfrutar en familia.",
   "options": ["Más visitados", "Guardado", "Historia"]
+  
 }
