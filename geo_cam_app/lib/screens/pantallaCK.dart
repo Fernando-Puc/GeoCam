@@ -125,7 +125,7 @@ class _PantallaCKState extends State<PantallaCK> {
                     );
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Color.fromARGB(255, 216, 210, 121),
+                    backgroundColor: const Color.fromARGB(255, 216, 210, 121),
                     foregroundColor: const Color.fromARGB(255, 0, 0, 0),
                     elevation: 4,
                     padding: const EdgeInsets.symmetric(

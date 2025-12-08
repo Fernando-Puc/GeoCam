@@ -66,6 +66,12 @@ flutter:
     - lib/assets/images/
     - lib/data/municipality/calkini/
     - lib/assets/images/DiseñoHF.png
+    - lib/assets/images/calkinibtn.png
+    - lib/assets/images/becalbtn.jpg
+    - lib/assets/images/dzitbalchebtn.jpeg
+    - lib/assets/images/nunkinibtn.jpg
+    - lib/assets/images/tutorial.png
+    
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
