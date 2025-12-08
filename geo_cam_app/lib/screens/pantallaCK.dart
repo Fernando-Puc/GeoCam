@@ -41,19 +41,29 @@ class _PantallaCKState extends State<PantallaCK> {
     }
 
     return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 234, 228, 205),
       appBar: AppBar(
         centerTitle: true,
         flexibleSpace: Stack(
           fit: StackFit.expand,
           children: [
             Image.asset(
-              municipalityData['appbarimage'], 
+              municipalityData['appbarimage'],
               fit: BoxFit.cover,
             ),
           ],
         ),
         backgroundColor: Colors.transparent,
       ),
+      //boton para regresar 
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.pop(context);
+        },
+        backgroundColor: const Color.fromARGB(255, 195, 57, 15),
+        child: const Icon(Icons.arrow_back, color: Colors.white),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.startFloat,
 
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(10),
@@ -64,8 +74,8 @@ class _PantallaCKState extends State<PantallaCK> {
             Text(
               municipalityData['title'],
               style: const TextStyle(
-                  fontSize: 40,
-                  fontFamily: "Kigali_Lx_Regular", // usa el family del pubspec
+                  fontSize: 34,
+                  fontFamily: "Kigali_Lx_Regular",
                   fontWeight: FontWeight.w100,
                   letterSpacing: 2),
             ),
@@ -73,27 +83,30 @@ class _PantallaCKState extends State<PantallaCK> {
             const SizedBox(height: 20),
 
             // descripcion del municipio
-            Text(
-              municipalityData['description'],
-              style: const TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
+            Center(
+              child: Text(
+                municipalityData['description'],
+                style: const TextStyle(
+                  fontSize: 17,
+                  fontWeight: FontWeight.bold,
+                ),
+                textAlign: TextAlign.center,
               ),
             ),
-
             const SizedBox(height: 30),
 
             // imagen del municipio
-            ClipRRect(
-              borderRadius: BorderRadius.circular(12),
-              child: Image.asset(
-                municipalityData['image'],
-                width: double.infinity,
-                height: 200,
-                fit: BoxFit.cover,
+            Center(
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(12),
+                child: Image.asset(
+                  municipalityData['image'],
+                  width: 300,
+                  height: 200,
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
-
             const SizedBox(height: 20),
 
             // botones
@@ -112,18 +125,13 @@ class _PantallaCKState extends State<PantallaCK> {
                     );
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.white,
-                    foregroundColor: const Color.fromARGB(255, 196, 14, 14),
-                    shadowColor: Colors.black45,
+                    backgroundColor: const Color.fromARGB(255, 216, 210, 121),
+                    foregroundColor: const Color.fromARGB(255, 0, 0, 0),
                     elevation: 4,
                     padding: const EdgeInsets.symmetric(
                         horizontal: 20, vertical: 12),
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(25),
-                      side: const BorderSide(
-                        color: Color.fromARGB(255, 196, 14, 14),
-                        width: 2,
-                      ),
+                      borderRadius: BorderRadius.circular(1),
                     ),
                   ),
                   child: Text(
