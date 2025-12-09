@@ -1,6 +1,9 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'explora.dart';
+import 'guardado.dart';
+import 'historia.dart';
 
 class PantallaCK extends StatefulWidget {
   const PantallaCK({super.key});
@@ -55,7 +58,7 @@ class _PantallaCKState extends State<PantallaCK> {
         ),
         backgroundColor: Colors.transparent,
       ),
-      //boton para regresar 
+      //boton para regresar
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           Navigator.pop(context);
@@ -114,35 +117,53 @@ class _PantallaCKState extends State<PantallaCK> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: List.generate(
                 municipalityData['options'].length,
-                (index) => ElevatedButton(
-                  onPressed: () {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(
-                        content: Text(
-                          '${municipalityData['options'][index]} seleccionado',
-                        ),
+                (index) {
+                  final opcion = municipalityData['options'][index];
+                  return ElevatedButton(
+                    onPressed: () {
+                      Widget? pantallaDestino;
+                      switch (opcion) {
+                        case 'Explora':
+                          pantallaDestino = const explora(); 
+                          break;
+                        case 'Guardado':
+                          pantallaDestino = const guardado();
+                          break;
+                        case 'Historia':
+                          pantallaDestino = const historia();
+                          break;
+                        default:
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            SnackBar(
+                                content: Text('Opción no encontrada: $opcion')),
+                          );
+                          return;
+                      }
+
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => pantallaDestino!),
+                      );
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: const Color.fromARGB(255, 216, 210, 121),
+                      foregroundColor: const Color.fromARGB(255, 0, 0, 0),
+                      elevation: 4,
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 20, vertical: 12),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(1),
                       ),
-                    );
-                  },
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: const Color.fromARGB(255, 216, 210, 121),
-                    foregroundColor: const Color.fromARGB(255, 0, 0, 0),
-                    elevation: 4,
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 20, vertical: 12),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(1),
                     ),
-                  ),
-                  child: Text(
-                    municipalityData['options'][index],
-                    style: const TextStyle(
-                      fontSize: 14,
-                      fontWeight: FontWeight.bold,
+                    child: Text(
+                      opcion, 
+                      style: const TextStyle(
+                          fontSize: 14, fontWeight: FontWeight.bold),
+                      textAlign: TextAlign.center,
                     ),
-                    textAlign: TextAlign.center,
-                  ),
-                ),
+                  );
+                },
               ),
             ),
           ],
