@@ -71,6 +71,17 @@ flutter:
     - lib/assets/images/dzitbalchebtn.jpeg
     - lib/assets/images/nunkinibtn.jpg
     - lib/assets/images/tutorial.png
+    - lib/assets/images/artesania.jpg
+    - lib/assets/images/tiendas.jpg
+    - lib/assets/images/restaurante.jpg
+    - lib/assets/images/hotel.jpeg
+    - lib/assets/images/piscina.png
+    - lib/assets/images/zonaarq.jpg
+    - lib/assets/images/religion.jpg
+    - lib/assets/images/cafeteria.jpg
+    - lib/assets/images/transporte.png
+    - lib/assets/images/lupa.png
+    
     
   # To add assets to your application, add an assets section, like this:
   # assets:
