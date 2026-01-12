@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'pantallaCK.dart';
-import 'pantallaBC.dart';
-import 'pantallaDZ.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/hoteles.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/restaurantes.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/tiendas.dart';
 import 'pantallaNK.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/localesartesanales.dart';
 
-class explora extends StatelessWidget {
-  const explora({super.key});
+class Explora extends StatelessWidget {
+  const Explora({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -76,17 +77,17 @@ class explora extends StatelessWidget {
               padding: const EdgeInsets.all(10),
               child: GridView.count(
                 crossAxisCount: 3,
-                crossAxisSpacing: 5,
-                mainAxisSpacing: 7,
+                crossAxisSpacing: 8,
+                mainAxisSpacing: 10,
                 childAspectRatio: 1.6,
                 children: [
-                  _buildButton(context, "Locales Artesanales",const PantallaCK(),
+                  _buildButton(context, "Locales Artesanales",const LocalesArtesanales(),
                     'lib/assets/images/artesania.jpg'),
-                  _buildButton(context, "Tiendas o Negocios", const PantallaBC(), 
+                  _buildButton(context, "Tiendas o Negocios", const Tiendas(), 
                     'lib/assets/images/tiendas.jpg'),
-                  _buildButton(context, "Restaurantes", const PantallaDZ(),
+                  _buildButton(context, "Restaurantes", const Restaurantes(),
                     'lib/assets/images/restaurante.jpg'),
-                  _buildButton(context, "Hoteles", const PantallaNK(),
+                  _buildButton(context, "Hoteles", const Hoteles(),
                     'lib/assets/images/hotel.jpeg'),
                   _buildButton(context, "Balnearios", const PantallaNK(),
                     'lib/assets/images/piscina.png'),
@@ -108,7 +109,9 @@ class explora extends StatelessWidget {
   }
 }
 
-class exploraBC extends StatelessWidget {
+class ExploraBC extends StatelessWidget {
+  const ExploraBC({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
