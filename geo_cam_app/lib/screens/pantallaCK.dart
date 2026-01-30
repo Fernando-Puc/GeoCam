@@ -124,7 +124,7 @@ class _PantallaCKState extends State<PantallaCK> {
                       Widget? pantallaDestino;
                       switch (opcion) {
                         case 'Explora':
-                          pantallaDestino = const explora(); 
+                          pantallaDestino = const Explora(); 
                           break;
                         case 'Guardado':
                           pantallaDestino = const guardado();
