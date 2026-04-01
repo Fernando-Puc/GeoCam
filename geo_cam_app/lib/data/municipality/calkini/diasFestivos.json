@@ -1,0 +1,16 @@
+{
+"meses": [
+        { "nombre": "ENERO", "fechas": [] },
+        { "nombre": "FEBRERO", "fechas": [] },
+        { "nombre": "MARZO", "fechas": [] },
+        { "nombre": "ABRIL", "fechas": [] },
+        { "nombre": "MAYO", "fechas": [] },
+        { "nombre": "JUNIO", "fechas": [] },
+        { "nombre": "JULIO", "fechas": [] },
+        { "nombre": "AGOSTO", "fechas": [] },
+        { "nombre": "SEPTIEMBRE", "fechas": [] },
+        { "nombre": "OCTUBRE", "fechas": [] },
+        { "nombre": "NOVIEMBRE", "fechas": [] },
+        { "nombre": "DICIEMBRE", "fechas": [] }
+    ]
+}
