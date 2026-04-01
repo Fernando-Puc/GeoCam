@@ -82,6 +82,8 @@ flutter:
     - lib/assets/images/cafeteria.jpg
     - lib/assets/images/transporte.png
     - lib/assets/images/lupa.png
+    - lib/assets/images/bird.png
+    - lib/assets/images/diaFestivoCK.jpg
     
     
   # To add assets to your application, add an assets section, like this:

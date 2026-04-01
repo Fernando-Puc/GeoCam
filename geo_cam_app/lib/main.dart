@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:geo_cam_app/screens/pantallaprincipal.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -70,7 +71,11 @@ class _WelcomeScreenState extends State<WelcomeScreen>
       body: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [Color.fromARGB(255, 156, 32, 32), Color.fromARGB(255, 190, 30, 30), Color.fromARGB(255, 204, 100, 100)],
+            colors: [
+              Color.fromARGB(255, 156, 32, 32),
+              Color.fromARGB(255, 190, 30, 30),
+              Color.fromARGB(255, 204, 100, 100),
+            ],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
@@ -83,12 +88,25 @@ class _WelcomeScreenState extends State<WelcomeScreen>
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  ClipOval(
+                  // ✅ Logo en tarjeta blanca redondeada
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(24),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.2),
+                          blurRadius: 20,
+                          offset: const Offset(0, 8),
+                        ),
+                      ],
+                    ),
+                    padding: const EdgeInsets.all(10),
                     child: Image.asset(
-                     
-                      width: 220, 'lib/assets/images/geocam_1.png', 
-                      height: 220,
-                      fit: BoxFit.cover,
+                      'lib/assets/images/Logo_SF.png',
+                      width: 200,
+                      height: 200,
+                      fit: BoxFit.contain,
                     ),
                   ),
                   const SizedBox(height: 60),
@@ -121,7 +139,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                     onPressed: _goToNextScreen,
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.white,
-                      foregroundColor: Colors.deepPurple,
+                      foregroundColor: Color.fromARGB(255, 156, 32, 32),
                       padding: const EdgeInsets.symmetric(
                           horizontal: 40, vertical: 14),
                       shape: RoundedRectangleBorder(
