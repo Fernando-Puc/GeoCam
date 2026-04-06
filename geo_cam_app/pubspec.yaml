@@ -83,8 +83,34 @@ flutter:
     - lib/assets/images/transporte.png
     - lib/assets/images/lupa.png
     - lib/assets/images/bird.png
+
+    #Municipio Calkini
+    - lib/assets/images/festividadesCK/historiaCK.png
     - lib/assets/images/diaFestivoCK.jpg
-    
+    - lib/assets/images/festividadesCK/carnaval_principal.jpg
+    - lib/assets/images/festividadesCK/carnaval1.jpg
+    - lib/assets/images/festividadesCK/carnaval2.jpg
+    - lib/assets/images/festividadesCK/carnaval3.jpg
+    - lib/assets/images/festividadesCK/carnaval4.jpg
+    - lib/assets/images/festividadesCK/carnaval5.jpg
+    - lib/assets/images/festividadesCK/carnaval6.jpg
+    - lib/assets/images/festividadesCK/sanisidro_principal.jpg
+    - lib/assets/images/festividadesCK/sanisidro1.jpg
+    - lib/assets/images/festividadesCK/sanisidro2.jpg
+    - lib/assets/images/festividadesCK/sanisidro3.jpg
+    - lib/assets/images/festividadesCK/fatima_principal.jpg
+    - lib/assets/images/festividadesCK/fatima1.jpg
+    - lib/assets/images/festividadesCK/fatima2.jpg
+    - lib/assets/images/festividadesCK/fatima3.jpg
+    - lib/assets/images/festividadesCK/fatima4.jpg
+    - lib/assets/images/festividadesCK/fatima5.jpg
+    - lib/assets/images/festividadesCK/fartesanal_principal.jpg
+    - lib/assets/images/festividadesCK/fartesanal1.jpg
+    - lib/assets/images/festividadesCK/fartesanal2.jpg
+    - lib/assets/images/festividadesCK/fartesanal3.jpg
+    - lib/assets/images/festividadesCK/fartesanal4.jpg
+    - lib/assets/images/festividadesCK/fartesanal5.jpg
+
     
   # To add assets to your application, add an assets section, like this:
   # assets:
