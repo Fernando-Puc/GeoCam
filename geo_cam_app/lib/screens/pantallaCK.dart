@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'exploramunicipios/exploraCK/explora.dart';
-import 'guardado.dart';
+import 'exploramunicipios/exploraCK/guardado.dart';
 import 'exploramunicipios/exploraCK/historia.dart';
 
 class PantallaCK extends StatefulWidget {

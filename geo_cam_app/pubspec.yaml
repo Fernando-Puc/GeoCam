@@ -35,6 +35,8 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   shared_preferences: ^2.2.3
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
 
 # Development-only dependencies
 dev_dependencies:
@@ -110,6 +112,60 @@ flutter:
     - lib/assets/images/festividadesCK/fartesanal3.jpg
     - lib/assets/images/festividadesCK/fartesanal4.jpg
     - lib/assets/images/festividadesCK/fartesanal5.jpg
+
+    #Hoteles
+    - lib/assets/images/hoteles/hotelck/mayte_principal.jpg
+    - lib/assets/images/hoteles/hotelck/mayte1.jpg
+    - lib/assets/images/hoteles/hotelck/mayte2.jpg
+    - lib/assets/images/hoteles/hotelck/mayte3.jpg
+    - lib/assets/images/hoteles/hotelck/maya_principal.jpg
+    - lib/assets/images/hoteles/hotelck/maya1.jpg
+    - lib/assets/images/hoteles/hotelck/maya2.jpg
+    - lib/assets/images/hoteles/hotelck/maya3.jpg
+    - lib/assets/images/hoteles/hotelck/ceiba_principal.jpg
+    - lib/assets/images/hoteles/hotelck/ceiba1.jpg
+    - lib/assets/images/hoteles/hotelck/ceiba2.jpg
+    - lib/assets/images/hoteles/hotelck/ceiba3.jpg
+    - lib/assets/images/hoteles/hotelck/noemi_principal.jpg
+    - lib/assets/images/hoteles/hotelck/noemi1.jpg
+    - lib/assets/images/hoteles/hotelck/noemi2.jpg
+    - lib/assets/images/hoteles/hotelck/noemi3.jpg
+    - lib/assets/images/hoteles/hotelck/brenda_principal.jpg
+    - lib/assets/images/hoteles/hotelck/brenda1.jpg
+    - lib/assets/images/hoteles/hotelck/brenda2.jpg
+    - lib/assets/images/hoteles/hotelck/brenda3.jpg
+
+  #locales artesanales
+    - lib/assets/images/locales/localesartck/chiich_principal.jpg
+    - lib/assets/images/locales/localesartck/chiich1.jpg
+    - lib/assets/images/locales/localesartck/chiich2.jpg
+    - lib/assets/images/locales/localesartck/yc_principal.jpg
+    - lib/assets/images/locales/localesartck/yc1.jpg
+    - lib/assets/images/locales/localesartck/yc2.jpg
+    - lib/assets/images/locales/localesartck/fidelia_principal.jpg
+    - lib/assets/images/locales/localesartck/fidelia1.jpg
+    - lib/assets/images/locales/localesartck/fidelia2.jpg
+    - lib/assets/images/locales/localesartck/nicte_principal.png
+    - lib/assets/images/locales/localesartck/nicte1.jpg
+    - lib/assets/images/locales/localesartck/nicte2.jpg
+    #restaurantes
+    - lib/assets/images/locales/restaurantesck/palapa_principal.jpg
+    - lib/assets/images/locales/restaurantesck/palapa1.jpg
+    - lib/assets/images/locales/restaurantesck/palapa2.jpg
+    - lib/assets/images/locales/restaurantesck/oasis_principal.jpg
+    - lib/assets/images/locales/restaurantesck/oasis1.jpg
+    - lib/assets/images/locales/restaurantesck/oasis2.jpg
+    - lib/assets/images/locales/restaurantesck/superp_principal.jpg
+    - lib/assets/images/locales/restaurantesck/superp1.jpg
+    - lib/assets/images/locales/restaurantesck/superp2.jpg
+    - lib/assets/images/locales/restaurantesck/bon_principal.jpg
+    - lib/assets/images/locales/restaurantesck/bon1.jpg
+    - lib/assets/images/locales/restaurantesck/bon2.jpg
+    - lib/assets/images/locales/restaurantesck/isla_principal.jpg
+    - lib/assets/images/locales/restaurantesck/isla1.jpg
+    - lib/assets/images/locales/restaurantesck/isla2.jpg
+    
+
 
     
   # To add assets to your application, add an assets section, like this:
