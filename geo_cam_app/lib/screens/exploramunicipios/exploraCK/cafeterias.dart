@@ -6,15 +6,15 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart' as ll;
 import 'package:geo_cam_app/services/favoritosck_service.dart';
 
-class LocalesArtesanales extends StatefulWidget {
-  const LocalesArtesanales({super.key});
+class Cafeterias extends StatefulWidget {
+  const Cafeterias({super.key});
 
   @override
-  State<LocalesArtesanales> createState() => _LocalesArtesanalesState();
+  State<Cafeterias> createState() => _CafeteriasState();
 }
 
-class _LocalesArtesanalesState extends State<LocalesArtesanales> {
-  List<dynamic> locales = [];
+class _CafeteriasState extends State<Cafeterias> {
+  List<dynamic> cafeterias = [];
   bool isLoading = true;
   int? _expandedIndex;
   Map<int, bool> _favoritos = {};
@@ -27,12 +27,12 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
 
   Future<void> _loadData() async {
     final String response = await rootBundle.loadString(
-      'lib/data/municipality/calkini/localesart.json',
+      'lib/data/municipality/calkini/cafeterias.json',
     );
     final data = json.decode(response);
 
     setState(() {
-      locales = data['locales'];
+      cafeterias = data['cafeterias'];
       isLoading = false;
     });
 
@@ -40,9 +40,9 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
   }
 
   Future<void> _checkFavoritos() async {
-    for (int i = 0; i < locales.length; i++) {
+    for (int i = 0; i < cafeterias.length; i++) {
       final esFav = await FavoritosCKService.esFavorito(
-          locales[i]['nombre'], 'Local');
+          cafeterias[i]['nombre'], 'Cafeteria');
 
       setState(() {
         _favoritos[i] = esFav;
@@ -50,25 +50,25 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
     }
   }
 
-  Future<void> _toggleFavorito(int index, Map<String, dynamic> local) async {
+  Future<void> _toggleFavorito(int index, Map<String, dynamic> item) async {
     final esFav = _favoritos[index] ?? false;
 
     if (esFav) {
-      await FavoritosCKService.eliminar(local['nombre'], 'Local');
+      await FavoritosCKService.eliminar(item['nombre'], 'Cafeteria');
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('${local['nombre']} eliminado de favoritos'),
+          content: Text('${item['nombre']} eliminado de favoritos'),
           duration: const Duration(seconds: 2),
         ),
       );
     } else {
       await FavoritosCKService.agregar({
-        ...local,
-        'tipo': 'Local',
+        ...item,
+        'tipo': 'Cafeteria',
       });
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('${local['nombre']} guardado en favoritos'),
+          content: Text('${item['nombre']} guardado en favoritos'),
           duration: const Duration(seconds: 2),
         ),
       );
@@ -136,14 +136,14 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
           Expanded(
             child: ListView.builder(
               padding: const EdgeInsets.fromLTRB(12, 12, 12, 12),
-              itemCount: locales.length,
+              itemCount: cafeterias.length,
               itemBuilder: (context, index) {
-                final local = locales[index];
-                final imagenPrincipal = local['imagen_principal'] ?? '';
-                final imagenes = List<String>.from(local['imagenes'] ?? []);
-                final horario = List<dynamic>.from(local['horario'] ?? []);
-                final double lat = local['lat'];
-                final double lng = local['lng'];
+                final item = cafeterias[index];
+                final imagenPrincipal = item['imagen_principal'] ?? '';
+                final imagenes = List<String>.from(item['imagenes'] ?? []);
+                final horario = List<dynamic>.from(item['horario'] ?? []);
+                final double lat = item['lat'];
+                final double lng = item['lng'];
                 final isExpanded = _expandedIndex == index;
                 final esFavorito = _favoritos[index] ?? false;
 
@@ -177,7 +177,7 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
                           child: Row(
                             children: [
                               const Icon(
-                                Icons.store,
+                                Icons.local_cafe,
                                 color: Color.fromARGB(255, 195, 57, 15),
                                 size: 20,
                               ),
@@ -188,7 +188,7 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      local['nombre'],
+                                      item['nombre'],
                                       style: const TextStyle(
                                         fontWeight: FontWeight.bold,
                                         fontSize: 14,
@@ -196,7 +196,7 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
                                     ),
                                     const SizedBox(height: 2),
                                     Text(
-                                      'Dirección: ${local['direccion'] ?? ''}',
+                                      'Dirección: ${item['direccion'] ?? ''}',
                                       style: const TextStyle(
                                         fontSize: 12,
                                         color: Colors.black54,
@@ -208,7 +208,7 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
 
                               GestureDetector(
                                 onTap: () =>
-                                    _toggleFavorito(index, Map<String, dynamic>.from(local)),
+                                    _toggleFavorito(index, Map<String, dynamic>.from(item)),
                                 child: Icon(
                                   esFavorito
                                       ? Icons.favorite
@@ -235,7 +235,6 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
                       if (isExpanded) ...[
                         const Divider(height: 1),
 
-                        // IMAGEN PRINCIPAL
                         if (imagenPrincipal.isNotEmpty)
                           ClipRRect(
                             child: Image.asset(
@@ -253,7 +252,7 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
                             child: const Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Icon(Icons.store,
+                                Icon(Icons.local_cafe,
                                     size: 50, color: Colors.black26),
                                 SizedBox(height: 8),
                                 Text(
@@ -274,11 +273,10 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
 
-                              // DESCRIPCIÓN
-                              if (local['descripcion'] != null &&
-                                  local['descripcion'].toString().isNotEmpty)
+                              if (item['descripcion'] != null &&
+                                  item['descripcion'].toString().isNotEmpty)
                                 Text(
-                                  local['descripcion'],
+                                  item['descripcion'],
                                   textAlign: TextAlign.justify,
                                   style: const TextStyle(
                                       fontSize: 13, height: 1.5),
@@ -286,7 +284,6 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
 
                               const SizedBox(height: 12),
 
-                              // HORARIO + DIRECCIÓN
                               Row(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
@@ -369,7 +366,7 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
                                               ),
                                               const SizedBox(height: 4),
                                               Text(
-                                                local['direccion'] ?? '',
+                                                item['direccion'] ?? '',
                                                 style: const TextStyle(
                                                     fontSize: 11),
                                               ),
@@ -379,10 +376,10 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
 
                                         const SizedBox(height: 8),
 
-                                        if (local['telefono'] != null)
+                                        if (item['telefono'] != null)
                                           GestureDetector(
                                             onTap: () =>
-                                                _llamar(local['telefono']),
+                                                _llamar(item['telefono']),
                                             child: Container(
                                               width: double.infinity,
                                               padding:
@@ -401,7 +398,7 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
                                                           255, 195, 57, 15)),
                                                   const SizedBox(width: 4),
                                                   Text(
-                                                    local['telefono'],
+                                                    item['telefono'],
                                                     style: const TextStyle(
                                                       fontSize: 11,
                                                       fontWeight:
@@ -420,7 +417,6 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
 
                               const SizedBox(height: 12),
 
-                              // MAPA
                               ClipRRect(
                                 borderRadius: BorderRadius.circular(10),
                                 child: SizedBox(
@@ -438,7 +434,8 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
                                       TileLayer(
                                         urlTemplate:
                                             'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-                                            userAgentPackageName: 'com.example.geo_cam_app',
+                                        userAgentPackageName:
+                                            'com.example.geo_cam_app',
                                       ),
                                       MarkerLayer(
                                         markers: [
@@ -464,7 +461,6 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
 
                               const SizedBox(height: 8),
 
-                              // GALERÍA
                               if (imagenes.isNotEmpty) ...[
                                 const Divider(height: 1),
                                 const SizedBox(height: 10),
@@ -525,7 +521,6 @@ class _LocalesArtesanalesState extends State<LocalesArtesanales> {
             ),
           ),
 
-          // FOOTER
           SizedBox(
             width: double.infinity,
             height: kToolbarHeight + MediaQuery.of(context).padding.top,
