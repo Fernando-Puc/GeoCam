@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/hoteles.dart';
 import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/restaurantes.dart';
-import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/tiendas.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/negocios.dart';
 import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/localesartesanales.dart';
 import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/diasfestivos.dart';
-
+import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/balnearios.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/zonasarq.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/centrosreligiosos.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/cafeterias.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/transporte.dart';
 class Explora extends StatelessWidget {
   const Explora({super.key});
 
@@ -94,21 +98,21 @@ class Explora extends StatelessWidget {
                     children: [
                       _buildButton(context, "Locales Artesanales", const LocalesArtesanales(),
                           'lib/assets/images/artesania.jpg'),
-                      _buildButton(context, "Tiendas o Negocios", const Tiendas(),
+                      _buildButton(context, "Tiendas o Negocios", const Negocios(),
                           'lib/assets/images/tiendas.jpg'),
                       _buildButton(context, "Restaurantes", const Restaurantes(),
                           'lib/assets/images/restaurante.jpg'),
                       _buildButton(context, "Hoteles", const Hoteles(),
                           'lib/assets/images/hotel.jpeg'),
-                      _buildButton(context, "Balnearios", const Restaurantes(),
+                      _buildButton(context, "Balnearios", const Balnearios(),
                           'lib/assets/images/piscina.png'),
-                      _buildButton(context, "Zona Arqueológicas", const Restaurantes(),
+                      _buildButton(context, "Zona Arqueológicas", const ZonasArq(),
                           'lib/assets/images/zonaarq.jpg'),
-                      _buildButton(context, "Centros Religiosos", const Restaurantes(),
+                      _buildButton(context, "Centros Religiosos", const CentrosReligiosos(),
                           'lib/assets/images/religion.jpg'),
-                      _buildButton(context, "Cafeterías", const Restaurantes(),
+                      _buildButton(context, "Cafeterías", const Cafeterias(),
                           'lib/assets/images/cafeteria.jpg'),
-                      _buildButton(context, "Transporte", const Restaurantes(),
+                      _buildButton(context, "Transporte", const Transporte(),
                           'lib/assets/images/transporte.png'),
                     ],
                   ),
