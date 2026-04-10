@@ -68,6 +68,7 @@ flutter:
   assets:
     - lib/assets/images/
     - lib/data/municipality/calkini/
+    - lib/data/municipality/becal/
     - lib/assets/images/DiseñoHF.png
     - lib/assets/images/calkinibtn.png
     - lib/assets/images/becalbtn.jpg
@@ -165,7 +166,9 @@ flutter:
     - lib/assets/images/locales/restaurantesck/isla1.jpg
     - lib/assets/images/locales/restaurantesck/isla2.jpg
     
-
+    #BECAL
+    - lib/assets/images/festividadesBC/
+    
 
     
   # To add assets to your application, add an assets section, like this:

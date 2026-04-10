@@ -1,0 +1,191 @@
+{
+  "descripcion_general": "Bécal, hermosa villa de raíces mayas y pobladores de manos talentosas, ubicado en el estado de Campeche, municipio de Calkiní. Fundado en 1450 por el cacique de Calkiní Ah-Tzab-Canul, es conocida como 'La capital del Sombrero' por su tradición artesanal en la elaboración del sombrero de jipijapa.",
+  "meses": [
+    {
+      "nombre": "ENERO",
+      "festividades": [
+        {
+          "titulo": "Novenario de Enero",
+          "descripcion": "Durante los últimos días de enero se realizan novenarios en honor a los Santos Reyes Magos realizada por diversas familias de la comunidad de Bécal, en los que participan gremios y familias devotas que celebran con música, oraciones y fuesgos artificiales.",
+          "fecha_celebracion": "del 23 al 31 de enero",
+          "imagen_principal": "lib/assets/images/festividadesBC/novenario_principal.jpeg",
+          "imagenes": [
+            "lib/assets/images/festividadesBC/novenario1.jpeg",
+            "lib/assets/images/festividadesBC/novenario2.jpeg",
+            "lib/assets/images/festividadesBC/novenario3.jpeg",
+            "lib/assets/images/festividadesBC/novenario4.jpeg",
+            "lib/assets/images/festividadesBC/novenario5.jpeg",
+            "lib/assets/images/festividadesBC/novenario6.jpeg" 
+        ],
+          "eventos": [
+            { "dia": "23 de enero", "evento": "Novenario", "hora": "7:00 p.m.", "lugar": "Familia Farfán Ferraez" },
+            { "dia": "24 de enero", "evento": "Novenario", "hora": "7:00 p.m.", "lugar": "Grupo Mariano" },
+            { "dia": "25 de enero", "evento": "Novenario", "hora": "7:00 p.m.", "lugar": "Familias Acosta Herrera, Gongora Kú y Profa Teresita Durán" },
+            { "dia": "26 de enero", "evento": "Novenario", "hora": "7:00 p.m.", "lugar": "Familia Carrillo Chuc, el niño Erick Ávila y Nubia Euan" },
+            { "dia": "27 de enero", "evento": "Novenario", "hora": "7:00 p.m.", "lugar": "Familia Cauich Manzanilla, Uc Manzanilla y Caballero Manzanilla" },
+            { "dia": "28 de enero", "evento": "Novenario", "hora": "7:00 p.m.", "lugar": "Familias Fernandez León y Dzul Fernández" },
+            { "dia": "29 de enero", "evento": "Novenario", "hora": "7:00 p.m.", "lugar": "Gremio Católico de Campesinos" },
+            { "dia": "30 de enero", "evento": "Novenario", "hora": "7:00 p.m.", "lugar": "Familia Dzul Barbosa, Gongora Farfán y el niño Emilio Burgos Dzul" },
+            { "dia": "31 de enero", "evento": "Novenario", "hora": "7:00 p.m.", "lugar": "Familia Saenz Ávila" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "FEBRERO",
+      "festividades": [
+        {
+          "titulo": "Virgen de la Candelaria y Carnaval de Bécal 2026",
+          "descripcion": "En febrero se celebra el Gremio Católico de Campesinos en honor a la Virgen de la Candelaria, seguido del tradicional Carnaval de Bécal 2026 con coronaciones, vaquería, concursos de disfraces, pintadera y la quema de Juan Carnaval.",
+          "fecha_celebracion": "del 01 al 17 de febrero",
+          "imagen_principal": "lib/assets/images/festividadesBC/candelaria_principal.jpg",
+          "imagenes": [
+            "lib/assets/images/festividadesBC/febrero1.jpeg",
+            "lib/assets/images/festividadesBC/febrero2.jpeg",
+            "lib/assets/images/festividadesBC/febrero3.jpeg",
+            "lib/assets/images/festividadesBC/febrero4.jpeg",
+            "lib/assets/images/festividadesBC/febrero5.jpeg"],
+          "eventos": [
+            { "dia": "01 de febrero", "evento": "Gremio Católico de Campesinos en honor a la Virgen de la Candelaria", "hora": "7:00 p.m.", "lugar": "Calle 29 entre 28 y 30, Barrio Carlos Rivas, Bécal" },
+            { "dia": "02 de febrero", "evento": "Misa y tardeada", "hora": "12:00 p.m.", "lugar": "Calle 29 No. 192, barrio Carlos Rivas" },
+            { "dia": "13 de febrero", "evento": "Coronación de los reyes del carnaval Bécal 2026", "hora": "6:00 p.m.", "lugar": "Explanada frente al palacio municipal" },
+            { "dia": "14 de febrero", "evento": "Bando Tradicional y gran vaquería", "hora": "4:00 p.m. - 10:00 p.m.", "lugar": "Parque barrio Santa Cruz hasta Explanada frente al palacio municipal" },
+            { "dia": "15 de febrero", "evento": "Concurso de disfraz infantil", "hora": "5:00 p.m. - 10:00 p.m.", "lugar": "Explanada frente al palacio municipal" },
+            { "dia": "16 de febrero", "evento": "Concurso de disfraz adulto y gran baile popular", "hora": "10:00 p.m.", "lugar": "Explanada frente al palacio municipal" },
+            { "dia": "17 de febrero", "evento": "Tradicional Pintadera y tardeada", "hora": "1:00 p.m. - 3:00 p.m.", "lugar": "Todas las calles de la ciudad" },
+            { "dia": "17 de febrero", "evento": "Concurso de comparsa y premiación", "hora": "5:00 p.m. - 7:00 p.m.", "lugar": "Explanada frente al palacio municipal" },
+            { "dia": "17 de febrero", "evento": "Quema de Juan Carnaval", "hora": "8:00 p.m.", "lugar": "Explanada frente al palacio municipal" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "MARZO",
+      "festividades": [
+        {
+          "titulo": "Inscripción Flor de Jipi 2026 y Semana Santa",
+          "descripcion": "En marzo inician las inscripciones para el concurso Flor de Jipi 2026 en la Casa de la Cultura. También se celebran los primeros días de la Semana Santa con los ritos del Domingo de Ramos, Lunes de Autoridad y Martes de Controversia.",
+          "fecha_celebracion": "del 12 al 31 de marzo",
+          "imagen_principal": "lib/assets/images/festividadesBC/marzo_principal.jpeg",
+          "imagenes": [
+            "lib/assets/images/festividadesBC/marzo1.jpeg",
+            "lib/assets/images/festividadesBC/marzo2.jpeg",
+            "lib/assets/images/festividadesBC/marzo3.jpeg"
+          ],
+          "eventos": [
+            { "dia": "12 al 27 de marzo", "evento": "Inscripción Flor de Jipi 2026", "hora": "10:00 a.m. - 6:00 p.m.", "lugar": "Casa de la cultura" },
+            { "dia": "29 de marzo", "evento": "Domingo de Ramos", "hora": "Varía por iglesia", "lugar": "Iglesias de Bécal" },
+            { "dia": "30 de marzo", "evento": "Lunes de Autoridad (Santo)", "hora": "Varía por iglesia", "lugar": "Iglesias de Bécal" },
+            { "dia": "31 de marzo", "evento": "Martes de Controversia (Santo)", "hora": "Varía por iglesia", "lugar": "Iglesias de Bécal" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "ABRIL",
+      "festividades": [
+        {
+          "titulo": "Semana Santa y Feria de la Flor de Jipi 2026",
+          "descripcion": "Abril es uno de los meses más importantes para Bécal. Se concluye la Semana Santa con los ritos del Miércoles de Retiro, Jueves de Intimidad, Viernes de Crucifixión, Sábado de Gloria y Domingo de Resurrección. Además, el 25 de abril se celebra la gran Feria de la Flor de Jipi, una celebración que permite a los habitantes recordar y celebrar su identidad artesanal.",
+          "fecha_celebracion": "del 01 al 25 de abril",
+          "imagen_principal": "lib/assets/images/festividadesBC/abril_principal.jpeg",
+          "imagenes": [
+            "lib/assets/images/festividadesBC/abril_principal.jpg",
+            "lib/assets/images/festividadesBC/abril1.jpeg",
+            "lib/assets/images/festividadesBC/abril2.jpeg",
+            "lib/assets/images/festividadesBC/abril3.jpeg",
+            "lib/assets/images/festividadesBC/abril4.jpeg"],
+          "eventos": [
+            { "dia": "01 de abril", "evento": "Miércoles de Retiro (Santo)", "hora": "Varía por iglesia", "lugar": "Iglesias de Bécal" },
+            { "dia": "02 de abril", "evento": "Jueves de Intimidad (Santo)", "hora": "Varía por iglesia", "lugar": "Iglesias de Bécal" },
+            { "dia": "03 de abril", "evento": "Viernes de Crucifixión (Santo)", "hora": "Varía por iglesia", "lugar": "Iglesias de Bécal" },
+            { "dia": "04 de abril", "evento": "Sábado de Gloria", "hora": "Varía por iglesia", "lugar": "Iglesias de Bécal" },
+            { "dia": "05 de abril", "evento": "Domingo de Resurrección (Pascua)", "hora": "Varía por iglesia", "lugar": "Iglesias de Bécal" },
+            { "dia": "25 de abril", "evento": "Feria de la Flor de Jipi - Elección de señorita flor de Jipi 2026", "hora": "7:00 p.m.", "lugar": "Explanada de los sombreros" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "MAYO",
+      "festividades": [
+        {
+          "titulo": "Día de la Santa Cruz y Novenario de la Virgen de la Natividad",
+          "descripcion": "En mayo se celebra el Día de la Santa Cruz con una misa en la Parroquia de Bécal. También inicia el Novenario de la Virgen de la Natividad, patrona del pueblo, donde se engalanan parques, jardines y calzadas. Durante todo el mes se realizan gremios y vaquerías en las casas de las familias devotas.",
+          "fecha_celebracion": "todo el mes de mayo",
+          "imagen_principal": "lib/assets/images/festividadesBC/mayo_principal.jpeg",
+          "imagenes": [
+            "lib/assets/images/festividadesBC/mayo1.jpeg",
+            "lib/assets/images/festividadesBC/mayo2.jpeg",
+            "lib/assets/images/festividadesBC/mayo3.jpeg",
+            "lib/assets/images/festividadesBC/mayo4.jpeg"
+          ],
+          "eventos": [
+            { "dia": "03 de mayo", "evento": "Día de la Santa Cruz - Misa", "hora": "7:00 p.m.", "lugar": "Parroquia de Bécal" },
+            { "dia": "Todo el mes", "evento": "Gremios y vaquerías en honor a la Virgen de la Natividad", "hora": "Varía", "lugar": "Casas de señoritas, señoras, jóvenes, niños, campesinos, abastecedores, locatarios y obreros" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "JUNIO",
+      "festividades": []
+    },
+    {
+      "nombre": "JULIO",
+      "festividades": []
+    },
+    {
+      "nombre": "AGOSTO",
+      "festividades": []
+    },
+    {
+      "nombre": "SEPTIEMBRE",
+      "festividades": []
+    },
+    {
+      "nombre": "OCTUBRE",
+      "festividades": [
+        {
+          "titulo": "Hanal Pixán (Día de Muertos Maya)",
+          "descripcion": "El 31 de octubre se celebra el Hanal Pixán en Bécal, una tradición ancestral maya para honrar a los difuntos. Las familias preparan altares con comida tradicional, el pib (comida típica) y realizan desfiles de ánimas y ofrendas.",
+          "fecha_celebracion": "31 de octubre",
+          "imagen_principal": "lib/assets/images/festividadesBC/octubre_principal.jpg",
+          "imagenes": [
+            "lib/assets/images/festividadesBC/octubre1.jpg",
+            "lib/assets/images/festividadesBC/octubre2.jpg",
+            "lib/assets/images/festividadesBC/octubre6.jpg"
+
+          ],
+          "eventos": [
+            { "dia": "31 de octubre", "evento": "Hanal Pixán - Día de Muertos Maya", "hora": "7:00 p.m.", "lugar": "Calle 35 rumbo al cementerio general en Bécal" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "NOVIEMBRE",
+      "festividades": [
+        {
+          "titulo": "Paseo de Ánimas y Magna Vaquería",
+          "descripcion": "Durante los primeros días de noviembre se continúa la celebración del Hanal Pixán con el Paseo de Ánimas y la Magna Vaquería de Ánimas Bécal 2026. El 20 de noviembre se realiza el Desfile a la Bandera con presentación de escuelas.",
+          "fecha_celebracion": "del 01 al 20 de noviembre",
+          "imagen_principal": "lib/assets/images/festividadesBC/octubre3.jpg",
+          "imagenes": [
+            "lib/assets/images/festividadesBC/octubre4.jpg",
+            "lib/assets/images/festividadesBC/noviembre1.jpg",
+            "lib/assets/images/festividadesBC/noviembre2.jpg"],
+          "eventos": [
+            { "dia": "01 de noviembre", "evento": "El paseo de ánimas", "hora": "7:00 p.m.", "lugar": "En el centro de la comunidad" },
+            { "dia": "02 de noviembre", "evento": "Magna vaquería de ánimas Bécal 2026", "hora": "10:00 p.m.", "lugar": "En el centro de la comunidad" },
+            { "dia": "20 de noviembre", "evento": "Desfile a la bandera", "hora": "12:00 p.m.", "lugar": "Plaza de la comunidad" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "DICIEMBRE",
+      "festividades": []
+    }
+  ]
+}

@@ -3,7 +3,7 @@ import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/hoteles.dart';
 import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/restaurantes.dart';
 import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/negocios.dart';
 import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/localesartesanales.dart';
-import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/diasfestivos.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/exploraBC/diasfestivos.dart';
 import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/balnearios.dart';
 import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/zonasarq.dart';
 import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/centrosreligiosos.dart';
@@ -66,7 +66,7 @@ class Explora extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'CALKINÍ',
+                          'BÉCAL',
                           style: TextStyle(
                             fontSize: 28,
                             fontWeight: FontWeight.bold,
@@ -148,15 +148,15 @@ class Explora extends StatelessWidget {
   }
 }
 
-class ExploraCK extends StatelessWidget {
-  const ExploraCK({super.key});
+class ExploraBC extends StatelessWidget {
+  const ExploraBC({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("pantalla explora para Calkiní")),
+      appBar: AppBar(title: const Text("pantalla explora para bécal")),
       body: const Center(
-        child: Text("Esta pantalla es para explorar el municipio de Calkiní"),
+        child: Text("Esta pantalla es para explorar el municipio de becal"),
       ),
     );
   }
