@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/hoteles.dart';
-import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/restaurantes.dart';
-import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/negocios.dart';
-import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/localesartesanales.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/exploraBC/hoteles.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/exploraBC/restaurantes.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/exploraBC/negocios.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/exploraBC/localesartesanales.dart';
 import 'package:geo_cam_app/screens/exploramunicipios/exploraBC/diasfestivos.dart';
-import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/balnearios.dart';
-import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/zonasarq.dart';
-import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/centrosreligiosos.dart';
-import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/cafeterias.dart';
-import 'package:geo_cam_app/screens/exploramunicipios/exploraCK/transporte.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/exploraBC/balnearios.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/exploraBC/zonasarq.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/exploraBC/centrosreligiosos.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/exploraBC/cafeterias.dart';
+import 'package:geo_cam_app/screens/exploramunicipios/exploraBC/transporte.dart';
+
 class Explora extends StatelessWidget {
   const Explora({super.key});
 
@@ -156,7 +157,7 @@ class ExploraBC extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text("pantalla explora para bécal")),
       body: const Center(
-        child: Text("Esta pantalla es para explorar el municipio de becal"),
+        child: Text("Esta pantalla es para explorar el municipio de bécal"),
       ),
     );
   }

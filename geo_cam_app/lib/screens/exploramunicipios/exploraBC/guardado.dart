@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:latlong2/latlong.dart' as ll;
 import 'package:flutter_map/flutter_map.dart';
-import 'package:geo_cam_app/services/favoritosck_service.dart';
+import 'package:geo_cam_app/services/favoritosbc_service.dart';
 
 class guardado extends StatefulWidget {
   const guardado({super.key});
@@ -23,7 +23,7 @@ class _guardadoState extends State<guardado> {
   }
 
   Future<void> _loadFavoritos() async {
-    final data = await FavoritosCKService.getFavoritos();
+    final data = await FavoritosBCService.getFavoritos();
     setState(() {
       favoritos = data;
       isLoading = false;
@@ -31,7 +31,7 @@ class _guardadoState extends State<guardado> {
   }
 
   Future<void> _eliminarFavorito(String nombre, String tipo) async {
-    await FavoritosCKService.eliminar(nombre, tipo);
+    await FavoritosBCService.eliminar(nombre, tipo);
     setState(() {
       favoritos.removeWhere(
         (f) => f['nombre'] == nombre && f['tipo'] == tipo,

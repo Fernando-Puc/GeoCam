@@ -6,18 +6,18 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart' as ll;
 import 'package:geo_cam_app/services/favoritosbc_service.dart';
 
-class Balnearios extends StatefulWidget {
-  const Balnearios({super.key});
+class Hoteles extends StatefulWidget {
+  const Hoteles({super.key});
 
   @override
-  State<Balnearios> createState() => _BalneariosState();
+  State<Hoteles> createState() => _HotelesState();
 }
 
-class _BalneariosState extends State<Balnearios> {
-  List<dynamic> balnearios = [];
+class _HotelesState extends State<Hoteles> {
+  List<dynamic> hoteles = [];
   bool isLoading = true;
   int? _expandedIndex;
-  Map<int, bool> _favoritos = {};
+  Map<int, bool> _favoritos = {}; // ✅ estado de favorito por índice
 
   @override
   void initState() {
@@ -27,56 +27,50 @@ class _BalneariosState extends State<Balnearios> {
 
   Future<void> _loadData() async {
     final String response = await rootBundle.loadString(
-      'lib/data/municipality/becal/balnearios.json',
+      'lib/data/municipality/becal/hoteles.json',
     );
-
     final data = json.decode(response);
-
     setState(() {
-      balnearios = data['balnearios'];
+      hoteles = data['hoteles'];
       isLoading = false;
     });
-
-    await _checkFavoritos();
+    await _checkFavoritos(); // ✅ verificar cuáles ya están guardados
   }
 
+  // ✅ verifica el estado de favorito de cada hotel
   Future<void> _checkFavoritos() async {
-    for (int i = 0; i < balnearios.length; i++) {
+    for (int i = 0; i < hoteles.length; i++) {
       final esFav = await FavoritosBCService.esFavorito(
-        balnearios[i]['nombre'],
-        'Balneario',
-      );
-
+          hoteles[i]['nombre'], 'Hotel');
       setState(() {
         _favoritos[i] = esFav;
       });
     }
   }
 
-  Future<void> _toggleFavorito(int index, Map<String, dynamic> item) async {
+  // ✅ agregar o quitar favorito
+  Future<void> _toggleFavorito(int index, Map<String, dynamic> hotel) async {
     final esFav = _favoritos[index] ?? false;
-
     if (esFav) {
-      await FavoritosBCService.eliminar(item['nombre'], 'Balneario');
+      await FavoritosBCService.eliminar(hotel['nombre'], 'Hotel');
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('${item['nombre']} eliminado de favoritos'),
+          content: Text('${hotel['nombre']} eliminado de favoritos'),
           duration: const Duration(seconds: 2),
         ),
       );
     } else {
       await FavoritosBCService.agregar({
-        ...item,
-        'tipo': 'Balneario',
+        ...hotel,
+        'tipo': 'Hotel',
       });
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('${item['nombre']} guardado en favoritos'),
+          content: Text('${hotel['nombre']} guardado en favoritos'),
           duration: const Duration(seconds: 2),
         ),
       );
     }
-
     setState(() {
       _favoritos[index] = !esFav;
     });
@@ -86,7 +80,6 @@ class _BalneariosState extends State<Balnearios> {
     final Uri url = Uri.parse(
       'https://www.google.com/maps/search/?api=1&query=$lat,$lng',
     );
-
     if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
       throw 'No se pudo abrir Google Maps';
     }
@@ -109,22 +102,17 @@ class _BalneariosState extends State<Balnearios> {
 
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 234, 228, 205),
-
       appBar: AppBar(
         automaticallyImplyLeading: false,
         centerTitle: true,
         flexibleSpace: Stack(
           fit: StackFit.expand,
           children: [
-            Image.asset(
-              'lib/assets/images/DiseñoHF.png',
-              fit: BoxFit.cover,
-            ),
+            Image.asset('lib/assets/images/DiseñoHF.png', fit: BoxFit.cover),
           ],
         ),
         backgroundColor: Colors.transparent,
       ),
-
       floatingActionButton: Padding(
         padding: const EdgeInsets.only(bottom: 100),
         child: FloatingActionButton(
@@ -134,20 +122,19 @@ class _BalneariosState extends State<Balnearios> {
         ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.startFloat,
-
       body: Column(
         children: [
           Expanded(
             child: ListView.builder(
               padding: const EdgeInsets.fromLTRB(12, 12, 12, 12),
-              itemCount: balnearios.length,
+              itemCount: hoteles.length,
               itemBuilder: (context, index) {
-                final item = balnearios[index];
-                final imagenPrincipal = item['imagen_principal'] ?? '';
-                final imagenes = List<String>.from(item['imagenes'] ?? []);
-                final horario = List<dynamic>.from(item['horario'] ?? []);
-                final double lat = item['lat'];
-                final double lng = item['lng'];
+                final hotel = hoteles[index];
+                final imagenPrincipal = hotel['imagen_principal'] ?? '';
+                final imagenes = List<String>.from(hotel['imagenes'] ?? []);
+                final horario = List<dynamic>.from(hotel['horario'] ?? []);
+                final double lat = hotel['lat'];
+                final double lng = hotel['lng'];
                 final isExpanded = _expandedIndex == index;
                 final esFavorito = _favoritos[index] ?? false;
 
@@ -167,7 +154,7 @@ class _BalneariosState extends State<Balnearios> {
                   child: Column(
                     children: [
 
-                      // HEADER
+                      // ✅ fila simple con corazón
                       InkWell(
                         borderRadius: BorderRadius.circular(12),
                         onTap: () {
@@ -181,18 +168,17 @@ class _BalneariosState extends State<Balnearios> {
                           child: Row(
                             children: [
                               const Icon(
-                                Icons.pool,
+                                Icons.hotel,
                                 color: Color.fromARGB(255, 195, 57, 15),
                                 size: 20,
                               ),
                               const SizedBox(width: 10),
-
                               Expanded(
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      item['nombre'],
+                                      hotel['nombre'],
                                       style: const TextStyle(
                                         fontWeight: FontWeight.bold,
                                         fontSize: 14,
@@ -200,7 +186,7 @@ class _BalneariosState extends State<Balnearios> {
                                     ),
                                     const SizedBox(height: 2),
                                     Text(
-                                      'Dirección: ${item['direccion'] ?? ''}',
+                                      'Dirección: ${hotel['direccion'] ?? ''}',
                                       style: const TextStyle(
                                         fontSize: 12,
                                         color: Colors.black54,
@@ -209,10 +195,10 @@ class _BalneariosState extends State<Balnearios> {
                                   ],
                                 ),
                               ),
-
+                              // ✅ botón corazón
                               GestureDetector(
-                                onTap: () =>
-                                    _toggleFavorito(index, Map<String, dynamic>.from(item)),
+                                onTap: () => _toggleFavorito(
+                                    index, Map<String, dynamic>.from(hotel)),
                                 child: Icon(
                                   esFavorito
                                       ? Icons.favorite
@@ -221,9 +207,7 @@ class _BalneariosState extends State<Balnearios> {
                                   size: 22,
                                 ),
                               ),
-
                               const SizedBox(width: 8),
-
                               Icon(
                                 isExpanded
                                     ? Icons.keyboard_arrow_up
@@ -235,17 +219,17 @@ class _BalneariosState extends State<Balnearios> {
                         ),
                       ),
 
-                      // EXPANDIDO
+                      // ✅ tarjeta expandida
                       if (isExpanded) ...[
                         const Divider(height: 1),
 
-                        // IMAGEN PRINCIPAL
+                        // imagen principal o placeholder
                         if (imagenPrincipal.isNotEmpty)
                           ClipRRect(
                             child: Image.asset(
                               imagenPrincipal,
                               width: double.infinity,
-                              height: 140,
+                              height: 180,
                               fit: BoxFit.cover,
                             ),
                           )
@@ -257,7 +241,7 @@ class _BalneariosState extends State<Balnearios> {
                             child: const Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Icon(Icons.pool,
+                                Icon(Icons.hotel,
                                     size: 50, color: Colors.black26),
                                 SizedBox(height: 8),
                                 Text(
@@ -278,11 +262,11 @@ class _BalneariosState extends State<Balnearios> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
 
-                              // DESCRIPCIÓN
-                              if (item['descripcion'] != null &&
-                                  item['descripcion'].toString().isNotEmpty)
+                              // descripción
+                              if (hotel['descripcion'] != null &&
+                                  hotel['descripcion'].toString().isNotEmpty)
                                 Text(
-                                  item['descripcion'],
+                                  hotel['descripcion'],
                                   textAlign: TextAlign.justify,
                                   style: const TextStyle(
                                       fontSize: 13, height: 1.5),
@@ -290,12 +274,10 @@ class _BalneariosState extends State<Balnearios> {
 
                               const SizedBox(height: 12),
 
-                              // HORARIO + DIRECCIÓN + TEL
+                              // horario y dirección lado a lado
                               Row(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-
-                                  // HORARIO
                                   Expanded(
                                     child: Container(
                                       padding: const EdgeInsets.all(10),
@@ -327,7 +309,8 @@ class _BalneariosState extends State<Balnearios> {
                                           const SizedBox(height: 6),
                                           ...horario.map((h) => Padding(
                                                 padding:
-                                                    const EdgeInsets.only(bottom: 2),
+                                                    const EdgeInsets.only(
+                                                        bottom: 2),
                                                 child: Text(
                                                   '${h['dia']}: ${h['hora']}',
                                                   style: const TextStyle(
@@ -338,15 +321,10 @@ class _BalneariosState extends State<Balnearios> {
                                       ),
                                     ),
                                   ),
-
                                   const SizedBox(width: 10),
-
-                                  // DIRECCIÓN + TEL
                                   Expanded(
                                     child: Column(
                                       children: [
-
-                                        // DIRECCIÓN
                                         Container(
                                           width: double.infinity,
                                           padding: const EdgeInsets.all(10),
@@ -377,22 +355,18 @@ class _BalneariosState extends State<Balnearios> {
                                               ),
                                               const SizedBox(height: 4),
                                               Text(
-                                                item['direccion'] ?? '',
+                                                hotel['direccion'] ?? '',
                                                 style: const TextStyle(
                                                     fontSize: 11),
                                               ),
                                             ],
                                           ),
                                         ),
-
                                         const SizedBox(height: 8),
-
-                                        // TELÉFONO
-                                        if (item['telefono'] != null &&
-                                            item['telefono'].toString().isNotEmpty)
+                                        if (hotel['telefono'] != null)
                                           GestureDetector(
                                             onTap: () =>
-                                                _llamar(item['telefono']),
+                                                _llamar(hotel['telefono']),
                                             child: Container(
                                               width: double.infinity,
                                               padding:
@@ -411,7 +385,7 @@ class _BalneariosState extends State<Balnearios> {
                                                           255, 195, 57, 15)),
                                                   const SizedBox(width: 4),
                                                   Text(
-                                                    item['telefono'],
+                                                    hotel['telefono'],
                                                     style: const TextStyle(
                                                       fontSize: 11,
                                                       fontWeight:
@@ -430,7 +404,7 @@ class _BalneariosState extends State<Balnearios> {
 
                               const SizedBox(height: 12),
 
-                              // MAPA
+                              // mapa OpenStreetMap
                               ClipRRect(
                                 borderRadius: BorderRadius.circular(10),
                                 child: SizedBox(
@@ -455,6 +429,8 @@ class _BalneariosState extends State<Balnearios> {
                                         markers: [
                                           Marker(
                                             point: ll.LatLng(lat, lng),
+                                            width: 40,
+                                            height: 40,
                                             child: GestureDetector(
                                               onTap: () =>
                                                   _abrirMapa(lat, lng),
@@ -475,7 +451,7 @@ class _BalneariosState extends State<Balnearios> {
 
                               const SizedBox(height: 8),
 
-                              // GALERÍA
+                              // imágenes directo en la tarjeta
                               if (imagenes.isNotEmpty) ...[
                                 const Divider(height: 1),
                                 const SizedBox(height: 10),
@@ -501,8 +477,7 @@ class _BalneariosState extends State<Balnearios> {
                                   itemCount: imagenes.length,
                                   itemBuilder: (context, i) {
                                     return ClipRRect(
-                                      borderRadius:
-                                          BorderRadius.circular(6),
+                                      borderRadius: BorderRadius.circular(6),
                                       child: Image.asset(
                                         imagenes[i],
                                         fit: BoxFit.cover,
@@ -537,7 +512,7 @@ class _BalneariosState extends State<Balnearios> {
             ),
           ),
 
-          // FOOTER
+          // footer
           SizedBox(
             width: double.infinity,
             height: kToolbarHeight + MediaQuery.of(context).padding.top,

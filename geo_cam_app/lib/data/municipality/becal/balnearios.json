@@ -1,86 +1,61 @@
 {
-    "municipalityId": "calkini",
-    "municipalityName": "Calkiní",
-    "categoryId": "balnearios",
-    "categoryName": "Balnearios",
-    "description": "Listado de balnearios del municipio de Calkiní.",
-    "items": [
-      {
-        "id": 1,
-        "name": "Los Baxal Haa",
-        "shortName": "Baxal Haa",
-        "address": {
-          "street": "Calle 41",
-          "postalCode": "24936",
-          "city": "Calkiní",
-          "state": "Campeche",
-          "country": "México",
-          "maps": {
-            "latitude": null,
-            "longitude": null,
-            "googleMapsUrl": null
-          }
-        },
-        "image": "assets/images/balnearios/baxal-haa.png",
-        "description": "Balneario Los Baxal Haa ubicado en la ciudad de Calkiní, Campeche."
-      },
-      {
-        "id": 2,
-        "name": "Balneario Martín",
-        "shortName": "Martín",
-        "address": {
-          "street": "Calle 23",
-          "postalCode": "24904",
-          "city": "Calkiní",
-          "state": "Campeche",
-          "country": "México",
-          "maps": {
-            "latitude": null,
-            "longitude": null,
-            "googleMapsUrl": null
-          }
-        },
-        "image": "assets/images/balnearios/martin.png",
-        "description": "Balneario Martín ubicado en la ciudad de Calkiní, Campeche."
-      },
-      {
-        "id": 3,
-        "name": "Chuc Say",
-        "shortName": "Chuc Say",
-        "address": {
-          "street": "Calle 20",
-          "postalCode": "24903",
-          "city": "Calkiní",
-          "state": "Campeche",
-          "country": "México",
-          "maps": {
-            "latitude": null,
-            "longitude": null,
-            "googleMapsUrl": null
-          }
-        },
-        "image": "assets/images/balnearios/chuc-say.png",
-        "description": "Balneario Chuc Say ubicado en la ciudad de Calkiní, Campeche."
-      },
-      {
-        "id": 4,
-        "name": "El Remate",
-        "shortName": "El Remate",
-        "address": {
-          "street": "Calle 20",
-          "postalCode": "24903",
-          "city": "Calkiní",
-          "state": "Campeche",
-          "country": "México",
-          "maps": {
-            "latitude": null,
-            "longitude": null,
-            "googleMapsUrl": null
-          }
-        },
-        "image": "assets/images/balnearios/el-remate.png",
-        "description": "Balneario El Remate ubicado en la ciudad de Calkiní, Campeche."
-      }
-    ]
-  }
-  
+  "balnearios": [
+    {
+      "nombre": "Balneario BECAL",
+      "direccion": "Calkiní, Campeche",
+      "telefono": "9969610576",
+      "imagen_principal": "",
+      "imagenes": [],
+      "horario": [
+        { "dia": "Lunes", "hora": "9:00 - 18:00" },
+        { "dia": "Martes", "hora": "9:00 - 18:00" },
+        { "dia": "Miércoles", "hora": "9:00 - 18:00" },
+        { "dia": "Jueves", "hora": "9:00 - 18:00" },
+        { "dia": "Viernes", "hora": "9:00 - 18:00" },
+        { "dia": "Sábado", "hora": "9:00 - 19:00" },
+        { "dia": "Domingo", "hora": "9:00 - 19:00" }
+      ],
+      "descripcion": "Balneario con albercas y ambiente familiar en el centro de Calkiní.",
+      "lat": 20.3710,
+      "lng": -90.0520
+    },
+    {
+      "nombre": "Balneario San Vicente Chuc-Say",
+      "direccion": "Carretera Calkiní - Dzitbalché, Campeche",
+      "telefono": "",
+      "imagen_principal": "",
+      "imagenes": [],
+      "horario": [
+        { "dia": "Lunes", "hora": "8:00 - 17:00" },
+        { "dia": "Martes", "hora": "8:00 - 17:00" },
+        { "dia": "Miércoles", "hora": "8:00 - 17:00" },
+        { "dia": "Jueves", "hora": "8:00 - 17:00" },
+        { "dia": "Viernes", "hora": "8:00 - 17:00" },
+        { "dia": "Sábado", "hora": "8:00 - 18:00" },
+        { "dia": "Domingo", "hora": "8:00 - 18:00" }
+      ],
+      "descripcion": "Balneario con más de 20 albercas, palapas y áreas naturales.",
+      "lat": 20.3495,
+      "lng": -90.0600
+    },
+    {
+      "nombre": "Centro Recreativo Los Naranjos",
+      "direccion": "Barrio La Fátima, Calkiní, Campeche",
+      "telefono": "9969610492",
+      "imagen_principal": "",
+      "imagenes": [],
+      "horario": [
+        { "dia": "Lunes", "hora": "9:00 - 18:00" },
+        { "dia": "Martes", "hora": "9:00 - 18:00" },
+        { "dia": "Miércoles", "hora": "9:00 - 18:00" },
+        { "dia": "Jueves", "hora": "9:00 - 18:00" },
+        { "dia": "Viernes", "hora": "9:00 - 18:00" },
+        { "dia": "Sábado", "hora": "9:00 - 18:00" },
+        { "dia": "Domingo", "hora": "9:00 - 18:00" }
+      ],
+      "descripcion": "Centro recreativo con albercas y áreas familiares.",
+      "lat": 20.3728,
+      "lng": -90.0535
+    }
+  ]
+}

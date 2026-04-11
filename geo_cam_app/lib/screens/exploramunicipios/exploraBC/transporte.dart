@@ -6,15 +6,15 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart' as ll;
 import 'package:geo_cam_app/services/favoritosbc_service.dart';
 
-class Balnearios extends StatefulWidget {
-  const Balnearios({super.key});
+class Transporte extends StatefulWidget {
+  const Transporte({super.key});
 
   @override
-  State<Balnearios> createState() => _BalneariosState();
+  State<Transporte> createState() => _TransporteState();
 }
 
-class _BalneariosState extends State<Balnearios> {
-  List<dynamic> balnearios = [];
+class _TransporteState extends State<Transporte> {
+  List<dynamic> transporte = [];
   bool isLoading = true;
   int? _expandedIndex;
   Map<int, bool> _favoritos = {};
@@ -27,13 +27,12 @@ class _BalneariosState extends State<Balnearios> {
 
   Future<void> _loadData() async {
     final String response = await rootBundle.loadString(
-      'lib/data/municipality/becal/balnearios.json',
+      'lib/data/municipality/becal/transporte.json',
     );
-
     final data = json.decode(response);
 
     setState(() {
-      balnearios = data['balnearios'];
+      transporte = data['transporte'];
       isLoading = false;
     });
 
@@ -41,11 +40,9 @@ class _BalneariosState extends State<Balnearios> {
   }
 
   Future<void> _checkFavoritos() async {
-    for (int i = 0; i < balnearios.length; i++) {
+    for (int i = 0; i < transporte.length; i++) {
       final esFav = await FavoritosBCService.esFavorito(
-        balnearios[i]['nombre'],
-        'Balneario',
-      );
+          transporte[i]['nombre'], 'Transporte');
 
       setState(() {
         _favoritos[i] = esFav;
@@ -57,7 +54,7 @@ class _BalneariosState extends State<Balnearios> {
     final esFav = _favoritos[index] ?? false;
 
     if (esFav) {
-      await FavoritosBCService.eliminar(item['nombre'], 'Balneario');
+      await FavoritosBCService.eliminar(item['nombre'], 'Transporte');
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text('${item['nombre']} eliminado de favoritos'),
@@ -67,7 +64,7 @@ class _BalneariosState extends State<Balnearios> {
     } else {
       await FavoritosBCService.agregar({
         ...item,
-        'tipo': 'Balneario',
+        'tipo': 'Transporte',
       });
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
@@ -109,7 +106,6 @@ class _BalneariosState extends State<Balnearios> {
 
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 234, 228, 205),
-
       appBar: AppBar(
         automaticallyImplyLeading: false,
         centerTitle: true,
@@ -140,9 +136,9 @@ class _BalneariosState extends State<Balnearios> {
           Expanded(
             child: ListView.builder(
               padding: const EdgeInsets.fromLTRB(12, 12, 12, 12),
-              itemCount: balnearios.length,
+              itemCount: transporte.length,
               itemBuilder: (context, index) {
-                final item = balnearios[index];
+                final item = transporte[index];
                 final imagenPrincipal = item['imagen_principal'] ?? '';
                 final imagenes = List<String>.from(item['imagenes'] ?? []);
                 final horario = List<dynamic>.from(item['horario'] ?? []);
@@ -181,7 +177,7 @@ class _BalneariosState extends State<Balnearios> {
                           child: Row(
                             children: [
                               const Icon(
-                                Icons.pool,
+                                Icons.directions_bus,
                                 color: Color.fromARGB(255, 195, 57, 15),
                                 size: 20,
                               ),
@@ -239,7 +235,6 @@ class _BalneariosState extends State<Balnearios> {
                       if (isExpanded) ...[
                         const Divider(height: 1),
 
-                        // IMAGEN PRINCIPAL
                         if (imagenPrincipal.isNotEmpty)
                           ClipRRect(
                             child: Image.asset(
@@ -257,7 +252,7 @@ class _BalneariosState extends State<Balnearios> {
                             child: const Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Icon(Icons.pool,
+                                Icon(Icons.directions_bus,
                                     size: 50, color: Colors.black26),
                                 SizedBox(height: 8),
                                 Text(
@@ -278,7 +273,6 @@ class _BalneariosState extends State<Balnearios> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
 
-                              // DESCRIPCIÓN
                               if (item['descripcion'] != null &&
                                   item['descripcion'].toString().isNotEmpty)
                                 Text(
@@ -290,12 +284,9 @@ class _BalneariosState extends State<Balnearios> {
 
                               const SizedBox(height: 12),
 
-                              // HORARIO + DIRECCIÓN + TEL
                               Row(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-
-                                  // HORARIO
                                   Expanded(
                                     child: Container(
                                       padding: const EdgeInsets.all(10),
@@ -341,12 +332,9 @@ class _BalneariosState extends State<Balnearios> {
 
                                   const SizedBox(width: 10),
 
-                                  // DIRECCIÓN + TEL
                                   Expanded(
                                     child: Column(
                                       children: [
-
-                                        // DIRECCIÓN
                                         Container(
                                           width: double.infinity,
                                           padding: const EdgeInsets.all(10),
@@ -387,9 +375,7 @@ class _BalneariosState extends State<Balnearios> {
 
                                         const SizedBox(height: 8),
 
-                                        // TELÉFONO
-                                        if (item['telefono'] != null &&
-                                            item['telefono'].toString().isNotEmpty)
+                                        if (item['telefono'] != null)
                                           GestureDetector(
                                             onTap: () =>
                                                 _llamar(item['telefono']),
@@ -430,7 +416,6 @@ class _BalneariosState extends State<Balnearios> {
 
                               const SizedBox(height: 12),
 
-                              // MAPA
                               ClipRRect(
                                 borderRadius: BorderRadius.circular(10),
                                 child: SizedBox(
@@ -475,7 +460,6 @@ class _BalneariosState extends State<Balnearios> {
 
                               const SizedBox(height: 8),
 
-                              // GALERÍA
                               if (imagenes.isNotEmpty) ...[
                                 const Divider(height: 1),
                                 const SizedBox(height: 10),
@@ -501,8 +485,7 @@ class _BalneariosState extends State<Balnearios> {
                                   itemCount: imagenes.length,
                                   itemBuilder: (context, i) {
                                     return ClipRRect(
-                                      borderRadius:
-                                          BorderRadius.circular(6),
+                                      borderRadius: BorderRadius.circular(6),
                                       child: Image.asset(
                                         imagenes[i],
                                         fit: BoxFit.cover,
@@ -537,7 +520,6 @@ class _BalneariosState extends State<Balnearios> {
             ),
           ),
 
-          // FOOTER
           SizedBox(
             width: double.infinity,
             height: kToolbarHeight + MediaQuery.of(context).padding.top,
