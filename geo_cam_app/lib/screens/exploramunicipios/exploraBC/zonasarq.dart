@@ -6,15 +6,15 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart' as ll;
 import 'package:geo_cam_app/services/favoritosbc_service.dart';
 
-class Balnearios extends StatefulWidget {
-  const Balnearios({super.key});
+class ZonasArq extends StatefulWidget {
+  const ZonasArq({super.key});
 
   @override
-  State<Balnearios> createState() => _BalneariosState();
+  State<ZonasArq> createState() => _ZonasArqState();
 }
 
-class _BalneariosState extends State<Balnearios> {
-  List<dynamic> balnearios = [];
+class _ZonasArqState extends State<ZonasArq> {
+  List<dynamic> zonas = [];
   bool isLoading = true;
   int? _expandedIndex;
   Map<int, bool> _favoritos = {};
@@ -26,14 +26,14 @@ class _BalneariosState extends State<Balnearios> {
   }
 
   Future<void> _loadData() async {
-    final String response = await rootBundle.loadString(
-      'lib/data/municipality/becal/balnearios.json',
+    final response = await rootBundle.loadString(
+      'lib/data/municipality/becal/zonasarq.json',
     );
 
     final data = json.decode(response);
 
     setState(() {
-      balnearios = data['balnearios'];
+      zonas = data['zonasarq'];
       isLoading = false;
     });
 
@@ -41,11 +41,9 @@ class _BalneariosState extends State<Balnearios> {
   }
 
   Future<void> _checkFavoritos() async {
-    for (int i = 0; i < balnearios.length; i++) {
+    for (int i = 0; i < zonas.length; i++) {
       final esFav = await FavoritosBCService.esFavorito(
-        balnearios[i]['nombre'],
-        'Balneario',
-      );
+          zonas[i]['nombre'], 'ZonaArqueologica');
 
       setState(() {
         _favoritos[i] = esFav;
@@ -57,24 +55,12 @@ class _BalneariosState extends State<Balnearios> {
     final esFav = _favoritos[index] ?? false;
 
     if (esFav) {
-      await FavoritosBCService.eliminar(item['nombre'], 'Balneario');
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text('${item['nombre']} eliminado de favoritos'),
-          duration: const Duration(seconds: 2),
-        ),
-      );
+      await FavoritosBCService.eliminar(item['nombre'], 'ZonaArqueologica');
     } else {
       await FavoritosBCService.agregar({
         ...item,
-        'tipo': 'Balneario',
+        'tipo': 'ZonaArqueologica',
       });
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text('${item['nombre']} guardado en favoritos'),
-          duration: const Duration(seconds: 2),
-        ),
-      );
     }
 
     setState(() {
@@ -83,20 +69,11 @@ class _BalneariosState extends State<Balnearios> {
   }
 
   Future<void> _abrirMapa(double lat, double lng) async {
-    final Uri url = Uri.parse(
+    final url = Uri.parse(
       'https://www.google.com/maps/search/?api=1&query=$lat,$lng',
     );
 
-    if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
-      throw 'No se pudo abrir Google Maps';
-    }
-  }
-
-  Future<void> _llamar(String telefono) async {
-    final Uri url = Uri.parse('tel:$telefono');
-    if (!await launchUrl(url)) {
-      throw 'No se pudo realizar la llamada';
-    }
+    await launchUrl(url, mode: LaunchMode.externalApplication);
   }
 
   @override
@@ -116,10 +93,7 @@ class _BalneariosState extends State<Balnearios> {
         flexibleSpace: Stack(
           fit: StackFit.expand,
           children: [
-            Image.asset(
-              'lib/assets/images/DiseñoHF.png',
-              fit: BoxFit.cover,
-            ),
+            Image.asset('lib/assets/images/DiseñoHF.png', fit: BoxFit.cover),
           ],
         ),
         backgroundColor: Colors.transparent,
@@ -140,14 +114,14 @@ class _BalneariosState extends State<Balnearios> {
           Expanded(
             child: ListView.builder(
               padding: const EdgeInsets.fromLTRB(12, 12, 12, 12),
-              itemCount: balnearios.length,
+              itemCount: zonas.length,
               itemBuilder: (context, index) {
-                final item = balnearios[index];
+                final item = zonas[index];
                 final imagenPrincipal = item['imagen_principal'] ?? '';
                 final imagenes = List<String>.from(item['imagenes'] ?? []);
                 final horario = List<dynamic>.from(item['horario'] ?? []);
-                final double lat = item['lat'];
-                final double lng = item['lng'];
+                final lat = item['lat'];
+                final lng = item['lng'];
                 final isExpanded = _expandedIndex == index;
                 final esFavorito = _favoritos[index] ?? false;
 
@@ -167,12 +141,13 @@ class _BalneariosState extends State<Balnearios> {
                   child: Column(
                     children: [
 
-                      // HEADER
+                      // HEADER (igual que hoteles)
                       InkWell(
                         borderRadius: BorderRadius.circular(12),
                         onTap: () {
                           setState(() {
-                            _expandedIndex = isExpanded ? null : index;
+                            _expandedIndex =
+                                isExpanded ? null : index;
                           });
                         },
                         child: Padding(
@@ -181,7 +156,7 @@ class _BalneariosState extends State<Balnearios> {
                           child: Row(
                             children: [
                               const Icon(
-                                Icons.pool,
+                                Icons.account_balance,
                                 color: Color.fromARGB(255, 195, 57, 15),
                                 size: 20,
                               ),
@@ -189,7 +164,8 @@ class _BalneariosState extends State<Balnearios> {
 
                               Expanded(
                                 child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  crossAxisAlignment:
+                                      CrossAxisAlignment.start,
                                   children: [
                                     Text(
                                       item['nombre'],
@@ -211,14 +187,13 @@ class _BalneariosState extends State<Balnearios> {
                               ),
 
                               GestureDetector(
-                                onTap: () =>
-                                    _toggleFavorito(index, Map<String, dynamic>.from(item)),
+                                onTap: () => _toggleFavorito(
+                                    index, Map<String, dynamic>.from(item)),
                                 child: Icon(
                                   esFavorito
                                       ? Icons.favorite
                                       : Icons.favorite_border,
                                   color: const Color.fromARGB(255, 195, 57, 15),
-                                  size: 22,
                                 ),
                               ),
 
@@ -235,19 +210,16 @@ class _BalneariosState extends State<Balnearios> {
                         ),
                       ),
 
-                      // EXPANDIDO
                       if (isExpanded) ...[
                         const Divider(height: 1),
 
-                        // IMAGEN PRINCIPAL
+                        // IMAGEN / PLACEHOLDER (igual estilo)
                         if (imagenPrincipal.isNotEmpty)
-                          ClipRRect(
-                            child: Image.asset(
-                              imagenPrincipal,
-                              width: double.infinity,
-                              height: 140,
-                              fit: BoxFit.cover,
-                            ),
+                          Image.asset(
+                            imagenPrincipal,
+                            width: double.infinity,
+                            height: 140,
+                            fit: BoxFit.cover,
                           )
                         else
                           Container(
@@ -257,7 +229,7 @@ class _BalneariosState extends State<Balnearios> {
                             child: const Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Icon(Icons.pool,
+                                Icon(Icons.account_balance,
                                     size: 50, color: Colors.black26),
                                 SizedBox(height: 8),
                                 Text(
@@ -275,24 +247,19 @@ class _BalneariosState extends State<Balnearios> {
                         Padding(
                           padding: const EdgeInsets.all(14),
                           child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
+                            crossAxisAlignment:
+                                CrossAxisAlignment.start,
                             children: [
 
-                              // DESCRIPCIÓN
-                              if (item['descripcion'] != null &&
-                                  item['descripcion'].toString().isNotEmpty)
-                                Text(
-                                  item['descripcion'],
-                                  textAlign: TextAlign.justify,
-                                  style: const TextStyle(
-                                      fontSize: 13, height: 1.5),
-                                ),
+                              Text(item['descripcion'] ?? '',
+                                  textAlign: TextAlign.justify),
 
                               const SizedBox(height: 12),
 
-                              // HORARIO + DIRECCIÓN + TEL
+                              // BLOQUES (igual que hoteles)
                               Row(
-                                crossAxisAlignment: CrossAxisAlignment.start,
+                                crossAxisAlignment:
+                                    CrossAxisAlignment.start,
                                 children: [
 
                                   // HORARIO
@@ -309,31 +276,13 @@ class _BalneariosState extends State<Balnearios> {
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          const Row(
-                                            children: [
-                                              Icon(Icons.access_time,
-                                                  size: 14,
-                                                  color: Color.fromARGB(
-                                                      255, 195, 57, 15)),
-                                              SizedBox(width: 4),
-                                              Text('Horario',
-                                                  style: TextStyle(
-                                                    fontWeight:
-                                                        FontWeight.bold,
-                                                    fontSize: 13,
-                                                  )),
-                                            ],
-                                          ),
+                                          const Text('Horario',
+                                              style: TextStyle(
+                                                  fontWeight:
+                                                      FontWeight.bold)),
                                           const SizedBox(height: 6),
-                                          ...horario.map((h) => Padding(
-                                                padding:
-                                                    const EdgeInsets.only(bottom: 2),
-                                                child: Text(
-                                                  '${h['dia']}: ${h['hora']}',
-                                                  style: const TextStyle(
-                                                      fontSize: 11),
-                                                ),
-                                              )),
+                                          ...horario.map((h) => Text(
+                                              '${h['dia']}: ${h['hora']}')),
                                         ],
                                       ),
                                     ),
@@ -341,88 +290,17 @@ class _BalneariosState extends State<Balnearios> {
 
                                   const SizedBox(width: 10),
 
-                                  // DIRECCIÓN + TEL
+                                  // DIRECCIÓN
                                   Expanded(
-                                    child: Column(
-                                      children: [
-
-                                        // DIRECCIÓN
-                                        Container(
-                                          width: double.infinity,
-                                          padding: const EdgeInsets.all(10),
-                                          decoration: BoxDecoration(
-                                            color: const Color.fromARGB(
-                                                255, 234, 228, 205),
-                                            borderRadius:
-                                                BorderRadius.circular(8),
-                                          ),
-                                          child: Column(
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.start,
-                                            children: [
-                                              const Row(
-                                                children: [
-                                                  Icon(Icons.location_on,
-                                                      size: 14,
-                                                      color: Color.fromARGB(
-                                                          255, 195, 57, 15)),
-                                                  SizedBox(width: 4),
-                                                  Text('Dirección',
-                                                      style: TextStyle(
-                                                        fontWeight:
-                                                            FontWeight.bold,
-                                                        fontSize: 13,
-                                                      )),
-                                                ],
-                                              ),
-                                              const SizedBox(height: 4),
-                                              Text(
-                                                item['direccion'] ?? '',
-                                                style: const TextStyle(
-                                                    fontSize: 11),
-                                              ),
-                                            ],
-                                          ),
-                                        ),
-
-                                        const SizedBox(height: 8),
-
-                                        // TELÉFONO
-                                        if (item['telefono'] != null &&
-                                            item['telefono'].toString().isNotEmpty)
-                                          GestureDetector(
-                                            onTap: () =>
-                                                _llamar(item['telefono']),
-                                            child: Container(
-                                              width: double.infinity,
-                                              padding:
-                                                  const EdgeInsets.all(10),
-                                              decoration: BoxDecoration(
-                                                color: const Color.fromARGB(
-                                                    255, 234, 228, 205),
-                                                borderRadius:
-                                                    BorderRadius.circular(8),
-                                              ),
-                                              child: Row(
-                                                children: [
-                                                  const Icon(Icons.phone,
-                                                      size: 14,
-                                                      color: Color.fromARGB(
-                                                          255, 195, 57, 15)),
-                                                  const SizedBox(width: 4),
-                                                  Text(
-                                                    item['telefono'],
-                                                    style: const TextStyle(
-                                                      fontSize: 11,
-                                                      fontWeight:
-                                                          FontWeight.w500,
-                                                    ),
-                                                  ),
-                                                ],
-                                              ),
-                                            ),
-                                          ),
-                                      ],
+                                    child: Container(
+                                      padding: const EdgeInsets.all(10),
+                                      decoration: BoxDecoration(
+                                        color: const Color.fromARGB(
+                                            255, 234, 228, 205),
+                                        borderRadius:
+                                            BorderRadius.circular(8),
+                                      ),
+                                      child: Text(item['direccion'] ?? ''),
                                     ),
                                   ),
                                 ],
@@ -430,14 +308,15 @@ class _BalneariosState extends State<Balnearios> {
 
                               const SizedBox(height: 12),
 
-                              // MAPA
+                              // MAPA EXACTO
                               ClipRRect(
                                 borderRadius: BorderRadius.circular(10),
                                 child: SizedBox(
                                   height: 180,
                                   child: FlutterMap(
                                     options: MapOptions(
-                                      initialCenter: ll.LatLng(lat, lng),
+                                      initialCenter:
+                                          ll.LatLng(lat, lng),
                                       initialZoom: 15,
                                       interactionOptions:
                                           const InteractionOptions(
@@ -454,7 +333,8 @@ class _BalneariosState extends State<Balnearios> {
                                       MarkerLayer(
                                         markers: [
                                           Marker(
-                                            point: ll.LatLng(lat, lng),
+                                            point:
+                                                ll.LatLng(lat, lng),
                                             child: GestureDetector(
                                               onTap: () =>
                                                   _abrirMapa(lat, lng),
@@ -473,21 +353,10 @@ class _BalneariosState extends State<Balnearios> {
                                 ),
                               ),
 
-                              const SizedBox(height: 8),
+                              const SizedBox(height: 10),
 
                               // GALERÍA
-                              if (imagenes.isNotEmpty) ...[
-                                const Divider(height: 1),
-                                const SizedBox(height: 10),
-                                const Text(
-                                  'Imágenes',
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 13,
-                                    color: Color.fromARGB(255, 195, 57, 15),
-                                  ),
-                                ),
-                                const SizedBox(height: 8),
+                              if (imagenes.isNotEmpty)
                                 GridView.builder(
                                   shrinkWrap: true,
                                   physics:
@@ -510,22 +379,6 @@ class _BalneariosState extends State<Balnearios> {
                                     );
                                   },
                                 ),
-                              ] else ...[
-                                const Divider(height: 1),
-                                const SizedBox(height: 10),
-                                const Center(
-                                  child: Text(
-                                    'Imágenes próximamente disponibles',
-                                    style: TextStyle(
-                                      fontSize: 12,
-                                      color: Colors.black38,
-                                      fontStyle: FontStyle.italic,
-                                    ),
-                                  ),
-                                ),
-                              ],
-
-                              const SizedBox(height: 8),
                             ],
                           ),
                         ),
@@ -540,7 +393,8 @@ class _BalneariosState extends State<Balnearios> {
           // FOOTER
           SizedBox(
             width: double.infinity,
-            height: kToolbarHeight + MediaQuery.of(context).padding.top,
+            height: kToolbarHeight +
+                MediaQuery.of(context).padding.top,
             child: Image.asset(
               'lib/assets/images/DiseñoHF.png',
               fit: BoxFit.cover,

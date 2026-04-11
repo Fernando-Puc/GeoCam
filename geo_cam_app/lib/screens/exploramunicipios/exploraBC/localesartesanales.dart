@@ -6,15 +6,15 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart' as ll;
 import 'package:geo_cam_app/services/favoritosbc_service.dart';
 
-class Balnearios extends StatefulWidget {
-  const Balnearios({super.key});
+class LocalesArtesanales extends StatefulWidget {
+  const LocalesArtesanales({super.key});
 
   @override
-  State<Balnearios> createState() => _BalneariosState();
+  State<LocalesArtesanales> createState() => _LocalesArtesanalesState();
 }
 
-class _BalneariosState extends State<Balnearios> {
-  List<dynamic> balnearios = [];
+class _LocalesArtesanalesState extends State<LocalesArtesanales> {
+  List<dynamic> locales = [];
   bool isLoading = true;
   int? _expandedIndex;
   Map<int, bool> _favoritos = {};
@@ -27,13 +27,12 @@ class _BalneariosState extends State<Balnearios> {
 
   Future<void> _loadData() async {
     final String response = await rootBundle.loadString(
-      'lib/data/municipality/becal/balnearios.json',
+      'lib/data/municipality/becal/localesart.json',
     );
-
     final data = json.decode(response);
 
     setState(() {
-      balnearios = data['balnearios'];
+      locales = data['locales'];
       isLoading = false;
     });
 
@@ -41,11 +40,9 @@ class _BalneariosState extends State<Balnearios> {
   }
 
   Future<void> _checkFavoritos() async {
-    for (int i = 0; i < balnearios.length; i++) {
+    for (int i = 0; i < locales.length; i++) {
       final esFav = await FavoritosBCService.esFavorito(
-        balnearios[i]['nombre'],
-        'Balneario',
-      );
+          locales[i]['nombre'], 'Local');
 
       setState(() {
         _favoritos[i] = esFav;
@@ -53,25 +50,25 @@ class _BalneariosState extends State<Balnearios> {
     }
   }
 
-  Future<void> _toggleFavorito(int index, Map<String, dynamic> item) async {
+  Future<void> _toggleFavorito(int index, Map<String, dynamic> local) async {
     final esFav = _favoritos[index] ?? false;
 
     if (esFav) {
-      await FavoritosBCService.eliminar(item['nombre'], 'Balneario');
+      await FavoritosBCService.eliminar(local['nombre'], 'Local');
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('${item['nombre']} eliminado de favoritos'),
+          content: Text('${local['nombre']} eliminado de favoritos'),
           duration: const Duration(seconds: 2),
         ),
       );
     } else {
       await FavoritosBCService.agregar({
-        ...item,
-        'tipo': 'Balneario',
+        ...local,
+        'tipo': 'Local',
       });
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('${item['nombre']} guardado en favoritos'),
+          content: Text('${local['nombre']} guardado en favoritos'),
           duration: const Duration(seconds: 2),
         ),
       );
@@ -109,7 +106,6 @@ class _BalneariosState extends State<Balnearios> {
 
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 234, 228, 205),
-
       appBar: AppBar(
         automaticallyImplyLeading: false,
         centerTitle: true,
@@ -140,14 +136,14 @@ class _BalneariosState extends State<Balnearios> {
           Expanded(
             child: ListView.builder(
               padding: const EdgeInsets.fromLTRB(12, 12, 12, 12),
-              itemCount: balnearios.length,
+              itemCount: locales.length,
               itemBuilder: (context, index) {
-                final item = balnearios[index];
-                final imagenPrincipal = item['imagen_principal'] ?? '';
-                final imagenes = List<String>.from(item['imagenes'] ?? []);
-                final horario = List<dynamic>.from(item['horario'] ?? []);
-                final double lat = item['lat'];
-                final double lng = item['lng'];
+                final local = locales[index];
+                final imagenPrincipal = local['imagen_principal'] ?? '';
+                final imagenes = List<String>.from(local['imagenes'] ?? []);
+                final horario = List<dynamic>.from(local['horario'] ?? []);
+                final double lat = local['lat'];
+                final double lng = local['lng'];
                 final isExpanded = _expandedIndex == index;
                 final esFavorito = _favoritos[index] ?? false;
 
@@ -181,7 +177,7 @@ class _BalneariosState extends State<Balnearios> {
                           child: Row(
                             children: [
                               const Icon(
-                                Icons.pool,
+                                Icons.store,
                                 color: Color.fromARGB(255, 195, 57, 15),
                                 size: 20,
                               ),
@@ -192,7 +188,7 @@ class _BalneariosState extends State<Balnearios> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      item['nombre'],
+                                      local['nombre'],
                                       style: const TextStyle(
                                         fontWeight: FontWeight.bold,
                                         fontSize: 14,
@@ -200,7 +196,7 @@ class _BalneariosState extends State<Balnearios> {
                                     ),
                                     const SizedBox(height: 2),
                                     Text(
-                                      'Dirección: ${item['direccion'] ?? ''}',
+                                      'Dirección: ${local['direccion'] ?? ''}',
                                       style: const TextStyle(
                                         fontSize: 12,
                                         color: Colors.black54,
@@ -212,7 +208,7 @@ class _BalneariosState extends State<Balnearios> {
 
                               GestureDetector(
                                 onTap: () =>
-                                    _toggleFavorito(index, Map<String, dynamic>.from(item)),
+                                    _toggleFavorito(index, Map<String, dynamic>.from(local)),
                                 child: Icon(
                                   esFavorito
                                       ? Icons.favorite
@@ -257,7 +253,7 @@ class _BalneariosState extends State<Balnearios> {
                             child: const Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Icon(Icons.pool,
+                                Icon(Icons.store,
                                     size: 50, color: Colors.black26),
                                 SizedBox(height: 8),
                                 Text(
@@ -279,10 +275,10 @@ class _BalneariosState extends State<Balnearios> {
                             children: [
 
                               // DESCRIPCIÓN
-                              if (item['descripcion'] != null &&
-                                  item['descripcion'].toString().isNotEmpty)
+                              if (local['descripcion'] != null &&
+                                  local['descripcion'].toString().isNotEmpty)
                                 Text(
-                                  item['descripcion'],
+                                  local['descripcion'],
                                   textAlign: TextAlign.justify,
                                   style: const TextStyle(
                                       fontSize: 13, height: 1.5),
@@ -290,12 +286,10 @@ class _BalneariosState extends State<Balnearios> {
 
                               const SizedBox(height: 12),
 
-                              // HORARIO + DIRECCIÓN + TEL
+                              // HORARIO + DIRECCIÓN
                               Row(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-
-                                  // HORARIO
                                   Expanded(
                                     child: Container(
                                       padding: const EdgeInsets.all(10),
@@ -327,7 +321,8 @@ class _BalneariosState extends State<Balnearios> {
                                           const SizedBox(height: 6),
                                           ...horario.map((h) => Padding(
                                                 padding:
-                                                    const EdgeInsets.only(bottom: 2),
+                                                    const EdgeInsets.only(
+                                                        bottom: 2),
                                                 child: Text(
                                                   '${h['dia']}: ${h['hora']}',
                                                   style: const TextStyle(
@@ -341,12 +336,9 @@ class _BalneariosState extends State<Balnearios> {
 
                                   const SizedBox(width: 10),
 
-                                  // DIRECCIÓN + TEL
                                   Expanded(
                                     child: Column(
                                       children: [
-
-                                        // DIRECCIÓN
                                         Container(
                                           width: double.infinity,
                                           padding: const EdgeInsets.all(10),
@@ -377,7 +369,7 @@ class _BalneariosState extends State<Balnearios> {
                                               ),
                                               const SizedBox(height: 4),
                                               Text(
-                                                item['direccion'] ?? '',
+                                                local['direccion'] ?? '',
                                                 style: const TextStyle(
                                                     fontSize: 11),
                                               ),
@@ -387,12 +379,10 @@ class _BalneariosState extends State<Balnearios> {
 
                                         const SizedBox(height: 8),
 
-                                        // TELÉFONO
-                                        if (item['telefono'] != null &&
-                                            item['telefono'].toString().isNotEmpty)
+                                        if (local['telefono'] != null)
                                           GestureDetector(
                                             onTap: () =>
-                                                _llamar(item['telefono']),
+                                                _llamar(local['telefono']),
                                             child: Container(
                                               width: double.infinity,
                                               padding:
@@ -411,7 +401,7 @@ class _BalneariosState extends State<Balnearios> {
                                                           255, 195, 57, 15)),
                                                   const SizedBox(width: 4),
                                                   Text(
-                                                    item['telefono'],
+                                                    local['telefono'],
                                                     style: const TextStyle(
                                                       fontSize: 11,
                                                       fontWeight:
@@ -448,8 +438,7 @@ class _BalneariosState extends State<Balnearios> {
                                       TileLayer(
                                         urlTemplate:
                                             'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-                                        userAgentPackageName:
-                                            'com.example.geo_cam_app',
+                                            userAgentPackageName: 'com.example.geo_cam_app',
                                       ),
                                       MarkerLayer(
                                         markers: [
@@ -501,8 +490,7 @@ class _BalneariosState extends State<Balnearios> {
                                   itemCount: imagenes.length,
                                   itemBuilder: (context, i) {
                                     return ClipRRect(
-                                      borderRadius:
-                                          BorderRadius.circular(6),
+                                      borderRadius: BorderRadius.circular(6),
                                       child: Image.asset(
                                         imagenes[i],
                                         fit: BoxFit.cover,

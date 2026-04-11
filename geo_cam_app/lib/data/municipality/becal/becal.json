@@ -1,0 +1,22 @@
+{
+  "name": "Bécal",
+  "appbarimage": "lib/assets/images/DiseñoHF.png",
+  "title": "LOCALIDAD DE BÉCAL",
+  "image": "lib/assets/images/becal.jpeg",
+  "description": "Bécal, hermosa villa de raíces mayas y pobladores de manos talentosas, ubicado en el estado de Campeche, municipio de Calkiní, su nombre derivado de sus característico clima y la imaginación de quienes ahí habitaron, fue fundado en 1450 por el cacique de Calkiní Ah-Tzab-Canul.",
+  "options": ["Explora", "Guardado", "Historia"],
+  "historia": {
+    "titulo": "BÉCAL",
+    "imagen_principal": "lib/assets/images/festividadesBC/historiaBC.jpg",
+    "secciones": [
+      {
+        "subtitulo": "",
+        "contenido": "En el Parque Principal de Bécal, encontrarás una imponente escultura de tres sombreros monumentales, símbolo de su título como “La capital del Sombrero”. Este espacio es ideal para conocer la historia y la cultura local, además de adquirir una auténtica artesanía como recuerdo de tu visita. Visitar Bécal es más que un paseo; es una oportunidad para conectar con la tradición, apoyar a los artesanos locales y llevarte un recuerdo único de Campeche."
+      },
+      {
+        "subtitulo": "El origen de los sombreros en Bécal y el tejido",
+        "contenido": "Se remonta a la época de los hacendados, cuando Sixto García López, un hacendado con mucho poder económico y encargado de administrar 22 fincas en la región, fue a Petén de las Flores en Guatemala, y trajo consigo la planta de palma toquilla para sembrar en grandes extensiones de tierra en México. \n \n Se dice que el término 'jipijapa' o 'xipijapa' proviene de Ecuador, y es el nombre de una ciudad en la provincia de Manabí. También se dice que era el nombre de un cacique indígena ecuatoriano. En México se usa el término para referirse a la fibra que se extrae de la palma, en delgadas tiras. \n \n Las familias se juntan a tejer sombreros en cuevas regularmente hechas para ese propósito, pero que por sus características, conservan la humedad ideal para que la palma sea flexible y maleable. Se comienza con un centro de 40 hilaciones, que quedan como un pequeño círculo y que conforme se va extendiendo el tejido, se conectan con otras 50 y luego con 100 (dependiendo del tamaño) desde el centro hacia afuera"
+      }
+    ]
+  }
+}
