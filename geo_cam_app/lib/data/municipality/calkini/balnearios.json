@@ -2,48 +2,59 @@
   "balnearios": [
     {
       "nombre": "Balneario Báaxal-Há",
-      "direccion": "Calkiní, Campeche",
-      "telefono": "9969610576",
-      "imagen_principal": "",
-      "imagenes": [],
+      "direccion": "C. 23, Kilakán, 24904 Calkiní, Camp.",
+      "telefono": "9988457551",
+      "imagen_principal": "lib/assets/images/locales/balneariosck/balneario_principal.jpg",
+      "imagenes": [
+          "lib/assets/images/locales/balneariosck/balneario1.jpg",
+          "lib/assets/images/locales/balneariosck/balneario2.jpg",
+          "lib/assets/images/locales/balneariosck/balneario3.jpg"
+    ],
       "horario": [
-        { "dia": "Lunes", "hora": "9:00 - 18:00" },
-        { "dia": "Martes", "hora": "9:00 - 18:00" },
-        { "dia": "Miércoles", "hora": "9:00 - 18:00" },
-        { "dia": "Jueves", "hora": "9:00 - 18:00" },
-        { "dia": "Viernes", "hora": "9:00 - 18:00" },
-        { "dia": "Sábado", "hora": "9:00 - 19:00" },
-        { "dia": "Domingo", "hora": "9:00 - 19:00" }
+        { "dia": "Lunes", "hora": "Cerrado" },
+        { "dia": "Martes", "hora": "Cerrado" },
+        { "dia": "Miércoles", "hora": "Cerrado" },
+        { "dia": "Jueves", "hora": "Cerrado" },
+        { "dia": "Viernes", "hora": "10:00 - 18:00" },
+        { "dia": "Sábado", "hora": "10:00 - 18:00" },
+        { "dia": "Domingo", "hora": "10:00 - 18:00" }
       ],
-      "descripcion": "Balneario con albercas y ambiente familiar en el centro de Calkiní.",
-      "lat": 20.3710,
-      "lng": -90.0520
+      "descripcion": "Aqui en Báaxal-Há podrás disfrutar de nuestras 5 albercas, tres de ellas con toboganes, una cancha de futbol y áreas verdes.",
+      "lat": 20.36949774790993, 
+      "lng": -90.06049668032225
     },
     {
       "nombre": "Balneario San Vicente Chuc-Say",
-      "direccion": "Carretera Calkiní - Dzitbalché, Campeche",
-      "telefono": "",
-      "imagen_principal": "",
-      "imagenes": [],
+      "direccion": "Carretera antigua a Campeche Supermanzana km3, 24920 Dzitbalché, Camp.",
+      "telefono": "9992628417",
+      "imagen_principal": "lib/assets/images/locales/balneariosck/chuc_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/locales/balneariosck/chuc1.jpg",
+        "lib/assets/images/locales/balneariosck/chuc2.jpg",
+        "lib/assets/images/locales/balneariosck/chuc3.jpg"
+      ],
       "horario": [
-        { "dia": "Lunes", "hora": "8:00 - 17:00" },
-        { "dia": "Martes", "hora": "8:00 - 17:00" },
-        { "dia": "Miércoles", "hora": "8:00 - 17:00" },
-        { "dia": "Jueves", "hora": "8:00 - 17:00" },
-        { "dia": "Viernes", "hora": "8:00 - 17:00" },
-        { "dia": "Sábado", "hora": "8:00 - 18:00" },
-        { "dia": "Domingo", "hora": "8:00 - 18:00" }
+        { "dia": "Lunes", "hora": "10:00 - 17:00" },
+        { "dia": "Martes", "hora": "10:00 - 17:00" },
+        { "dia": "Miércoles", "hora": "10:00 - 17:00" },
+        { "dia": "Jueves", "hora": "10:00 - 17:00" },
+        { "dia": "Viernes", "hora": "10:00 - 17:00" },
+        { "dia": "Sábado", "hora": "10:00 - 18:00" },
+        { "dia": "Domingo", "hora": "10:00 - 18:00" }
       ],
       "descripcion": "Balneario con más de 20 albercas, palapas y áreas naturales.",
-      "lat": 20.3495,
-      "lng": -90.0600
+      "lat": 20.33769540465036, 
+      "lng": -90.05578670751673
     },
     {
-      "nombre": "Centro Recreativo Los Naranjos",
-      "direccion": "Barrio La Fátima, Calkiní, Campeche",
-      "telefono": "9969610492",
-      "imagen_principal": "",
-      "imagenes": [],
+      "nombre": "Quinta Tío Lupe",
+      "direccion": "C. 13 618, Noria, 24902 Calkiní, Camp.",
+      "telefono": "9961203960",
+      "imagen_principal": "lib/assets/images/locales/balneariosck/quinta_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/locales/balneariosck/chuc1.jpg",
+        "lib/assets/images/locales/balneariosck/chuc2.jpg",
+        "lib/assets/images/locales/balneariosck/chuc3.jpg"],
       "horario": [
         { "dia": "Lunes", "hora": "9:00 - 18:00" },
         { "dia": "Martes", "hora": "9:00 - 18:00" },
@@ -54,8 +65,8 @@
         { "dia": "Domingo", "hora": "9:00 - 18:00" }
       ],
       "descripcion": "Centro recreativo con albercas y áreas familiares.",
-      "lat": 20.3728,
-      "lng": -90.0535
+      "lat": 20.374659254697754, 
+      "lng": -90.03921907444082
     }
   ]
 }

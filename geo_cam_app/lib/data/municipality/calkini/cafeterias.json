@@ -1,30 +1,39 @@
 {
   "cafeterias": [
     {
-      "nombre": "Café Maya",
-      "direccion": "Centro, Calkiní, Campeche",
-      "telefono": "9961234567",
-      "imagen_principal": "",
-      "imagenes": [],
+      "nombre": "Bon Appetit",
+      "direccion": "San Miguel Kukab, 24903 Calkiní, Camp.",
+      "telefono": "9961094003",
+      "imagen_principal": "lib/assets/images/locales/restaurantesck/bon_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/locales/restaurantesck/bon1.jpg",
+        "lib/assets/images/locales/restaurantesck/bon2.jpg"
+    ],
       "horario": [
-        { "dia": "Lunes", "hora": "7:00 - 20:00" },
-        { "dia": "Martes", "hora": "7:00 - 20:00" },
-        { "dia": "Miércoles", "hora": "7:00 - 20:00" },
-        { "dia": "Jueves", "hora": "7:00 - 20:00" },
-        { "dia": "Viernes", "hora": "7:00 - 22:00" },
-        { "dia": "Sábado", "hora": "8:00 - 22:00" },
-        { "dia": "Domingo", "hora": "8:00 - 18:00" }
+        { "dia": "Lunes", "hora": "08:00 - 23:30" },
+        { "dia": "Martes", "hora": "08:00 - 23:30" },
+        { "dia": "Miércoles", "hora": "08:00 - 23:30" },
+        { "dia": "Jueves", "hora": "08:00 - 23:30" },
+        { "dia": "Viernes", "hora": "08:00 - 23:30" },
+        { "dia": "Sábado", "hora": "08:00 - 23:30"},
+        { "dia": "Domingo", "hora": "08:00 - 23:30" }
       ],
-      "descripcion": "Cafetería local con ambiente tradicional y bebidas artesanales.",
-      "lat": 20.3709,
-      "lng": -90.0528
+      "descripcion": "Un café, buena comida y momentos que se quedan.",
+      "lat": 20.369816851187988,
+      "lng": -90.0510146763022
     },
+
+
     {
-      "nombre": "Coffee Break Calkiní",
-      "direccion": "Calkiní, Campeche",
-      "telefono": "",
-      "imagen_principal": "",
-      "imagenes": [],
+      "nombre": "Cafetería Daju",
+      "direccion": "24900, C. 15 102, San Juan, 24900 Calkiní, Camp.",
+      "telefono": "9917443172",
+      "imagen_principal": "lib/assets/images/locales/restaurantesck/daju_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/locales/restaurantesck/daju3.jpg",
+        "lib/assets/images/locales/restaurantesck/daju2.jpg",
+        "lib/assets/images/locales/restaurantesck/daju1.jpg"
+      ],
       "horario": [
         { "dia": "Lunes", "hora": "8:00 - 19:00" },
         { "dia": "Martes", "hora": "8:00 - 19:00" },
@@ -35,27 +44,8 @@
         { "dia": "Domingo", "hora": "9:00 - 17:00" }
       ],
       "descripcion": "Espacio moderno ideal para reuniones y café de especialidad.",
-      "lat": 20.3725,
-      "lng": -90.0515
-    },
-    {
-      "nombre": "La Taza Feliz",
-      "direccion": "Dzitbalché, Campeche",
-      "telefono": "",
-      "imagen_principal": "",
-      "imagenes": [],
-      "horario": [
-        { "dia": "Lunes", "hora": "7:30 - 18:00" },
-        { "dia": "Martes", "hora": "7:30 - 18:00" },
-        { "dia": "Miércoles", "hora": "7:30 - 18:00" },
-        { "dia": "Jueves", "hora": "7:30 - 18:00" },
-        { "dia": "Viernes", "hora": "7:30 - 19:00" },
-        { "dia": "Sábado", "hora": "8:00 - 19:00" },
-        { "dia": "Domingo", "hora": "8:00 - 16:00" }
-      ],
-      "descripcion": "Cafetería acogedora con repostería casera.",
-      "lat": 20.3187,
-      "lng": -90.0543
+      "lat": 20.372346053112754, 
+      "lng": -90.04926229881127
     }
   ]
 }

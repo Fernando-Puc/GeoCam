@@ -69,6 +69,7 @@ flutter:
     - lib/assets/images/
     - lib/data/municipality/calkini/
     - lib/data/municipality/becal/
+    - lib/data/municipality/dzitbalche/
     - lib/assets/images/DiseñoHF.png
     - lib/assets/images/calkinibtn.png
     - lib/assets/images/becalbtn.jpg
@@ -166,9 +167,63 @@ flutter:
     - lib/assets/images/locales/restaurantesck/isla1.jpg
     - lib/assets/images/locales/restaurantesck/isla2.jpg
     
+    #LOCALES
+
+    - lib/assets/images/locales/negociosck/ferre_principal.jpg
+    - lib/assets/images/locales/negociosck/ferre1.jpg
+    - lib/assets/images/locales/negociosck/coppel_principal.jpg
+    - lib/assets/images/locales/negociosck/coppel1.jpg
+    - lib/assets/images/locales/negociosck/jugueteria_principal.jpg
+    - lib/assets/images/locales/negociosck/jugueteria1.jpg
+
+    #BALNEARIOS
+    - lib/assets/images/locales/balneariosck/balneario_principal.jpg
+    - lib/assets/images/locales/balneariosck/balneario1.jpg
+    - lib/assets/images/locales/balneariosck/balneario2.jpg
+    - lib/assets/images/locales/balneariosck/balneario3.jpg
+    - lib/assets/images/locales/balneariosck/chuc_principal.jpg
+    - lib/assets/images/locales/balneariosck/chuc1.jpg
+    - lib/assets/images/locales/balneariosck/chuc2.jpg
+    - lib/assets/images/locales/balneariosck/chuc3.jpg
+    - lib/assets/images/locales/balneariosck/quinta_principal.jpg
+    - lib/assets/images/locales/balneariosck/chuc1.jpg
+    - lib/assets/images/locales/balneariosck/chuc_principal.jpg
+    - lib/assets/images/locales/balneariosck/chuc2.jpg
+    - lib/assets/images/locales/balneariosck/chuc3.jpg
+
+    #CENTROS RELIGIOSOS
+    - lib/assets/images/locales/religiososck/sanluis_principales.jpg
+    - lib/assets/images/locales/religiososck/sanluis1.jpg
+    - lib/assets/images/locales/religiososck/sanluis2.jpg
+    - lib/assets/images/locales/religiososck/sanluis3.jpeg
+    - lib/assets/images/locales/religiososck/iglesia_principal.jpg
+    - lib/assets/images/locales/religiososck/iglesia1.jpg
+    - lib/assets/images/locales/religiososck/iglesia2.jpg
+    - lib/assets/images/locales/religiososck/iglesia3.jpg
+    - lib/assets/images/locales/religiososck/fatima_principal.jpg
+    - lib/assets/images/locales/religiososck/fatima1.jpg
+    - lib/assets/images/locales/religiososck/fatima2.jpg
+    - lib/assets/images/locales/religiososck/fatima3.jpg
+
+    #CAFETERIAS
+    - lib/assets/images/locales/restaurantesck/daju1.jpg
+    - lib/assets/images/locales/restaurantesck/daju2.jpg
+    - lib/assets/images/locales/restaurantesck/daju3.jpg
+
+    #Transporte
+    - lib/assets/images/locales/transporteck/ado_principal.jpg
+    - lib/assets/images/locales/transporteck/ado1.jpg
+    - lib/assets/images/locales/transporteck/ado2.jpg
+    - lib/assets/images/locales/transporteck/untrac_principal.jpg
+    
+
     #BECAL
     - lib/assets/images/festividadesBC/
     
+
+    #DZITBALCHE
+
+
 
     
   # To add assets to your application, add an assets section, like this:

@@ -1,11 +1,14 @@
 {
   "transporte": [
     {
-      "nombre": "Terminal de Autobuses Calkiní",
-      "direccion": "Centro, Calkiní, Campeche",
-      "telefono": "9969610100",
-      "imagen_principal": "",
-      "imagenes": [],
+      "nombre": "Terminal de Autobuses ADO Calkiní",
+      "direccion": "Centro, 24900 Calkiní, Camp.",
+      "telefono": "9969611177",
+      "imagen_principal": "lib/assets/images/locales/transporteck/ado_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/locales/transporteck/ado1.jpg",
+        "lib/assets/images/locales/transporteck/ado2.jpg"
+      ],
       "horario": [
         { "dia": "Lunes", "hora": "5:00 - 22:00" },
         { "dia": "Martes", "hora": "5:00 - 22:00" },
@@ -16,46 +19,27 @@
         { "dia": "Domingo", "hora": "5:00 - 22:00" }
       ],
       "descripcion": "Terminal principal de autobuses con rutas regionales.",
-      "lat": 20.3706,
-      "lng": -90.0532
+      "lat": 20.369911135905568, 
+      "lng": -90.05260493617807
     },
     {
-      "nombre": "Sitio de Taxis Centro",
-      "direccion": "Centro, Calkiní, Campeche",
+      "nombre": "Terminal UNTRAC Combis Calkiní a Mérida",
+      "direccion": "C. 20 629, Centro, 24900 Calkiní, Camp.",
       "telefono": "",
-      "imagen_principal": "",
+      "imagen_principal": "lib/assets/images/locales/transporteck/untrac_principal.jpg",
       "imagenes": [],
       "horario": [
-        { "dia": "Lunes", "hora": "24 horas" },
-        { "dia": "Martes", "hora": "24 horas" },
-        { "dia": "Miércoles", "hora": "24 horas" },
-        { "dia": "Jueves", "hora": "24 horas" },
-        { "dia": "Viernes", "hora": "24 horas" },
-        { "dia": "Sábado", "hora": "24 horas" },
-        { "dia": "Domingo", "hora": "24 horas" }
+     { "dia": "Lunes", "hora": "5:00 - 20:00" },
+        { "dia": "Martes", "hora": "5:00 - 20:00" },
+        { "dia": "Miércoles", "hora": "5:00 - 20:00" },
+        { "dia": "Jueves", "hora": "5:00 - 20:00" },
+        { "dia": "Viernes", "hora": "5:00 - 20:00" },
+        { "dia": "Sábado", "hora": "5:00 - 20:00" },
+        { "dia": "Domingo", "hora": "5:00 - 20:00" }
       ],
       "descripcion": "Servicio de taxis disponible todo el día.",
-      "lat": 20.3712,
-      "lng": -90.0520
-    },
-    {
-      "nombre": "Paradero de Combis Dzitbalché",
-      "direccion": "Dzitbalché, Campeche",
-      "telefono": "",
-      "imagen_principal": "",
-      "imagenes": [],
-      "horario": [
-        { "dia": "Lunes", "hora": "6:00 - 20:00" },
-        { "dia": "Martes", "hora": "6:00 - 20:00" },
-        { "dia": "Miércoles", "hora": "6:00 - 20:00" },
-        { "dia": "Jueves", "hora": "6:00 - 20:00" },
-        { "dia": "Viernes", "hora": "6:00 - 20:00" },
-        { "dia": "Sábado", "hora": "6:00 - 20:00" },
-        { "dia": "Domingo", "hora": "6:00 - 18:00" }
-      ],
-      "descripcion": "Paradero de transporte colectivo hacia comunidades cercanas.",
-      "lat": 20.3189,
-      "lng": -90.0545
+      "lat": 20.369541204466636, 
+      "lng": -90.05101111524043
     }
   ]
 }
