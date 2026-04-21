@@ -70,6 +70,7 @@ flutter:
     - lib/data/municipality/calkini/
     - lib/data/municipality/becal/
     - lib/data/municipality/dzitbalche/
+    - lib/data/municipality/nunkini/
     - lib/assets/images/BC/
     - lib/assets/images/DiseñoHF.png
     - lib/assets/images/calkinibtn.png

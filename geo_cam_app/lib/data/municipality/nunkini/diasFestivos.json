@@ -1,0 +1,155 @@
+{
+  "descripcion_general": "NUNKINI, conocida como la 'Garganta del Sol', es uno de los pueblos mayas coloniales más meritorios de la Península. También llamada la 'Atenas del Camino Real' y 'Cuna de las Artesanías Campechanas', cuenta con una gran riqueza cultural, natural y artesanal, así como servicios indispensables para disfrutar en familia.",
+  "meses": [
+    {
+      "nombre": "ENERO",
+      "festividades": []
+    },
+    {
+      "nombre": "FEBRERO",
+      "festividades": [
+        {
+        "titulo": "El Carnaval de Calkiní",
+        "descripcion": "El carnaval en Calkiní es practicado por niños, jóvenes y viejos, sin límite de edad. Por su originalidad y colorido es un festejo único en el Camino Real. Es tanta su fuerza de seducción que en esas fechas se acrecienta la visita de amigos y familiares de otros estados.",
+        "fecha_celebracion": "del 07 al 17 de febrero",
+        "imagen_principal": "lib/assets/images/festividadesCK/carnaval_principal.jpg",
+        "imagenes": [
+            "lib/assets/images/festividadesCK/carnaval1.jpg",
+            "lib/assets/images/festividadesCK/carnaval2.jpg",
+            "lib/assets/images/festividadesCK/carnaval3.jpg",
+            "lib/assets/images/festividadesCK/carnaval4.jpg",
+            "lib/assets/images/festividadesCK/carnaval5.jpg",
+            "lib/assets/images/festividadesCK/carnaval6.jpg"
+        ],
+          "eventos": [
+            { "dia": "07 de febrero", "evento": "Gallo precarnavalesco y Quema del mal humor", "hora": "6:00 p.m.", "lugar": "Arco Maya y Parque Principal" },
+            { "dia": "09 de febrero", "evento": "Coronación de la reina LGBTTTIQT+", "hora": "7:00 p.m.", "lugar": "Parque Principal" },
+            { "dia": "10 de febrero", "evento": "Presentación de comparsas de preescolar y primaria", "hora": "5:00 p.m.", "lugar": "Parque Principal" },
+            { "dia": "11 de febrero", "evento": "Coronación de los reyes del DIF municipal", "hora": "5:00 p.m.", "lugar": "Parque Principal" },
+            { "dia": "12 de febrero", "evento": "Coronación infantil", "hora": "7:00 p.m.", "lugar": "Parque Principal" },
+            { "dia": "13 de febrero", "evento": "Corso Infantil y Coronación de los reyes del carnaval 2026", "hora": "5:00 p.m.", "lugar": "Calle principal" },
+            { "dia": "14 de febrero", "evento": "Bando tradicional y concurso de carros alegóricos", "hora": "5:00 p.m.", "lugar": "Calle principal" },
+            { "dia": "15 de febrero", "evento": "Concurso de mascotas y primer baile de disfraces", "hora": "10:00 a.m.", "lugar": "Barrio Kilakán y Parque Principal" },
+            { "dia": "16 de febrero", "evento": "Concurso de disfraz infantil y segundo baile de disfraz", "hora": "5:00 p.m.", "lugar": "Explanada del palacio municipal" },
+            { "dia": "17 de febrero", "evento": "Pintadera, Toro Petate y Quema de Juan Carnaval", "hora": "12:00 p.m.", "lugar": "Barrios de la ciudad y Parque Principal" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "MARZO",
+      "festividades": []
+    },
+    {
+      "nombre": "ABRIL",
+      "festividades": []
+    },
+    {
+      "nombre": "MAYO",
+      "festividades": [
+        {
+          "titulo": "Fiesta Patronal de San Isidro Labrador",
+          "descripcion": "Las Fiestras Patronales son la expresión de la Fe católica que acompañado de otros eventos paganos permitan a los habitantes de la comunidad y aun los que no pertenecen a ella participar en los diversos eventos que se desarrollan en ellas. \n  \n En la ciudad de Calkiní se celebra con gran fervor al Santo Patrono Isidro Labrador. Durante este festejo se realizan procesiones, misas, novenarios, bailes populares, novilladas, veladas culturales y danzas regionales como la tradicional Vaquería y la Cabeza de Cochino." ,
+          "fecha_celebracion": "del 12 al 15 de mayo",
+        "imagen_principal": "lib/assets/images/festividadesCK/sanisidro_principal.jpg",
+        "imagenes": [
+            "lib/assets/images/festividadesCK/sanisidro1.jpg",
+            "lib/assets/images/festividadesCK/sanisidro2.jpg",
+            "lib/assets/images/festividadesCK/sanisidro3.jpg"
+        ],
+          "eventos": [
+            { "dia": "12 al 15 de mayo", "evento": "Fiesta Patronal de San Isidro Labrador", "hora": "Todo el día", "lugar": "Ciudad de Calkiní" }
+          ]
+        },
+        {
+          "titulo": "Feria Tradicional de la Colonia Fátima",
+          "descripcion": "La Sociedad Cultural y Deportiva 'La Fátima de Calkiní A.C.' organiza una serie de actividades en honor a la Santísima Virgen de Fátima, patrona de la colonia. Se realizan eventos taurinos, bailes populares, venta de antojitos regionales, festivales culturales, misas, rosarios y procesiones.",
+          "fecha_celebracion": "del 13 al 20 de mayo",
+        "imagen_principal": "lib/assets/images/festividadesCK/fatima_principal.jpg",
+        "imagenes": [
+            "lib/assets/images/festividadesCK/fatima1.jpg",
+            "lib/assets/images/festividadesCK/fatima2.jpg",
+            "lib/assets/images/festividadesCK/fatima3.jpg",
+            "lib/assets/images/festividadesCK/fatima4.jpg",
+            "lib/assets/images/festividadesCK/fatima5.jpg"
+        ],
+          "eventos": [
+            { "dia": "13 al 20 de mayo", "evento": "Feria Tradicional en honor a la Virgen de Fátima", "hora": "Todo el día", "lugar": "Colonia Fátima, Calkiní" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "JUNIO",
+      "festividades": []
+    },
+    {
+      "nombre": "JULIO",
+      "festividades": []
+    },
+    {
+      "nombre": "AGOSTO",
+      "festividades": []
+    },
+    {
+      "nombre": "SEPTIEMBRE",
+      "festividades": []
+    },
+    {
+      "nombre": "OCTUBRE",
+      "festividades": [
+        {
+          "titulo": "Feria Artesanal y Cultural",
+          "descripcion": "Durante octubre se celebra la Feria Artesanal y Cultural de Calkiní con una gran cantidad de eventos religiosos, culturales y deportivos, principalmente gremios en honor al Santo Cristo de la Misericordia.",
+          "fecha_celebracion": "del 07 al 26 de octubre",
+        "imagen_principal": "lib/assets/images/festividadesCK/fartesanal_principal.jpg",
+        "imagenes": [
+            "lib/assets/images/festividadesCK/fartesanal1.jpg",
+            "lib/assets/images/festividadesCK/fartesanal2.jpg",
+            "lib/assets/images/festividadesCK/fartesanal3.jpg",
+            "lib/assets/images/festividadesCK/fartesanal4.jpg",
+            "lib/assets/images/festividadesCK/fartesanal5.jpg"
+        ],
+          "eventos": [
+            { "dia": "02 de octubre", "evento": "Ruta móvil Omnilife", "hora": "Todo el día", "lugar": "Parque ecológico barrio San Martín" },
+            { "dia": "03 de octubre", "evento": "Gremio de señoras en honor al Santo Cristo", "hora": "Todo el día", "lugar": "C. 16, No. 83 A, Barrio San Juan" },
+            { "dia": "03 de octubre", "evento": "Gremio Sistema de agua potable", "hora": "Todo el día", "lugar": "C.13, Barrio San Juan" },
+            { "dia": "04 de octubre", "evento": "Gremio de locatarios con tardeada", "hora": "Todo el día", "lugar": "C. 16 #100 Barrio Kilakan" },
+            { "dia": "04 de octubre", "evento": "Gremio de abastecedores con tardeada", "hora": "Todo el día", "lugar": "Mercado municipal José del Carmen Cuevas Sierra" },
+            { "dia": "04 de octubre", "evento": "Gremio tricicleros y colaboradores", "hora": "Todo el día", "lugar": "Campo de San Isidro C. 7x 8 S/N" },
+            { "dia": "07 de octubre", "evento": "Gremio de la nueva Unión popular", "hora": "Todo el día", "lugar": "Carretera calle 18x29 entre 31 A, frente al parque ecológico" },
+            { "dia": "09 de octubre", "evento": "Gremio capilla San Luis Conzaga", "hora": "Todo el día", "lugar": "Capilla de San Luis Gonzaga, barrio San Luisito" },
+            { "dia": "09 de octubre", "evento": "Gremio de artesanos y campesinos con tardeada", "hora": "Todo el día", "lugar": "Calle 37, entre 16 A y 18 barrio San Martín" },
+            { "dia": "09 de octubre", "evento": "Gremios tradicionales indígenas con tardeada", "hora": "Todo el día", "lugar": "C. 24 entre 29 y 31 barrio Kilakan" },
+            { "dia": "09 de octubre", "evento": "Gremio capilla barrio de la Concepción", "hora": "Todo el día", "lugar": "Capilla del barrio de la Concepción" },
+            { "dia": "10 de octubre", "evento": "Gremio de Carretilleros y cargadores", "hora": "Todo el día", "lugar": "C. 22 entre 18 y 20 barrio San Luisito" },
+            { "dia": "11 de octubre", "evento": "Gremio de la unión juvenil obrera", "hora": "Todo el día", "lugar": "Calle 13 #93 A barrio San Juan" },
+            { "dia": "14 de octubre", "evento": "Gremio colonia de Fátima con tardeada", "hora": "Todo el día", "lugar": "Parroquia y salón barrio colonia de Fátima" },
+            { "dia": "14 de octubre", "evento": "Gremio de unión campesina", "hora": "Todo el día", "lugar": "Calle 22 S/N frente al teatro Kilakán" },
+            { "dia": "15 de octubre", "evento": "Gremio capilla de San Luis Obispo", "hora": "Todo el día", "lugar": "Plazuela de la capilla de San Luis Obispo" },
+            { "dia": "21 de octubre", "evento": "Evento luz y sonido 'Noche de Halloween'", "hora": "Todo el día", "lugar": "Cancha techada colonia Fátima" },
+            { "dia": "21 de octubre", "evento": "Gremio de agricultores con tardeada", "hora": "Todo el día", "lugar": "Calle 16 S/N barrio San Miguel Kukab" },
+            { "dia": "21 de octubre", "evento": "Gremio capilla barrio San Juan Bautista", "hora": "Todo el día", "lugar": "Capilla barrio San Juan" },
+            { "dia": "22 de octubre", "evento": "Gremio capilla de San Judas Tadeo", "hora": "Todo el día", "lugar": "Capilla de San Judas Tadeo, barrio del ceibo" },
+            { "dia": "22 de octubre", "evento": "Desfile 'Celebremos Campeche 2026'", "hora": "Todo el día", "lugar": "Calle 20 y 15 esquina de la 21" },
+            { "dia": "22 de octubre", "evento": "Evento K'ii wik ko onol pixan", "hora": "Todo el día", "lugar": "Plaza del maestro" },
+            { "dia": "23 de octubre", "evento": "Gremio campesinos y tejedores de palma", "hora": "Todo el día", "lugar": "Calle privada de la 25, barrio Kilakán" },
+            { "dia": "29 de octubre", "evento": "Gremio taxistas con tardeada", "hora": "Todo el día", "lugar": "Sociedad cooperativa de transporte, barrio San Isidro" },
+            { "dia": "29 de octubre", "evento": "Ruta móvil Omnilife MEX", "hora": "Todo el día", "lugar": "Parque ecológico barrio San Martín" },
+            { "dia": "29 de octubre", "evento": "Misa en panteón municipal", "hora": "Todo el día", "lugar": "Cementerio municipal" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "NOVIEMBRE",
+      "festividades": []
+    },
+    {
+      "nombre": "DICIEMBRE",
+      "festividades": []
+    }
+ ]
+}
+
+

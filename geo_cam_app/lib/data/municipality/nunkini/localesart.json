@@ -1,0 +1,91 @@
+{
+  "locales": [
+    {
+      "nombre": "Chiich Efy NK",
+      "direccion": "calle 24, Calkiní, Mexico, 24904",
+      "telefono": "9961048855",
+      "imagen_principal": "lib/assets/images/locales/localesartck/chiich_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/locales/localesartck/chiich1.jpg",
+        "lib/assets/images/locales/localesartck/chiich2.jpg"],
+      "horario": [
+        { "dia": "Lunes", "hora": "9:00 - 19:00" },
+        { "dia": "Martes", "hora": "9:00 - 19:00" },
+        { "dia": "Miércoles", "hora": "9:00 - 19:00" },
+        { "dia": "Jueves", "hora": "9:00 - 19:00" },
+        { "dia": "Viernes", "hora": "9:00 - 19:00" },
+        { "dia": "Sábado", "hora": "9:00 - 17:00" },
+        { "dia": "Domingo", "hora": "9-00 - 15:00" }
+      ],
+      "descripcion": "Con nosotros podrás encontrar: Hamacas, sillas mecedoras, columpios, blusas, bolsas Oaxaqueñas, hilos para hamacas y mucho más.",
+      "lat": 20.3682749588940064,
+      "lng": -90.05549000125808
+    },
+    {
+      "nombre": "YC Naturals",
+      "direccion": "C. 24 49, Fátima, 24900 Calkiní, Camp.",
+      "telefono": "9811377081",
+      "imagen_principal": "lib/assets/images/locales/localesartck/yc_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/locales/localesartck/yc1.jpg",
+        "lib/assets/images/locales/localesartck/yc2.jpg"
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "08:15 - 12:00" },
+        { "dia": "Martes", "hora": "08:15 - 12:00" },
+        { "dia": "Miércoles", "hora": "08:15 - 10:00" },
+        { "dia": "Jueves", "hora": "08:15 - 12:00" },
+        { "dia": "Viernes", "hora": "08:15 - 12:00" },
+        { "dia": "Sábado", "hora": "09:00 - 12:00" },
+        { "dia": "Domingo", "hora": "Cerrado" }
+      ],
+      "descripcion": "Elaboración de productos naturales, jabones artesanales y artículos ecológicos.",
+      "lat": 20.37521190479534,
+      "lng": -90.05378987415341
+    },
+    {
+      "nombre": "Guayaberas y Filipinas Fidelia",
+      "direccion": "San Miguel Kukab, 24900 Calkiní, Camp.",
+      "telefono": "9969639047",
+      "imagen_principal": "lib/assets/images/locales/localesartck/fidelia_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/locales/localesartck/fidelia1.jpg",
+        "lib/assets/images/locales/localesartck/fidelia2.jpg"
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "9:00 - 19:00" },
+        { "dia": "Martes", "hora": "9:00 - 19:00" },
+        { "dia": "Miércoles", "hora": "9:00 - 19:00" },
+        { "dia": "Jueves", "hora": "9:00 - 19:00" },
+        { "dia": "Viernes", "hora": "9:00 - 19:00" },
+        { "dia": "Sábado", "hora": "9:00 - 15:00" },
+        { "dia": "Domingo", "hora": "Cerrado" }
+      ],
+      "descripcion": "Especialistas en guayaberas y filipinas bordadas, con diseños tradicionales y modernos.",
+      "lat": 20.37192385036614,
+      "lng": -90.05059733917837
+    },
+    {
+      "nombre": "Papelería Nicte-Ha",
+      "direccion": "C. 22 86, Fátima, 24902 Calkiní, Camp.",
+      "telefono": "9961131064",
+      "imagen_principal": "lib/assets/images/locales/localesartck/nicte_principal.png",
+      "imagenes": [
+        "lib/assets/images/locales/localesartck/nicte1.jpg",
+        "lib/assets/images/locales/localesartck/nicte2.jpg"
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "9:00 - 20:00" },
+        { "dia": "Martes", "hora": "9:00 - 20:00" },
+        { "dia": "Miércoles", "hora": "9:00 - 20:00" },
+        { "dia": "Jueves", "hora": "9:00 - 20:00" },
+        { "dia": "Viernes", "hora": "9:00 - 20:00" },
+        { "dia": "Sábado", "hora": "9:00 - 20:00" },
+        { "dia": "Domingo", "hora": "9:00 - 20:00" }
+      ],
+      "descripcion": "Papelería local con productos escolares, regalos y artículos artesanales, nos encontramos frente a la normal de profesores.",
+      "lat": 20.374663976771988,
+      "lng": -90.05130815308308
+    }
+  ]
+}
