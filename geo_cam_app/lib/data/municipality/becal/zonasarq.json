@@ -1,61 +1,27 @@
 {
   "zonasarq": [
-    {
-      "nombre": "BECAL",
-      "direccion": "Calkiní, Campeche (cerca de Dzitbalché)",
-      "telefono": "",
-      "imagen_principal": "",
-      "imagenes": [],
+  {
+      "nombre": "Museo de Bécal",
+      "direccion": "C. 30, Pablo García, 24935 Bécal, Camp.",
+      "telefono": " 3317648486",
+      "imagen_principal": "lib/assets/images/BC/museo_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/BC/museo1.jpg",
+        "lib/assets/images/BC/museo2.jpg",
+        "lib/assets/images/BC/museo3.png"
+    ],
       "horario": [
-        { "dia": "Lunes", "hora": "8:00 - 17:00" },
-        { "dia": "Martes", "hora": "8:00 - 17:00" },
-        { "dia": "Miércoles", "hora": "8:00 - 17:00" },
-        { "dia": "Jueves", "hora": "8:00 - 17:00" },
-        { "dia": "Viernes", "hora": "8:00 - 17:00" },
-        { "dia": "Sábado", "hora": "8:00 - 17:00" },
-        { "dia": "Domingo", "hora": "8:00 - 17:00" }
+        { "dia": "Lunes", "hora": "08:30 - 14:30" },
+        { "dia": "Martes", "hora": "Cerrado" },
+        { "dia": "Miércoles", "hora": "08:30 - 14:30" },
+        { "dia": "Jueves", "hora": "08:30 - 14:30" },
+        { "dia": "Viernes", "hora": "08:30 - 14:30" },
+        { "dia": "Sábado", "hora": "Cerrado" },
+        { "dia": "Domingo", "hora": "Cerrado" }
       ],
-      "descripcion": "Sitio arqueológico maya con arquitectura Puuc, famoso por sus inscripciones y estructuras bien conservadas.",
-      "lat": 20.3315,
-      "lng": -90.0890
-    },
-    {
-      "nombre": "Zona Arqueológica de Oxkintok",
-      "direccion": "Cerca de Maxcanú, Yucatán (accesible desde Calkiní)",
-      "telefono": "",
-      "imagen_principal": "",
-      "imagenes": [],
-      "horario": [
-        { "dia": "Lunes", "hora": "8:00 - 17:00" },
-        { "dia": "Martes", "hora": "8:00 - 17:00" },
-        { "dia": "Miércoles", "hora": "8:00 - 17:00" },
-        { "dia": "Jueves", "hora": "8:00 - 17:00" },
-        { "dia": "Viernes", "hora": "8:00 - 17:00" },
-        { "dia": "Sábado", "hora": "8:00 - 17:00" },
-        { "dia": "Domingo", "hora": "8:00 - 17:00" }
-      ],
-      "descripcion": "Antigua ciudad maya con laberintos y estructuras únicas; destaca el edificio Tzat Tun Tzat.",
-      "lat": 20.6050,
-      "lng": -89.8920
-    },
-    {
-      "nombre": "Zona Arqueológica de Santa Rosa Xtampak",
-      "direccion": "Campeche (región cercana a Calkiní)",
-      "telefono": "",
-      "imagen_principal": "",
-      "imagenes": [],
-      "horario": [
-        { "dia": "Lunes", "hora": "8:00 - 17:00" },
-        { "dia": "Martes", "hora": "8:00 - 17:00" },
-        { "dia": "Miércoles", "hora": "8:00 - 17:00" },
-        { "dia": "Jueves", "hora": "8:00 - 17:00" },
-        { "dia": "Viernes", "hora": "8:00 - 17:00" },
-        { "dia": "Sábado", "hora": "8:00 - 17:00" },
-        { "dia": "Domingo", "hora": "8:00 - 17:00" }
-      ],
-      "descripcion": "Importante ciudad maya del estilo Chenes con estructuras monumentales y múltiples niveles.",
-      "lat": 19.8295,
-      "lng": -89.9080
+      "descripcion": "Bienvenidos, servicio excelente.",
+      "lat": 20.43573,
+      "lng": -90.02738
     }
   ]
 }

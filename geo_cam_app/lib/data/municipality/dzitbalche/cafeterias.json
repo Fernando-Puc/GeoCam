@@ -1,0 +1,61 @@
+{
+  "cafeterias": [
+    {
+      "nombre": "Café DZITAS",
+      "direccion": "Centro, Calkiní, Campeche",
+      "telefono": "9961234567",
+      "imagen_principal": "",
+      "imagenes": [],
+      "horario": [
+        { "dia": "Lunes", "hora": "7:00 - 20:00" },
+        { "dia": "Martes", "hora": "7:00 - 20:00" },
+        { "dia": "Miércoles", "hora": "7:00 - 20:00" },
+        { "dia": "Jueves", "hora": "7:00 - 20:00" },
+        { "dia": "Viernes", "hora": "7:00 - 22:00" },
+        { "dia": "Sábado", "hora": "8:00 - 22:00" },
+        { "dia": "Domingo", "hora": "8:00 - 18:00" }
+      ],
+      "descripcion": "Cafetería local con ambiente tradicional y bebidas artesanales.",
+      "lat": 20.3709,
+      "lng": -90.0528
+    },
+    {
+      "nombre": "Coffee Break Calkiní",
+      "direccion": "Calkiní, Campeche",
+      "telefono": "",
+      "imagen_principal": "",
+      "imagenes": [],
+      "horario": [
+        { "dia": "Lunes", "hora": "8:00 - 19:00" },
+        { "dia": "Martes", "hora": "8:00 - 19:00" },
+        { "dia": "Miércoles", "hora": "8:00 - 19:00" },
+        { "dia": "Jueves", "hora": "8:00 - 19:00" },
+        { "dia": "Viernes", "hora": "8:00 - 20:00" },
+        { "dia": "Sábado", "hora": "9:00 - 20:00" },
+        { "dia": "Domingo", "hora": "9:00 - 17:00" }
+      ],
+      "descripcion": "Espacio moderno ideal para reuniones y café de especialidad.",
+      "lat": 20.3725,
+      "lng": -90.0515
+    },
+    {
+      "nombre": "La Taza Feliz",
+      "direccion": "Dzitbalché, Campeche",
+      "telefono": "",
+      "imagen_principal": "",
+      "imagenes": [],
+      "horario": [
+        { "dia": "Lunes", "hora": "7:30 - 18:00" },
+        { "dia": "Martes", "hora": "7:30 - 18:00" },
+        { "dia": "Miércoles", "hora": "7:30 - 18:00" },
+        { "dia": "Jueves", "hora": "7:30 - 18:00" },
+        { "dia": "Viernes", "hora": "7:30 - 19:00" },
+        { "dia": "Sábado", "hora": "8:00 - 19:00" },
+        { "dia": "Domingo", "hora": "8:00 - 16:00" }
+      ],
+      "descripcion": "Cafetería acogedora con repostería casera.",
+      "lat": 20.3187,
+      "lng": -90.0543
+    }
+  ]
+}

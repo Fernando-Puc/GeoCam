@@ -1,0 +1,61 @@
+{
+  "balnearios": [
+    {
+      "nombre": "Balneario DZITAS",
+      "direccion": "Calkiní, Campeche",
+      "telefono": "9969610576",
+      "imagen_principal": "",
+      "imagenes": [],
+      "horario": [
+        { "dia": "Lunes", "hora": "9:00 - 18:00" },
+        { "dia": "Martes", "hora": "9:00 - 18:00" },
+        { "dia": "Miércoles", "hora": "9:00 - 18:00" },
+        { "dia": "Jueves", "hora": "9:00 - 18:00" },
+        { "dia": "Viernes", "hora": "9:00 - 18:00" },
+        { "dia": "Sábado", "hora": "9:00 - 19:00" },
+        { "dia": "Domingo", "hora": "9:00 - 19:00" }
+      ],
+      "descripcion": "Balneario con albercas y ambiente familiar en el centro de Calkiní.",
+      "lat": 20.3710,
+      "lng": -90.0520
+    },
+    {
+      "nombre": "Balneario San Vicente Chuc-Say",
+      "direccion": "Carretera Calkiní - Dzitbalché, Campeche",
+      "telefono": "",
+      "imagen_principal": "",
+      "imagenes": [],
+      "horario": [
+        { "dia": "Lunes", "hora": "8:00 - 17:00" },
+        { "dia": "Martes", "hora": "8:00 - 17:00" },
+        { "dia": "Miércoles", "hora": "8:00 - 17:00" },
+        { "dia": "Jueves", "hora": "8:00 - 17:00" },
+        { "dia": "Viernes", "hora": "8:00 - 17:00" },
+        { "dia": "Sábado", "hora": "8:00 - 18:00" },
+        { "dia": "Domingo", "hora": "8:00 - 18:00" }
+      ],
+      "descripcion": "Balneario con más de 20 albercas, palapas y áreas naturales.",
+      "lat": 20.3495,
+      "lng": -90.0600
+    },
+    {
+      "nombre": "Centro Recreativo Los Naranjos",
+      "direccion": "Barrio La Fátima, Calkiní, Campeche",
+      "telefono": "9969610492",
+      "imagen_principal": "",
+      "imagenes": [],
+      "horario": [
+        { "dia": "Lunes", "hora": "9:00 - 18:00" },
+        { "dia": "Martes", "hora": "9:00 - 18:00" },
+        { "dia": "Miércoles", "hora": "9:00 - 18:00" },
+        { "dia": "Jueves", "hora": "9:00 - 18:00" },
+        { "dia": "Viernes", "hora": "9:00 - 18:00" },
+        { "dia": "Sábado", "hora": "9:00 - 18:00" },
+        { "dia": "Domingo", "hora": "9:00 - 18:00" }
+      ],
+      "descripcion": "Centro recreativo con albercas y áreas familiares.",
+      "lat": 20.3728,
+      "lng": -90.0535
+    }
+  ]
+}

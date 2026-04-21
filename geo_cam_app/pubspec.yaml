@@ -70,6 +70,7 @@ flutter:
     - lib/data/municipality/calkini/
     - lib/data/municipality/becal/
     - lib/data/municipality/dzitbalche/
+    - lib/assets/images/BC/
     - lib/assets/images/DiseñoHF.png
     - lib/assets/images/calkinibtn.png
     - lib/assets/images/becalbtn.jpg
@@ -206,6 +207,7 @@ flutter:
     - lib/assets/images/locales/religiososck/fatima3.jpg
 
     #CAFETERIAS
+    - lib/assets/images/locales/restaurantesck/daju_principal.jpg
     - lib/assets/images/locales/restaurantesck/daju1.jpg
     - lib/assets/images/locales/restaurantesck/daju2.jpg
     - lib/assets/images/locales/restaurantesck/daju3.jpg
@@ -215,14 +217,14 @@ flutter:
     - lib/assets/images/locales/transporteck/ado1.jpg
     - lib/assets/images/locales/transporteck/ado2.jpg
     - lib/assets/images/locales/transporteck/untrac_principal.jpg
-    
+
 
     #BECAL
     - lib/assets/images/festividadesBC/
     
 
     #DZITBALCHE
-
+    - lib/assets/images/festividadesDZ/
 
 
     

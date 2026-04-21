@@ -1,0 +1,175 @@
+{
+  "descripcion_general": "Dzitbalché proviene del idioma maya y se entiende como 'Lugar de los cantares' o 'Ciudad de los cantares', debido a su tradición cultural y literaria. Tiene un origen prehispánico maya y se considera que su fundación ocurrió entre los años 1443 y 1445. Es conocida por su legado literario, especialmente por los 'Cantares de Dzitbalché', una obra importante de la tradición maya.",
+  "meses": [
+    {
+      "nombre": "ENERO",
+      "festividades": []
+    },
+    {
+      "nombre": "FEBRERO",
+      "festividades": [
+        {
+          "titulo": "Carnaval de Dzitbalché 2026 (Pochobes)",
+          "descripcion": "El carnaval en Dzitbalché se caracteriza por los pochobes, grupos de personas principalmente jóvenes que salen a las calles disfrazados con ropa llamativa, pelucas, máscaras o maquillaje exagerado. Su objetivo es animar la fiesta, divertir a la gente y crear un ambiente alegre. Esta tradición tiene raíces culturales profundas relacionadas con antiguas prácticas festivas de origen maya mezcladas con las celebraciones del carnaval colonial.",
+          "fecha_celebracion": "del 06 al 17 de febrero",
+          "imagen_principal": "",
+          "imagenes": [],
+          "eventos": [
+            { "dia": "06 de febrero", "evento": "Coronación de Reyes del carnaval, reyes infantiles, diversidad, CONALEP, discapacidad y adulto mayor", "hora": "Noche", "lugar": "Dzitbalché" },
+            { "dia": "14 de febrero", "evento": "Sábado de bando", "hora": "Por confirmar", "lugar": "Dzitbalché" },
+            { "dia": "15 de febrero", "evento": "Festival de comparsas", "hora": "6:00 p.m.", "lugar": "Dzitbalché" },
+            { "dia": "16 de febrero", "evento": "Concurso de estructuras", "hora": "7:00 p.m.", "lugar": "Dzitbalché" },
+            { "dia": "16 de febrero", "evento": "Baile", "hora": "10:00 p.m.", "lugar": "Dzitbalché" },
+            { "dia": "17 de febrero", "evento": "Martes de pintadera", "hora": "2:00 p.m. - 5:00 p.m.", "lugar": "Dzitbalché" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "MARZO",
+      "festividades": [
+        {
+          "titulo": "Fiesta Tradicional 2026",
+          "descripcion": "La Fiesta Tradicional de Dzitbalché es una celebración que combina eventos taurinos, vaquerías y bailes populares. Durante varios días se realizan corridas de toros y bailes con grupos musicales reconocidos de la región.",
+          "fecha_celebracion": "del 27 al 31 de marzo",
+          "imagen_principal": "",
+          "imagenes": [],
+          "eventos": [
+            { "dia": "27 de marzo", "evento": "Vaquería", "hora": "Noche", "lugar": "Dzitbalché" },
+            { "dia": "28 de marzo", "evento": "Corrida de toros", "hora": "5:30 p.m.", "lugar": "Dzitbalché" },
+            { "dia": "28 de marzo", "evento": "Baile", "hora": "Noche", "lugar": "Dzitbalché" },
+            { "dia": "29 de marzo", "evento": "Corrida de toros", "hora": "5:30 p.m.", "lugar": "Dzitbalché" },
+            { "dia": "29 de marzo", "evento": "Baile", "hora": "Noche", "lugar": "Dzitbalché" },
+            { "dia": "30 de marzo", "evento": "Espectáculo cómico-taurino", "hora": "5:30 p.m.", "lugar": "Dzitbalché" },
+            { "dia": "30 de marzo", "evento": "Baile", "hora": "Noche", "lugar": "Dzitbalché" },
+            { "dia": "31 de marzo", "evento": "Baile tarde", "hora": "Tarde", "lugar": "Dzitbalché" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "ABRIL",
+      "festividades": []
+    },
+    {
+      "nombre": "MAYO",
+      "festividades": []
+    },
+    {
+      "nombre": "JUNIO",
+      "festividades": []
+    },
+    {
+      "nombre": "JULIO",
+      "festividades": [
+        {
+          "titulo": "Inicio del Novenario de la Virgen de la Asunción",
+          "descripcion": "A finales de julio inicia el novenario de la Virgen de la Asunción con la Coronación de la Reina Patronal y la bajada de la imagen desde su nicho hasta el altar principal, donde permanece durante varios días.",
+          "fecha_celebracion": "del 29 al 31 de julio",
+          "imagen_principal": "",
+          "imagenes": [],
+          "eventos": [
+            { "dia": "29 de julio", "evento": "Coronación de la Reina Patronal", "hora": "Por confirmar", "lugar": "Iglesia" },
+            { "dia": "30 de julio", "evento": "Bajada de la imagen", "hora": "Por confirmar", "lugar": "Iglesia" },
+            { "dia": "31 de julio", "evento": "Gremio Unión Fraternal", "hora": "Por confirmar", "lugar": "San Felipe" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "AGOSTO",
+      "festividades": [
+        {
+          "titulo": "Novenario de la Virgen de la Asunción (Fiesta Patronal)",
+          "descripcion": "El origen de esta venerada imagen se remonta al año de 1826, cuando fue esculpida por Manuel Escalante. En 1963 se llevó a cabo su coronación por el obispo de Campeche, Alberto Mendoza y Bedolla, proclamándola como 'Reina y Señora de Dzitbalché'. El día más importante es el 15 de agosto, fecha en que se conmemora la Asunción de María con una gran procesión, cantos, flores, repique de campanas y fuegos artificiales.",
+          "fecha_celebracion": "del 01 al 24 de agosto\n(día principal 15 de agosto)",
+          "imagen_principal": "",
+          "imagenes": [],
+          "eventos": [
+            { "dia": "01 de agosto", "evento": "Gremio Dinámica matrimonial", "hora": "Por confirmar", "lugar": "Barrio Pulyaxche" },
+            { "dia": "02 de agosto", "evento": "Gremio Niños y catequistas", "hora": "Por confirmar", "lugar": "Confecciones Camaal" },
+            { "dia": "03 de agosto", "evento": "Gremio Acólitos", "hora": "Por confirmar", "lugar": "Barrio La Estrella" },
+            { "dia": "04 de agosto", "evento": "Gremio Círculo bíblico", "hora": "Por confirmar", "lugar": "San Pastor" },
+            { "dia": "05 de agosto", "evento": "Gremio Comedor San Vicente", "hora": "Por confirmar", "lugar": "Centro" },
+            { "dia": "06 de agosto", "evento": "Gremio Juventud católica", "hora": "Por confirmar", "lugar": "San Mateo" },
+            { "dia": "07 de agosto", "evento": "Gremio Profesionistas", "hora": "Por confirmar", "lugar": "San José" },
+            { "dia": "08 de agosto", "evento": "Gremio Damas católicas", "hora": "Por confirmar", "lugar": "San Román" },
+            { "dia": "09 de agosto", "evento": "Gremio Caballeros de María", "hora": "Por confirmar", "lugar": "San Feliciano" },
+            { "dia": "10 de agosto", "evento": "Gremio Corte de María", "hora": "Por confirmar", "lugar": "San Felipe" },
+            { "dia": "11 de agosto", "evento": "Gremio Unión de campesinos", "hora": "Por confirmar", "lugar": "San Pedro" },
+            { "dia": "12 de agosto", "evento": "Gremio Señoras mestizas", "hora": "Por confirmar", "lugar": "Frente del mercado" },
+            { "dia": "13 de agosto", "evento": "Gremio Jóvenes y señoritas", "hora": "Por confirmar", "lugar": "San José" },
+            { "dia": "14 de agosto", "evento": "Gremio Unión obrera", "hora": "Por confirmar", "lugar": "Barrio Pulyaxche" },
+            { "dia": "15 de agosto", "evento": "Día principal - Procesión de la Virgen de la Asunción", "hora": "Todo el día", "lugar": "Calles del pueblo e Iglesia" },
+            { "dia": "16 de agosto", "evento": "Gremio Juvenil obrera", "hora": "Por confirmar", "lugar": "Conchén" },
+            { "dia": "17 de agosto", "evento": "Gremio Niños fam. Pech Sosa", "hora": "Por confirmar", "lugar": "San José" },
+            { "dia": "18 de agosto", "evento": "Gremio Carreteros del campo", "hora": "Por confirmar", "lugar": "San Francisco" },
+            { "dia": "19 de agosto", "evento": "Gremio Abastecedores", "hora": "Por confirmar", "lugar": "San Pedro" },
+            { "dia": "20 de agosto", "evento": "Gremio Flor de maíz", "hora": "Por confirmar", "lugar": "San Mateo" },
+            { "dia": "21 de agosto", "evento": "Gremio Barrio Alameda", "hora": "Por confirmar", "lugar": "Alameda" },
+            { "dia": "22 de agosto", "evento": "Gremio Liturgia y esc. de evangelización", "hora": "Por confirmar", "lugar": "San Pastor" },
+            { "dia": "23 de agosto", "evento": "Gremio Flor de María", "hora": "Por confirmar", "lugar": "San Felipe" },
+            { "dia": "24 de agosto", "evento": "Subida de la imagen", "hora": "5:00 a.m. / 10:00 a.m. / 6:00 p.m.", "lugar": "Iglesia" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "SEPTIEMBRE",
+      "festividades": []
+    },
+  {
+  "nombre": "OCTUBRE",
+  "festividades": [
+    {
+      "titulo": "Aniversario de Dzitbalché como Ciudad",
+      "descripcion": "Dzitbalché recibió el rango de ciudad el 11 de octubre de 2001 por decreto del Congreso de Campeche. Su fundación se remonta a los años de 1443-1445 por los mayas. Cada año se celebra este aniversario con homenajes cívicos, jaranas, vaquerías y juegos deportivos.",
+      "fecha_celebracion": "del 11 al 13 de octubre",
+      "imagen_principal": "",
+      "imagenes": [],
+      "eventos": [
+        { "dia": "11 de octubre", "evento": "Homenaje cívico", "hora": "8:00 a.m.", "lugar": "Dzitbalché" },
+        { "dia": "11 de octubre", "evento": "Jarana Cabeza de cochino", "hora": "7:00 p.m.", "lugar": "Dzitbalché" },
+        { "dia": "11 de octubre", "evento": "Vaquería", "hora": "9:00 p.m.", "lugar": "Dzitbalché" },
+        { "dia": "12 de octubre", "evento": "Inauguración de juegos deportivos", "hora": "9:00 a.m.", "lugar": "Dzitbalché" },
+        { "dia": "12 de octubre", "evento": "Baile popular", "hora": "10:00 p.m.", "lugar": "Dzitbalché" },
+        { "dia": "13 de octubre", "evento": "Palo encebado y cochino encebado", "hora": "5:00 p.m.", "lugar": "Dzitbalché" },
+        { "dia": "13 de octubre", "evento": "Clausura del aniversario con baile", "hora": "Por confirmar", "lugar": "Dzitbalché" }
+      ]
+    },
+    {
+      "titulo": "Hanal Pixán (Inicio)",
+      "descripcion": "Inicio de las festividades del Hanal Pixán con la preparación de altares y la bienvenida a las almas.",
+      "fecha_celebracion": "del 27 al 31 de octubre",
+      "imagen_principal": "",
+      "imagenes": [],
+      "eventos": [
+        { "dia": "27 de octubre", "evento": "Bienvenida a las almas de los niños - preparación de altares", "hora": "Por confirmar", "lugar": "Hogares de Dzitbalché" },
+        { "dia": "28 y 29 de octubre", "evento": "Ofrendas a las ánimas olvidadas o solitarias", "hora": "Por confirmar", "lugar": "Hogares de Dzitbalché" },
+        { "dia": "30 y 31 de octubre", "evento": "Honrar a los adultos fallecidos con pibipollo, tamales y bebidas típicas", "hora": "Por confirmar", "lugar": "Hogares de Dzitbalché" }
+      ]
+    }
+    ]
+  },
+  {
+    "nombre": "NOVIEMBRE",
+    "festividades": [
+      {
+        "titulo": "Hanal Pixán (Cierre)",
+        "descripcion": "Cierre de las festividades del Hanal Pixán con visitas al cementerio, misas y convivencias familiares.",
+        "fecha_celebracion": "1 y 2 de noviembre",
+        "imagen_principal": "",
+        "imagenes": [],
+        "eventos": [
+          { "dia": "01 de noviembre", "evento": "Visita al cementerio - Día de Todos los Santos", "hora": "Por confirmar", "lugar": "Cementerio de Dzitbalché" },
+          { "dia": "02 de noviembre", "evento": "Misas, rezos y convivencias - Día de los Fieles Difuntos", "hora": "Por confirmar", "lugar": "Dzitbalché" }
+        ]
+      }
+    ]
+  },
+    {
+      "nombre": "DICIEMBRE",
+      "festividades": []
+    }
+  ]
+}

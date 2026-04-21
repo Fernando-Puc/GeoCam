@@ -17,7 +17,7 @@ class _BalneariosState extends State<Balnearios> {
   List<dynamic> balnearios = [];
   bool isLoading = true;
   int? _expandedIndex;
-  Map<int, bool> _favoritos = {};
+  final Map<int, bool> _favoritos = {};
 
   @override
   void initState() {

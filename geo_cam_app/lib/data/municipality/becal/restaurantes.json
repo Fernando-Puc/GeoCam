@@ -1,113 +1,50 @@
 {
   "restaurantes": [
-    {
-      "nombre": "BECAL",
-      "direccion": "Carr. Costera del Golfo 18, Guadalupe, 24903 Calkiní, Camp.",
-      "telefono": "9811752861",
-      "imagen_principal": "lib/assets/images/locales/restaurantesck/palapa_principal.jpg",
+{
+      "nombre": "Restaurante Maríte",
+      "direccion": "C. 18 entre 29, Sta Cruz, 24935 Bécal, Camp.",
+      "telefono": "9990012812",
+      "imagen_principal": "lib/assets/images/BC/marite_principal.webp",
       "imagenes": [
-        "lib/assets/images/locales/restaurantesck/palapa1.jpg",
-        "lib/assets/images/locales/restaurantesck/palapa2.jpg"
+        "lib/assets/images/BC/marite1.jpg",
+        "lib/assets/images/BC/marite2.jpg",
+        "lib/assets/images/BC/marite3.jpg"
       ],
       "horario": [
-        { "dia": "Lunes", "hora": "7:30 - 18:00" },
-        { "dia": "Martes", "hora": "7:30 - 18:00" },
-        { "dia": "Miércoles", "hora": "7:30 - 18:00" },
-        { "dia": "Jueves", "hora": "7:30 - 18:00" },
-        { "dia": "Viernes", "hora": "7:30 - 18:00" },
-        { "dia": "Sábado", "hora": "7:30 - 18:00" },
-        { "dia": "Domingo", "hora": "cerrado" }
+        { "dia": "Lunes", "hora": "Cerrado" },
+        { "dia": "Martes", "hora": "10:00 - 18:00" },
+        { "dia": "Miércoles", "hora": "10:00 - 18:00" },
+        { "dia": "Jueves", "hora": "10:00 - 18:00" },
+        { "dia": "Viernes", "hora": "10:00 - 13:00" },
+        { "dia": "Sábado", "hora": " 10:00 - 13:00" },
+        { "dia": "Domingo", "hora": "10:00 - 13:00" }
       ],
-      "descripcion": "Somos un grupo de trabajadores comprometidos a dar un excelente servicio. Contamos con facturación.",
-      "lat": 20.367508046228558,
-      "lng": -90.0397623198464
+      "descripcion": "Abierto a partir de las 10 a.m.",
+      "lat": 20.44433,
+      "lng": -90.01884
     },
     {
-      "nombre": "Restaurante El Nuevo Oasis",
-      "direccion": "C. 20 entre 15 Y 17, Centro, 24900 Calkiní, Camp.",
-      "telefono": "9961097673",
-      "imagen_principal": "lib/assets/images/locales/restaurantesck/oasis_principal.jpg",
+      "nombre": "Marea - Mariscos y más",
+      "direccion": "C. 30, San Diego, 24936 Bécal, Camp.",
+      "telefono": " 9817504099",
+      "imagen_principal": "lib/assets/images/BC/marea_principal.webp",
       "imagenes": [
-        "lib/assets/images/locales/restaurantesck/oasis1.jpg",
-        "lib/assets/images/locales/restaurantesck/oasis2.jpg"],
-
+        "lib/assets/images/BC/marea1.jpg",
+        "lib/assets/images/BC/marea1.jpg",
+        "lib/assets/images/BC/marea2.jpg"
+      ],
       "horario": [
-        { "dia": "Lunes", "hora": "13:00 - 19:00" },
-        { "dia": "Martes", "hora": "13:00 - 19:00" },
-        { "dia": "Miércoles", "hora": "13:00 - 19:00" },
-        { "dia": "Jueves", "hora": "13:00 - 19:00" },
-        { "dia": "Viernes", "hora": "13:00 - 19:00" },
-        { "dia": "Sábado", "hora": "13:00 - 19:00" },
-        { "dia": "Domingo", "hora": "13:00 - 19:00" }
+        { "dia": "Lunes", "hora": "Cerrado" },
+        { "dia": "Martes", "hora": "Cerrado" },
+        { "dia": "Miércoles", "hora": "Cerrado" },
+        { "dia": "Jueves", "hora": "Cerrado" },
+        { "dia": "Viernes", "hora": "12:00 - 17:00" },
+        { "dia": "Sábado", "hora": "12:00 - 17:00" },
+        { "dia": "Domingo", "hora": "12:00 - 17:00" }
       ],
-      "descripcion": "Restaurante 100% familiar. Nuestro menú, es sencillo pero delicioso, con carnes, camarones, filetes.",
-      "lat": 20.37149488181971,
-      "lng": -90.05022414369569
-    },
-    {
-      "nombre": "SuperPizza",
-      "direccion": "C. 23 s/n-por 20 y 18, San Miguel Kukab, 24900 Calkiní, Camp.",
-      "telefono": "9966881105",
-      "imagen_principal": "lib/assets/images/locales/restaurantesck/superp_principal.jpg",
-      "imagenes": [
-        "lib/assets/images/locales/restaurantesck/superp1.jpg",
-        "lib/assets/images/locales/restaurantesck/superp2.jpg"],
-      "horario": [
-        { "dia": "Lunes", "hora": "11:00 - 23:30" },
-        { "dia": "Martes", "hora": "11:00 - 23:30" },
-        { "dia": "Miércoles", "hora": "11:00 - 23:30" },
-        { "dia": "Jueves", "hora": "11:00 - 23:30" },
-        { "dia": "Viernes", "hora": "11:00 - 23:30" },
-        { "dia": "Sábado", "hora": "11:00 - 23:30"},
-        { "dia": "Domingo", "hora": "11:00 - 23:30" }
-      ],
-      "descripcion": "Super Pizza La Mejor Hecha Para Compartir.",
-      "lat": 20.36837721554963,
-      "lng": -90.05070255376516
-    },
-    {
-      "nombre": "Bon Appetit",
-      "direccion": "San Miguel Kukab, 24903 Calkiní, Camp.",
-      "telefono": "9961094003",
-      "imagen_principal": "lib/assets/images/locales/restaurantesck/bon_principal.jpg",
-      "imagenes": [
-        "lib/assets/images/locales/restaurantesck/bon1.jpg",
-        "lib/assets/images/locales/restaurantesck/bon2.jpg"
-    ],
-      "horario": [
-        { "dia": "Lunes", "hora": "08:00 - 23:30" },
-        { "dia": "Martes", "hora": "08:00 - 23:30" },
-        { "dia": "Miércoles", "hora": "08:00 - 23:30" },
-        { "dia": "Jueves", "hora": "08:00 - 23:30" },
-        { "dia": "Viernes", "hora": "08:00 - 23:30" },
-        { "dia": "Sábado", "hora": "08:00 - 23:30"},
-        { "dia": "Domingo", "hora": "08:00 - 23:30" }
-      ],
-      "descripcion": "Un café, buena comida y momentos que se quedan.",
-      "lat": 20.369816851187988,
-      "lng": -90.0510146763022
-    },
-    {
-      "nombre": "Restaurante Isla Arena",
-      "direccion": "24902, C. 9 6221, Fátima, Calkiní, Camp.",
-      "telefono": "9969611436",
-      "imagen_principal": "lib/assets/images/locales/restaurantesck/isla_principal.jpg",
-      "imagenes": [
-        "lib/assets/images/locales/restaurantesck/isla1.jpg",
-        "lib/assets/images/locales/restaurantesck/isla2.jpg"
-      ],
-     "horario": [
-        { "dia": "Lunes", "hora": "cerrado" },
-        { "dia": "Martes", "hora": "cerrado" },
-        { "dia": "Miércoles", "hora": "cerrado" },
-        { "dia": "Jueves", "hora": "11:30 - 18:30" },
-        { "dia": "Viernes", "hora": "11:30 - 18:30" },
-        { "dia": "Sábado", "hora": "11:30 - 18:30"},
-        { "dia": "Domingo", "hora": "11:30 - 18:30" }
-      ],
-      "descripcion": "Un sitio excelente para comer pescados y mariscos frescos.",
-      "lat": 20.378081345677124,
-      "lng": -90.05645210380386
+      "descripcion": "Servicio solo los viernes sabados y domingos",
+      "lat": 20.43030,
+      "lng": -90.02946
     }
   ]
 }

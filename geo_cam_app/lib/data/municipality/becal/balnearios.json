@@ -1,61 +1,67 @@
 {
   "balnearios": [
     {
-      "nombre": "Balneario BECAL",
-      "direccion": "Calkiní, Campeche",
-      "telefono": "9969610576",
-      "imagen_principal": "",
-      "imagenes": [],
+      "nombre": "Balneario San Rafael",
+      "direccion": "Calle 33, Bécal, Campeche,Mexico, 24903",
+      "telefono": "Reserva en el lugar",
+      "imagen_principal": "lib/assets/images/BC/sanrafael_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/BC/sanrafael1.jpg",
+        "lib/assets/images/BC/sanrafael2.jpg",
+        "lib/assets/images/BC/sanrafael3.jpg"],
       "horario": [
-        { "dia": "Lunes", "hora": "9:00 - 18:00" },
-        { "dia": "Martes", "hora": "9:00 - 18:00" },
-        { "dia": "Miércoles", "hora": "9:00 - 18:00" },
-        { "dia": "Jueves", "hora": "9:00 - 18:00" },
-        { "dia": "Viernes", "hora": "9:00 - 18:00" },
-        { "dia": "Sábado", "hora": "9:00 - 19:00" },
-        { "dia": "Domingo", "hora": "9:00 - 19:00" }
+        { "dia": "Lunes", "hora": "Abierto" },
+        { "dia": "Martes", "hora": "Abierto" },
+        { "dia": "Miércoles", "hora": "Abierto" },
+        { "dia": "Jueves", "hora": "Abierto" },
+        { "dia": "Viernes", "hora": "Abierto" },
+        { "dia": "Sábado", "hora": "Abierto" },
+        { "dia": "Domingo", "hora": "Abierto" }
       ],
-      "descripcion": "Balneario con albercas y ambiente familiar en el centro de Calkiní.",
-      "lat": 20.3710,
-      "lng": -90.0520
+      "descripcion": "Horario no especificado, pero abierto todo el dia.",
+      "lat": 20.44001,
+      "lng": -90.01468
     },
-    {
-      "nombre": "Balneario San Vicente Chuc-Say",
-      "direccion": "Carretera Calkiní - Dzitbalché, Campeche",
-      "telefono": "",
-      "imagen_principal": "",
-      "imagenes": [],
+        {
+      "nombre": "Balneario los panchos",
+      "direccion": "C. Vigésimo Octava 197, Carlos Rivas, 24934 Bécal, Camp.",
+      "telefono": "9961443713",
+      "imagen_principal": "lib/assets/images/BC/panchos_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/BC/pancho1.jpg",
+        "lib/assets/images/BC/pancho2.jpg",
+        "lib/assets/images/BC/pancho3.jpg"],
       "horario": [
-        { "dia": "Lunes", "hora": "8:00 - 17:00" },
-        { "dia": "Martes", "hora": "8:00 - 17:00" },
-        { "dia": "Miércoles", "hora": "8:00 - 17:00" },
-        { "dia": "Jueves", "hora": "8:00 - 17:00" },
-        { "dia": "Viernes", "hora": "8:00 - 17:00" },
-        { "dia": "Sábado", "hora": "8:00 - 18:00" },
-        { "dia": "Domingo", "hora": "8:00 - 18:00" }
+        { "dia": "Lunes", "hora": "Cerrado" },
+        { "dia": "Martes", "hora": "Cerrado" },
+        { "dia": "Miércoles", "hora": "Cerrado" },
+        { "dia": "Jueves", "hora": "Cerrado" },
+        { "dia": "Viernes", "hora": "No especificado" },
+        { "dia": "Sábado", "hora": "No especificado" },
+        { "dia": "Domingo", "hora": "No especificado" }
       ],
-      "descripcion": "Balneario con más de 20 albercas, palapas y áreas naturales.",
-      "lat": 20.3495,
-      "lng": -90.0600
+      "descripcion": "Horario no especificado, pero abierto todo el dia.",
+      "lat": 20.433894227445464, 
+      "lng": -90.02554889429061
     },
-    {
-      "nombre": "Centro Recreativo Los Naranjos",
-      "direccion": "Barrio La Fátima, Calkiní, Campeche",
-      "telefono": "9969610492",
-      "imagen_principal": "",
-      "imagenes": [],
+            {
+      "nombre": "Balneario El Chapuzón",
+      "direccion": "C. 22 215, Zona Centro, 24900 Bécal, Camp.",
+      "telefono": "Reserva en el lugar",
+      "imagen_principal": "lib/assets/images/BC/chapuzon_principal.jpg",
+      "imagenes": ["lib/assets/images/BC/chapuzon1.jpg"],
       "horario": [
-        { "dia": "Lunes", "hora": "9:00 - 18:00" },
-        { "dia": "Martes", "hora": "9:00 - 18:00" },
-        { "dia": "Miércoles", "hora": "9:00 - 18:00" },
-        { "dia": "Jueves", "hora": "9:00 - 18:00" },
-        { "dia": "Viernes", "hora": "9:00 - 18:00" },
-        { "dia": "Sábado", "hora": "9:00 - 18:00" },
-        { "dia": "Domingo", "hora": "9:00 - 18:00" }
+        { "dia": "Lunes", "hora": "Cerrado" },
+        { "dia": "Martes", "hora": "Cerrado" },
+        { "dia": "Miércoles", "hora": "Cerrado" },
+        { "dia": "Jueves", "hora": "Cerrado" },
+        { "dia": "Viernes", "hora": "No especificado" },
+        { "dia": "Sábado", "hora": "No especificado" },
+        { "dia": "Domingo", "hora": "No especificado" }
       ],
-      "descripcion": "Centro recreativo con albercas y áreas familiares.",
-      "lat": 20.3728,
-      "lng": -90.0535
+      "descripcion": "Horario no especificado, pero abierto todo el dia.",
+      "lat": 20.448727101276777,
+      "lng": -90.02520598058597
     }
   ]
 }
