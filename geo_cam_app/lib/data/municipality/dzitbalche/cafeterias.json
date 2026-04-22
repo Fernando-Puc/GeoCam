@@ -1,61 +1,74 @@
 {
   "cafeterias": [
     {
-      "nombre": "Café DZITAS",
-      "direccion": "Centro, Calkiní, Campeche",
-      "telefono": "9961234567",
-      "imagen_principal": "",
-      "imagenes": [],
-      "horario": [
-        { "dia": "Lunes", "hora": "7:00 - 20:00" },
-        { "dia": "Martes", "hora": "7:00 - 20:00" },
-        { "dia": "Miércoles", "hora": "7:00 - 20:00" },
-        { "dia": "Jueves", "hora": "7:00 - 20:00" },
-        { "dia": "Viernes", "hora": "7:00 - 22:00" },
-        { "dia": "Sábado", "hora": "8:00 - 22:00" },
-        { "dia": "Domingo", "hora": "8:00 - 18:00" }
+      "nombre": "Sanferino Café",
+      "direccion": "CC. 17 sn, entre 16 y 18, San Pastor, 24920 Dzitbalché, Camp.",
+      "telefono": "9969639642",
+      "imagen_principal": "lib/assets/images/DZ/sanferino_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/DZ/sanferino1.png",
+        "lib/assets/images/DZ/sanferino2.png",
+        "lib/assets/images/DZ/sanferino3.jpg"
+
       ],
-      "descripcion": "Cafetería local con ambiente tradicional y bebidas artesanales.",
-      "lat": 20.3709,
-      "lng": -90.0528
+      "horario": [
+        { "dia": "Lunes", "hora": "Cerrado" },
+        { "dia": "Martes", "hora": "18:30 - 23:30" },
+        { "dia": "Miércoles", "hora": "Cerrado" },
+        { "dia": "Jueves", "hora": "18:30 - 23:30" },
+        { "dia": "Viernes", "hora": "Cerrado" },
+        { "dia": "Sábado", "hora": "18:30 - 23:30" },
+        { "dia": "Domingo", "hora": "18:30 - 23:30" }
+      ],
+      "descripcion": "El clima perfecto para quedarte con nosotros un rato más, ofrecemos Frappes, Cafés, Hamburguesas, Papas, Bonneles y más",
+      "lat": 20.316824477012613, 
+      "lng": -90.06035057458078
     },
     {
-      "nombre": "Coffee Break Calkiní",
-      "direccion": "Calkiní, Campeche",
-      "telefono": "",
-      "imagen_principal": "",
-      "imagenes": [],
-      "horario": [
-        { "dia": "Lunes", "hora": "8:00 - 19:00" },
-        { "dia": "Martes", "hora": "8:00 - 19:00" },
-        { "dia": "Miércoles", "hora": "8:00 - 19:00" },
-        { "dia": "Jueves", "hora": "8:00 - 19:00" },
-        { "dia": "Viernes", "hora": "8:00 - 20:00" },
-        { "dia": "Sábado", "hora": "9:00 - 20:00" },
-        { "dia": "Domingo", "hora": "9:00 - 17:00" }
+      "nombre": "Cafetería El Abuelo",
+      "direccion": "Tienda la adelita, San Román, 24920 Dzitbalché, Camp.",
+      "telefono": "9961059860",
+      "imagen_principal": "lib/assets/images/DZ/abuelo_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/DZ/abuelo1.jpg",
+        "lib/assets/images/DZ/abuelo2.jpg",
+        "lib/assets/images/DZ/abuelo3.jpg"
       ],
-      "descripcion": "Espacio moderno ideal para reuniones y café de especialidad.",
-      "lat": 20.3725,
-      "lng": -90.0515
+      "horario": [
+        { "dia": "Lunes", "hora": "Cerrado" },
+        { "dia": "Martes", "hora": "Cerrado" },
+        { "dia": "Miércoles", "hora": "Cerrado" },
+        { "dia": "Jueves", "hora": "Cerrado" },
+        { "dia": "Viernes", "hora": "19:00 - 24:00" },
+        { "dia": "Sábado", "hora": "19:00 - 24:00" },
+        { "dia": "Domingo", "hora": "19:00 - 24:00" }
+      ],
+      "descripcion": "Un rincón de música, relajación, cordial ambiente, buena comida y para unas hermosas fotos,nos ubicamos en Dzitbalche calle 18 entre 27 y 29 una esquina antes de ir a san Roman casa con 2 portones azules y casa amarilla con franjas rojas",
+      "lat": 20.324808119381025, 
+      "lng": -90.05736128614112
     },
     {
-      "nombre": "La Taza Feliz",
-      "direccion": "Dzitbalché, Campeche",
-      "telefono": "",
-      "imagen_principal": "",
-      "imagenes": [],
-      "horario": [
-        { "dia": "Lunes", "hora": "7:30 - 18:00" },
-        { "dia": "Martes", "hora": "7:30 - 18:00" },
-        { "dia": "Miércoles", "hora": "7:30 - 18:00" },
-        { "dia": "Jueves", "hora": "7:30 - 18:00" },
-        { "dia": "Viernes", "hora": "7:30 - 19:00" },
-        { "dia": "Sábado", "hora": "8:00 - 19:00" },
-        { "dia": "Domingo", "hora": "8:00 - 16:00" }
+      "nombre": "Bubble Brew",
+      "direccion": "Calle 18 entre 29 y 31 barrio San Felipe , Dzitbalché, Mexico",
+      "telefono": "9844409636",
+      "imagen_principal": "lib/assets/images/DZ/brew_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/DZ/brew1.jpg",
+        "lib/assets/images/DZ/brew2.jpg",
+        "lib/assets/images/DZ/brew3.jpg"
       ],
-      "descripcion": "Cafetería acogedora con repostería casera.",
-      "lat": 20.3187,
-      "lng": -90.0543
+      "horario": [
+        { "dia": "Lunes", "hora": "Cerrado" },
+        { "dia": "Martes", "hora": "Cerrado" },
+        { "dia": "Miércoles", "hora": "18:30 - 23:30"  },
+        { "dia": "Jueves", "hora": "18:30 - 23:30" },
+        { "dia": "Viernes", "hora": "18:30 - 23:30" },
+        { "dia": "Sábado", "hora": "18:30 - 23:30" },
+        { "dia": "Domingo", "hora": "18:30 - 23:30" }
+      ],
+      "descripcion": "En Bubble Brew encontrarás bebidas y antojitos preparados al momento: frappés, lattes fríos y calientes, sodas italianas y Bling Bling, café, hamburguesas, boneless, papas, tostitos y más. Tu estilo, tu antojo, tu Bubble Brew.",
+      "lat": 20.325648618236258,
+      "lng": -90.057036625514
     }
   ]
 }

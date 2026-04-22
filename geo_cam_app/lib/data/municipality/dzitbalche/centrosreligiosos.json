@@ -1,11 +1,15 @@
 {
   "centrosreligiosos": [
     {
-      "nombre": "Parroquia DZITAS",
-      "direccion": "Centro, Calkiní, Campeche",
-      "telefono": "9969610045",
-      "imagen_principal": "",
-      "imagenes": [],
+      "nombre": "Parroquia de la Asunción de María",
+      "direccion": "C. 20 70, Zona Centro, 24920 Dzitbalché, Camp.",
+      "telefono": "9964310138",
+      "imagen_principal": "lib/assets/images/DZ/maria_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/DZ/maria1.jpg",
+        "lib/assets/images/DZ/maria2.jpg",
+        "lib/assets/images/DZ/maria3.jpg"
+      ],
       "horario": [
         { "dia": "Lunes", "hora": "7:00 - 19:00" },
         { "dia": "Martes", "hora": "7:00 - 19:00" },
@@ -15,47 +19,9 @@
         { "dia": "Sábado", "hora": "7:00 - 20:00" },
         { "dia": "Domingo", "hora": "7:00 - 20:00" }
       ],
-      "descripcion": "Iglesia principal de Calkiní, dedicada a San Luis Obispo, con arquitectura colonial.",
-      "lat": 20.3708,
-      "lng": -90.0525
-    },
-    {
-      "nombre": "Iglesia de la Virgen de la Asunción",
-      "direccion": "Dzitbalché, Campeche",
-      "telefono": "",
-      "imagen_principal": "",
-      "imagenes": [],
-      "horario": [
-        { "dia": "Lunes", "hora": "7:00 - 18:00" },
-        { "dia": "Martes", "hora": "7:00 - 18:00" },
-        { "dia": "Miércoles", "hora": "7:00 - 18:00" },
-        { "dia": "Jueves", "hora": "7:00 - 18:00" },
-        { "dia": "Viernes", "hora": "7:00 - 18:00" },
-        { "dia": "Sábado", "hora": "7:00 - 19:00" },
-        { "dia": "Domingo", "hora": "7:00 - 19:00" }
-      ],
-      "descripcion": "Templo religioso importante en la comunidad de Dzitbalché.",
-      "lat": 20.3185,
-      "lng": -90.0540
-    },
-    {
-      "nombre": "Capilla de Guadalupe",
-      "direccion": "Calkiní, Campeche",
-      "telefono": "",
-      "imagen_principal": "",
-      "imagenes": [],
-      "horario": [
-        { "dia": "Lunes", "hora": "8:00 - 18:00" },
-        { "dia": "Martes", "hora": "8:00 - 18:00" },
-        { "dia": "Miércoles", "hora": "8:00 - 18:00" },
-        { "dia": "Jueves", "hora": "8:00 - 18:00" },
-        { "dia": "Viernes", "hora": "8:00 - 18:00" },
-        { "dia": "Sábado", "hora": "8:00 - 18:00" },
-        { "dia": "Domingo", "hora": "8:00 - 18:00" }
-      ],
-      "descripcion": "Capilla dedicada a la Virgen de Guadalupe, punto de reunión comunitario.",
-      "lat": 20.3720,
-      "lng": -90.0510
+      "descripcion": "Iglesia principal de Dzitbalche.",
+      "lat": 20.319822499835688, 
+      "lng": -90.05632465692464
     }
   ]
 }
