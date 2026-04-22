@@ -1,0 +1,24 @@
+{
+  "transporte": [
+    {
+      "nombre": "Sitio de taxis Sahcabchen",
+      "direccion": "C. 18, Zona Centro, 24920 Dzitbalché, Camp.",
+      "telefono": "9818153035",
+      "imagen_principal": "lib/assets/images/DZ/taxi_principal.jpg",
+      "imagenes": [
+      ],
+    "horario": [
+        { "dia": "Lunes", "hora": "5:00 - 22:00" },
+        { "dia": "Martes", "hora": "5:00 - 22:00" },
+        { "dia": "Miércoles", "hora": "5:00 - 22:00" },
+        { "dia": "Jueves", "hora": "5:00 - 22:00" },
+        { "dia": "Viernes", "hora": "5:00 - 22:00" },
+        { "dia": "Sábado", "hora": "5:00 - 22:00" },
+        { "dia": "Domingo", "hora": "6:00 - 20:00" }
+      ],
+      "descripcion": "Servicio de taxis disponible en Dzitbalché.",
+      "lat": 20.320401809769837, 
+      "lng": -90.0576697199793
+    }
+  ]
+}

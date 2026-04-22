@@ -1,0 +1,73 @@
+{
+  "balnearios": [
+    {
+      "nombre": "La Palapa del Pich",
+      "direccion": "C. 20 222, Santa Rosalía, 24920 Dzitbalché, Camp.",
+      "telefono": "9961094092",
+      "imagen_principal": "lib/assets/images/DZ/palapa_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/DZ/palapa1.jpg",
+        "lib/assets/images/DZ/palapa2.jpg",
+        "lib/assets/images/DZ/palapa3.jpg"
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "9:00 - 18:00" },
+        { "dia": "Martes", "hora": "9:00 - 18:00" },
+        { "dia": "Miércoles", "hora": "9:00 - 18:00" },
+        { "dia": "Jueves", "hora": "9:00 - 18:00" },
+        { "dia": "Viernes", "hora": "9:00 - 18:00" },
+        { "dia": "Sábado", "hora": "9:00 - 19:00" },
+        { "dia": "Domingo", "hora": "9:00 - 19:00" }
+      ],
+      "descripcion": "Renta de local y piscinas con espacios verdes, todo para un momento familiar inolvidable.",
+      "lat": 20.309144396288712, 
+      "lng": -90.06084490566874
+    },
+    {
+      "nombre": "Balneario San Vicente Chuc-Say",
+      "direccion": "Carretera antigua a Campeche Supermanzana km3, 24920 Dzitbalché, Camp.",
+      "telefono": "9992628417",
+      "imagen_principal": "lib/assets/images/locales/balneariosck/chuc_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/locales/balneariosck/chuc1.jpg",
+        "lib/assets/images/locales/balneariosck/chuc2.jpg",
+        "lib/assets/images/locales/balneariosck/chuc3.jpg"
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "10:00 - 17:00" },
+        { "dia": "Martes", "hora": "10:00 - 17:00" },
+        { "dia": "Miércoles", "hora": "10:00 - 17:00" },
+        { "dia": "Jueves", "hora": "10:00 - 17:00" },
+        { "dia": "Viernes", "hora": "10:00 - 17:00" },
+        { "dia": "Sábado", "hora": "10:00 - 18:00" },
+        { "dia": "Domingo", "hora": "10:00 - 18:00" }
+      ],
+      "descripcion": "Balneario con más de 20 albercas, palapas y áreas naturales.",
+      "lat": 20.33769540465036, 
+      "lng": -90.05578670751673
+    },
+    {
+      "nombre": "Local Los Limones",
+      "direccion": "C. 19-A, Pulyaxche, San Francisco, 24900 Dzitbalché, Camp.",
+      "telefono": "9961075479",
+      "imagen_principal": "lib/assets/images/DZ/limones_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/DZ/limones1.jpg",
+        "lib/assets/images/DZ/limones2.jpg",
+        "lib/assets/images/DZ/limones3.jpg"
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "Abierto" },
+        { "dia": "Martes", "hora": "Abierto" },
+        { "dia": "Miércoles", "hora": "Abierto" },
+        { "dia": "Jueves", "hora": "Abierto" },
+        { "dia": "Viernes", "hora": "Abierto" },
+        { "dia": "Sábado", "hora": "Abierto" },
+        { "dia": "Domingo", "hora": "Abierto" }
+      ],
+      "descripcion": "Los limones, reservación de un local Perfecto para tus eventos y fiestas. ",
+      "lat": 20.31479741543172, 
+      "lng": -90.05168357022461
+    }
+  ]
+}

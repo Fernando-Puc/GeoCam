@@ -2,10 +2,10 @@
   "negocios": [
     {
       "nombre": "LA FERRE Calkiní",
-      "direccion": "Calle 20 #190, San Martín, Calkiní, Campeche",
+      "direccion": "C. 20 190, San Martín, 24900 Calkiní, Camp.",
       "telefono": "9966880481",
-      "imagen_principal": "",
-      "imagenes": [],
+      "imagen_principal": "lib/assets/images/locales/negociosck/ferre1.jpg" ,
+      "imagenes": [ "lib/assets/images/locales/negociosck/ferre_principal.jpg"],
       "horario": [
         { "dia": "Lunes", "hora": "8:00 - 18:00" },
         { "dia": "Martes", "hora": "8:00 - 18:00" },
@@ -16,15 +16,15 @@
         { "dia": "Domingo", "hora": "Cerrado" }
       ],
       "descripcion": "Ferretería especializada en materiales de construcción y acero.",
-      "lat": 20.3709,
-      "lng": -90.0530
+      "lat":  20.358103759746818,
+      "lng": -90.05309550442048
     },
     {
       "nombre": "Coppel La Ceiba",
-      "direccion": "Calle 22 #104 entre 21 y 23, Calkiní, Campeche",
-      "telefono": "",
-      "imagen_principal": "",
-      "imagenes": [],
+      "direccion": "C. 22 104, entre 21 y 23, Centro, 24900 Calkiní, Camp.",
+      "telefono": "9999611532",
+      "imagen_principal": "lib/assets/images/locales/negociosck/coppel_principal.jpg",
+      "imagenes": ["lib/assets/images/locales/negociosck/coppel1.jpg"],
       "horario": [
         { "dia": "Lunes", "hora": "9:00 - 21:00" },
         { "dia": "Martes", "hora": "9:00 - 21:00" },
@@ -35,15 +35,15 @@
         { "dia": "Domingo", "hora": "10:00 - 20:00" }
       ],
       "descripcion": "Tienda departamental con ropa, electrónicos y artículos para el hogar.",
-      "lat": 20.3725,
-      "lng": -90.0520
+      "lat": 20.36951102897528, 
+      "lng": -90.0530669036102
     },
     {
-      "nombre": "V Marín Juguetería y Regalos",
-      "direccion": "Calle 20, zona centro, Calkiní, Campeche",
-      "telefono": "",
-      "imagen_principal": "",
-      "imagenes": [],
+      "nombre": "Juguetería y Regalos V Marín ",
+      "direccion": "Calle 20, San Luisito, Kilakán, 24903,  Calkiní, Camp.",
+      "telefono": "9961060023",
+      "imagen_principal": "lib/assets/images/locales/negociosck/jugueteria_principal.jpg",
+      "imagenes": ["lib/assets/images/locales/negociosck/jugueteria1.jpg"],
       "horario": [
         { "dia": "Lunes", "hora": "9:00 - 22:00" },
         { "dia": "Martes", "hora": "9:00 - 22:00" },
@@ -54,8 +54,8 @@
         { "dia": "Domingo", "hora": "9:00 - 22:00" }
       ],
       "descripcion": "Juguetería y tienda de regalos con variedad de productos.",
-      "lat": 20.3710,
-      "lng": -90.0515
+      "lat": 20.362253542040914,
+      "lng": -90.05218650113342
     }
   ]
 }

@@ -1,0 +1,73 @@
+{
+  "centrosreligiosos": [
+    {
+      "nombre": "Capilla de San Luis Obispo NK",
+      "direccion": "C. 17 24, San Luis Obispo, 24900 Calkiní, Camp.",
+      "telefono": "9967306632",
+      "imagen_principal": "lib/assets/images/locales/religiososck/sanluis_principales.jpg",
+      "imagenes": [
+        "lib/assets/images/locales/religiososck/sanluis1.jpg",
+        "lib/assets/images/locales/religiososck/sanluis2.jpg",
+        "lib/assets/images/locales/religiososck/sanluis3.jpeg"
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "7:00 - 19:00" },
+        { "dia": "Martes", "hora": "7:00 - 19:00" },
+        { "dia": "Miércoles", "hora": "7:00 - 19:00" },
+        { "dia": "Jueves", "hora": "7:00 - 19:00" },
+        { "dia": "Viernes", "hora": "7:00 - 19:00" },
+        { "dia": "Sábado", "hora": "7:00 - 20:00" },
+        { "dia": "Domingo", "hora": "7:00 - 20:00" }
+      ],
+      "descripcion": "Capilla dedicada a San Luis Obispo.",
+      "lat": 20.37408401839364, 
+      "lng": -90.05496622051092
+    },
+    {
+      "nombre": "Parroquia de San Luis Obispo",
+      "direccion": "Calle 17 entre 20 y 22 Colonia Centro, Calkiní, Calkiní, Mexico",
+      "telefono": "9961114718",
+      "imagen_principal": "lib/assets/images/locales/religiososck/iglesia_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/locales/religiososck/iglesia1.jpg",
+        "lib/assets/images/locales/religiososck/iglesia2.jpg",
+        "lib/assets/images/locales/religiososck/iglesia3.jpg"
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "7:00 - 18:00" },
+        { "dia": "Martes", "hora": "7:00 - 18:00" },
+        { "dia": "Miércoles", "hora": "7:00 - 18:00" },
+        { "dia": "Jueves", "hora": "7:00 - 18:00" },
+        { "dia": "Viernes", "hora": "7:00 - 18:00" },
+        { "dia": "Sábado", "hora": "7:00 - 19:00" },
+        { "dia": "Domingo", "hora": "7:00 - 19:00" }
+      ],
+      "descripcion": "Templo religioso importante en la comunidad de Calkiní.",
+      "lat": 20.373337179397247, 
+      "lng": -90.05775381997951
+    },
+    {
+      "nombre": "Capilla de Nuestra Señora de Fátima",
+      "direccion": "C. 5 110B, Fátima, 24902 Calkiní, Camp.",
+      "telefono": "",
+      "imagen_principal": "lib/assets/images/locales/religiososck/fatima_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/locales/religiososck/fatima1.jpg",
+        "lib/assets/images/locales/religiososck/fatima2.jpg",
+        "lib/assets/images/locales/religiososck/fatima3.jpg"
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "8:00 - 18:00" },
+        { "dia": "Martes", "hora": "8:00 - 18:00" },
+        { "dia": "Miércoles", "hora": "8:00 - 18:00" },
+        { "dia": "Jueves", "hora": "8:00 - 18:00" },
+        { "dia": "Viernes", "hora": "8:00 - 18:00" },
+        { "dia": "Sábado", "hora": "8:00 - 18:00" },
+        { "dia": "Domingo", "hora": "8:00 - 18:00" }
+      ],
+      "descripcion": "Capilla dedicada a Nuestra Señora de Fátima, perteneciente a la Parroquia María Esperanza Nuestra.",
+      "lat": 20.380349260902275, 
+      "lng": -90.05189496254177
+    }
+  ]
+}

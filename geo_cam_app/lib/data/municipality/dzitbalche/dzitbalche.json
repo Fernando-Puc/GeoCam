@@ -1,0 +1,22 @@
+{
+  "name": "Dzitbalché",
+  "appbarimage": "lib/assets/images/DiseñoHF.png",
+  "title": "LOCALIDAD DE DZITBALCHÉ",
+  "image": "lib/assets/images/dzitbalche.jpg",
+  "description": "Dzitbalché es una localidad del estado de Campeche, con profundas raíces mayas y una rica tradición cultural. Su nombre proviene del maya y está asociado a elementos naturales de la región. Es conocida por su historia, su identidad comunitaria y por preservar costumbres ancestrales que reflejan el legado del pueblo maya.",
+  "options": ["Explora", "Guardado", "Historia"],
+  "historia": {
+    "titulo": "DZITBALCHÉ",
+    "imagen_principal": "lib/assets/images/festividadesDZ/historiaDZ.jpg",
+    "secciones": [
+      {
+        "subtitulo": "",
+        "contenido": "El nombre Dzitbalché proviene del idioma maya, se entiende como: Lugar de los cantares o Ciudad de los cantares, debido a su tradición cultural y literaria. Dzitbalché tiene un origen prehispánico maya. Se considera que su fundación ocurrió entre los años 1443 y 1445, aunque existen evidencias de asentamientos más antiguos en la región. Durante la época colonial se construyó el templo dedicado a la Virgen de la Asunción, que se convirtió en el centro religioso del pueblo."
+      },
+      {
+        "subtitulo": "Tradición y cultura",
+        "contenido": "A lo largo del tiempo, la población ha mantenido una fuerte identidad cultural maya y colonial. También es conocida por su legado literario, especialmente por los “Cantares de Dzitbalché”, una obra importante de la tradición maya"
+      }
+    ]
+  }
+}

@@ -1,91 +1,74 @@
 {
   "locales": [
+    
     {
-      "nombre": "BECAL",
-      "direccion": "calle 24, Calkiní, Mexico, 24904",
-      "telefono": "9961048855",
-      "imagen_principal": "lib/assets/images/locales/localesartck/chiich_principal.jpg",
+      "nombre": "Artesania Antonio Acosta",
+      "direccion": "Calle 29, La Fátima, 24930, Bécal, Campeche",
+      "telefono": "9994507266",
+      "imagen_principal": "lib/assets/images/BC/antonio_principal.jpg",
       "imagenes": [
-        "lib/assets/images/locales/localesartck/chiich1.jpg",
-        "lib/assets/images/locales/localesartck/chiich2.jpg"],
-      "horario": [
-        { "dia": "Lunes", "hora": "9:00 - 19:00" },
-        { "dia": "Martes", "hora": "9:00 - 19:00" },
-        { "dia": "Miércoles", "hora": "9:00 - 19:00" },
-        { "dia": "Jueves", "hora": "9:00 - 19:00" },
-        { "dia": "Viernes", "hora": "9:00 - 19:00" },
-        { "dia": "Sábado", "hora": "9:00 - 17:00" },
-        { "dia": "Domingo", "hora": "9-00 - 15:00" }
+        "lib/assets/images/BC/antonio1.jpg",
+        "lib/assets/images/BC/antonio2.jpg",
+        "lib/assets/images/BC/antonio3.jpg"
       ],
-      "descripcion": "Con nosotros podrás encontrar: Hamacas, sillas mecedoras, columpios, blusas, bolsas Oaxaqueñas, hilos para hamacas y mucho más.",
-      "lat": 20.3682749588940064,
-      "lng": -90.05549000125808
+      "horario": [
+        { "dia": "Lunes", "hora": "09:00 - 20:00" },
+        { "dia": "Martes", "hora": "09:00 - 20:00" },
+        { "dia": "Miércoles", "hora": "09:00 - 20:00" },
+        { "dia": "Jueves", "hora": "09:00 - 20:00" },
+        { "dia": "Viernes", "hora": "09:00 - 20:00" },
+        { "dia": "Sábado", "hora": "09:00 - 20:00" },
+        { "dia": "Domingo", "hora": "09:00 - 20:00" }
+      ],
+      "descripcion": "Abierto al publico todos los días con los horarios establecidos.",
+      "lat": 20.44491,
+      "lng": -90.03169
     },
     {
-      "nombre": "YC Naturals",
-      "direccion": "C. 24 49, Fátima, 24900 Calkiní, Camp.",
-      "telefono": "9811377081",
-      "imagen_principal": "lib/assets/images/locales/localesartck/yc_principal.jpg",
+      "nombre": "Artesanas de las cuevas del sur de Bécal",
+      "direccion": "C. 35 entre 30 y 32, Zona Centro, 24930 Bécal, Camp.",
+      "telefono": "9967309172",
+      "imagen_principal": "lib/assets/images/BC/artesanas_principal.jpg",
       "imagenes": [
-        "lib/assets/images/locales/localesartck/yc1.jpg",
-        "lib/assets/images/locales/localesartck/yc2.jpg"
+        "lib/assets/images/BC/artesanas1.jpg",
+        "lib/assets/images/BC/artesanas2.jpg",
+        "lib/assets/images/BC/artesanas3.jpg"
       ],
       "horario": [
-        { "dia": "Lunes", "hora": "08:15 - 12:00" },
-        { "dia": "Martes", "hora": "08:15 - 12:00" },
-        { "dia": "Miércoles", "hora": "08:15 - 10:00" },
-        { "dia": "Jueves", "hora": "08:15 - 12:00" },
-        { "dia": "Viernes", "hora": "08:15 - 12:00" },
-        { "dia": "Sábado", "hora": "09:00 - 12:00" },
+        { "dia": "Lunes", "hora": "11:00 - 16:00" },
+        { "dia": "Martes", "hora": "11:00 - 16:00" },
+        { "dia": "Miércoles", "hora": "11:00 - 16:00" },
+        { "dia": "Jueves", "hora": "11:00 - 16:00" },
+        { "dia": "Viernes", "hora": "11:00 - 16:00" },
+        { "dia": "Sábado", "hora": "11:00 - 16:00" },
         { "dia": "Domingo", "hora": "Cerrado" }
       ],
-      "descripcion": "Elaboración de productos naturales, jabones artesanales y artículos ecológicos.",
-      "lat": 20.37521190479534,
-      "lng": -90.05378987415341
+      "descripcion": "Servicio disponible en horarios correspondientes",
+      "lat": 20.43954,
+      "lng": -90.02835
     },
     {
-      "nombre": "Guayaberas y Filipinas Fidelia",
-      "direccion": "San Miguel Kukab, 24900 Calkiní, Camp.",
-      "telefono": "9969639047",
-      "imagen_principal": "lib/assets/images/locales/localesartck/fidelia_principal.jpg",
+      "nombre": "Artesanias de Chary",
+      "direccion": "24930, Zona Centro, 24930 Bécal, Camp.",
+      "telefono": " 9961022368",
+      "imagen_principal": "lib/assets/images/BC/chari_principal.webp",
       "imagenes": [
-        "lib/assets/images/locales/localesartck/fidelia1.jpg",
-        "lib/assets/images/locales/localesartck/fidelia2.jpg"
+        "lib/assets/images/BC/chari1.jpg",
+        "lib/assets/images/BC/chari2.jpg",
+        "lib/assets/images/BC/chari3.jpg"
       ],
       "horario": [
-        { "dia": "Lunes", "hora": "9:00 - 19:00" },
-        { "dia": "Martes", "hora": "9:00 - 19:00" },
-        { "dia": "Miércoles", "hora": "9:00 - 19:00" },
-        { "dia": "Jueves", "hora": "9:00 - 19:00" },
-        { "dia": "Viernes", "hora": "9:00 - 19:00" },
-        { "dia": "Sábado", "hora": "9:00 - 15:00" },
-        { "dia": "Domingo", "hora": "Cerrado" }
+        { "dia": "Lunes", "hora": "09:00 - 20:00" },
+        { "dia": "Martes", "hora": "09:00 - 20:00" },
+        { "dia": "Miércoles", "hora": "09:00 - 20:00" },
+        { "dia": "Jueves", "hora": "09:00 - 20:00" },
+        { "dia": "Viernes", "hora": "09:00 - 20:00" },
+        { "dia": "Sábado", "hora": "09:00 - 20:00" },
+        { "dia": "Domingo", "hora": "09:00 - 20:00" }
       ],
-      "descripcion": "Especialistas en guayaberas y filipinas bordadas, con diseños tradicionales y modernos.",
-      "lat": 20.37192385036614,
-      "lng": -90.05059733917837
-    },
-    {
-      "nombre": "Papelería Nicte-Ha",
-      "direccion": "C. 22 86, Fátima, 24902 Calkiní, Camp.",
-      "telefono": "9961131064",
-      "imagen_principal": "lib/assets/images/locales/localesartck/nicte_principal.png",
-      "imagenes": [
-        "lib/assets/images/locales/localesartck/nicte1.jpg",
-        "lib/assets/images/locales/localesartck/nicte2.jpg"
-      ],
-      "horario": [
-        { "dia": "Lunes", "hora": "9:00 - 20:00" },
-        { "dia": "Martes", "hora": "9:00 - 20:00" },
-        { "dia": "Miércoles", "hora": "9:00 - 20:00" },
-        { "dia": "Jueves", "hora": "9:00 - 20:00" },
-        { "dia": "Viernes", "hora": "9:00 - 20:00" },
-        { "dia": "Sábado", "hora": "9:00 - 20:00" },
-        { "dia": "Domingo", "hora": "9:00 - 20:00" }
-      ],
-      "descripcion": "Papelería local con productos escolares, regalos y artículos artesanales, nos encontramos frente a la normal de profesores.",
-      "lat": 20.374663976771988,
-      "lng": -90.05130815308308
+      "descripcion": "Artesanias de Chary abierto todos los dias.",
+      "lat": 20.44069,
+      "lng": -90.02106
     }
   ]
 }

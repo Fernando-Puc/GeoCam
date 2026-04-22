@@ -1,0 +1,61 @@
+{
+  "zonasarq": [
+    {
+      "nombre": "DZITAS",
+      "direccion": "Calkiní, Campeche (cerca de Dzitbalché)",
+      "telefono": "",
+      "imagen_principal": "",
+      "imagenes": [],
+      "horario": [
+        { "dia": "Lunes", "hora": "8:00 - 17:00" },
+        { "dia": "Martes", "hora": "8:00 - 17:00" },
+        { "dia": "Miércoles", "hora": "8:00 - 17:00" },
+        { "dia": "Jueves", "hora": "8:00 - 17:00" },
+        { "dia": "Viernes", "hora": "8:00 - 17:00" },
+        { "dia": "Sábado", "hora": "8:00 - 17:00" },
+        { "dia": "Domingo", "hora": "8:00 - 17:00" }
+      ],
+      "descripcion": "Sitio arqueológico maya con arquitectura Puuc, famoso por sus inscripciones y estructuras bien conservadas.",
+      "lat": 20.3315,
+      "lng": -90.0890
+    },
+    {
+      "nombre": "Zona Arqueológica de Oxkintok",
+      "direccion": "Cerca de Maxcanú, Yucatán (accesible desde Calkiní)",
+      "telefono": "",
+      "imagen_principal": "",
+      "imagenes": [],
+      "horario": [
+        { "dia": "Lunes", "hora": "8:00 - 17:00" },
+        { "dia": "Martes", "hora": "8:00 - 17:00" },
+        { "dia": "Miércoles", "hora": "8:00 - 17:00" },
+        { "dia": "Jueves", "hora": "8:00 - 17:00" },
+        { "dia": "Viernes", "hora": "8:00 - 17:00" },
+        { "dia": "Sábado", "hora": "8:00 - 17:00" },
+        { "dia": "Domingo", "hora": "8:00 - 17:00" }
+      ],
+      "descripcion": "Antigua ciudad maya con laberintos y estructuras únicas; destaca el edificio Tzat Tun Tzat.",
+      "lat": 20.6050,
+      "lng": -89.8920
+    },
+    {
+      "nombre": "Zona Arqueológica de Santa Rosa Xtampak",
+      "direccion": "Campeche (región cercana a Calkiní)",
+      "telefono": "",
+      "imagen_principal": "",
+      "imagenes": [],
+      "horario": [
+        { "dia": "Lunes", "hora": "8:00 - 17:00" },
+        { "dia": "Martes", "hora": "8:00 - 17:00" },
+        { "dia": "Miércoles", "hora": "8:00 - 17:00" },
+        { "dia": "Jueves", "hora": "8:00 - 17:00" },
+        { "dia": "Viernes", "hora": "8:00 - 17:00" },
+        { "dia": "Sábado", "hora": "8:00 - 17:00" },
+        { "dia": "Domingo", "hora": "8:00 - 17:00" }
+      ],
+      "descripcion": "Importante ciudad maya del estilo Chenes con estructuras monumentales y múltiples niveles.",
+      "lat": 19.8295,
+      "lng": -89.9080
+    }
+  ]
+}

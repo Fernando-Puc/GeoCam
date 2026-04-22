@@ -1,0 +1,74 @@
+{
+  "cafeterias": [
+    {
+      "nombre": "Sanferino Café",
+      "direccion": "CC. 17 sn, entre 16 y 18, San Pastor, 24920 Dzitbalché, Camp.",
+      "telefono": "9969639642",
+      "imagen_principal": "lib/assets/images/DZ/sanferino_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/DZ/sanferino1.png",
+        "lib/assets/images/DZ/sanferino2.png",
+        "lib/assets/images/DZ/sanferino3.jpg"
+
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "Cerrado" },
+        { "dia": "Martes", "hora": "18:30 - 23:30" },
+        { "dia": "Miércoles", "hora": "Cerrado" },
+        { "dia": "Jueves", "hora": "18:30 - 23:30" },
+        { "dia": "Viernes", "hora": "Cerrado" },
+        { "dia": "Sábado", "hora": "18:30 - 23:30" },
+        { "dia": "Domingo", "hora": "18:30 - 23:30" }
+      ],
+      "descripcion": "El clima perfecto para quedarte con nosotros un rato más, ofrecemos Frappes, Cafés, Hamburguesas, Papas, Bonneles y más",
+      "lat": 20.316824477012613, 
+      "lng": -90.06035057458078
+    },
+    {
+      "nombre": "Cafetería El Abuelo",
+      "direccion": "Tienda la adelita, San Román, 24920 Dzitbalché, Camp.",
+      "telefono": "9961059860",
+      "imagen_principal": "lib/assets/images/DZ/abuelo_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/DZ/abuelo1.jpg",
+        "lib/assets/images/DZ/abuelo2.jpg",
+        "lib/assets/images/DZ/abuelo3.jpg"
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "Cerrado" },
+        { "dia": "Martes", "hora": "Cerrado" },
+        { "dia": "Miércoles", "hora": "Cerrado" },
+        { "dia": "Jueves", "hora": "Cerrado" },
+        { "dia": "Viernes", "hora": "19:00 - 24:00" },
+        { "dia": "Sábado", "hora": "19:00 - 24:00" },
+        { "dia": "Domingo", "hora": "19:00 - 24:00" }
+      ],
+      "descripcion": "Un rincón de música, relajación, cordial ambiente, buena comida y para unas hermosas fotos,nos ubicamos en Dzitbalche calle 18 entre 27 y 29 una esquina antes de ir a san Roman casa con 2 portones azules y casa amarilla con franjas rojas",
+      "lat": 20.324808119381025, 
+      "lng": -90.05736128614112
+    },
+    {
+      "nombre": "Bubble Brew",
+      "direccion": "Calle 18 entre 29 y 31 barrio San Felipe , Dzitbalché, Mexico",
+      "telefono": "9844409636",
+      "imagen_principal": "lib/assets/images/DZ/brew_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/DZ/brew1.jpg",
+        "lib/assets/images/DZ/brew2.jpg",
+        "lib/assets/images/DZ/brew3.jpg"
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "Cerrado" },
+        { "dia": "Martes", "hora": "Cerrado" },
+        { "dia": "Miércoles", "hora": "18:30 - 23:30"  },
+        { "dia": "Jueves", "hora": "18:30 - 23:30" },
+        { "dia": "Viernes", "hora": "18:30 - 23:30" },
+        { "dia": "Sábado", "hora": "18:30 - 23:30" },
+        { "dia": "Domingo", "hora": "18:30 - 23:30" }
+      ],
+      "descripcion": "En Bubble Brew encontrarás bebidas y antojitos preparados al momento: frappés, lattes fríos y calientes, sodas italianas y Bling Bling, café, hamburguesas, boneless, papas, tostitos y más. Tu estilo, tu antojo, tu Bubble Brew.",
+      "lat": 20.325648618236258,
+      "lng": -90.057036625514
+    }
+  ]
+}

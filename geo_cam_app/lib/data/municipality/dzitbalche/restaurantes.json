@@ -1,0 +1,71 @@
+{
+  "restaurantes": [
+    {
+      "nombre": "Monchis Cronchis Dz",
+      "direccion": "C. 21 1521, Dzitbalché, Campeche, Mexico, 24920",
+      "telefono": "9961104423",
+      "imagen_principal": "lib/assets/images/DZ/monchis_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/DZ/monchis1.jpg",
+        "lib/assets/images/DZ/monchis2.jpg",
+        "lib/assets/images/DZ/monchis3.jpg"
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "Cerrado" },
+        { "dia": "Martes", "hora": "Cerrado" },
+        { "dia": "Miércoles", "hora": "Cerrado" },
+        { "dia": "Jueves", "hora": "19:00 - 23:00" },
+        { "dia": "Viernes", "hora": "19:00 - 23:00" },
+        { "dia": "Sábado", "hora": "19:00 - 23:00" },
+        { "dia": "Domingo", "hora": "19:00 - 23:00" }
+      ],
+      "descripcion": "Restaurante de comida rápida especializado en alitas, hamburguesas y snacks, ideal para cenas.",
+      "lat": 20.3210,
+      "lng": -90.0558
+    },
+    {
+      "nombre": "Taquería C Marin Gourmet",
+      "direccion": "La Estrella, Dzitbalché, Campeche, Mexico, 24920",
+      "telefono": "9961113866",
+      "imagen_principal": "lib/assets/images/DZ/taqueria1.jpg",
+      "imagenes": [
+        "lib/assets/images/DZ/taqueria_principal.jpg"
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "18:00 - 23:00" },
+        { "dia": "Martes", "hora": "18:00 - 23:00" },
+        { "dia": "Miércoles", "hora": "18:00 - 23:00" },
+        { "dia": "Jueves", "hora": "18:00 - 23:00" },
+        { "dia": "Viernes", "hora": "18:00 - 23:00" },
+        { "dia": "Sábado", "hora": "18:00 - 23:00" },
+        { "dia": "Domingo", "hora": "18:00 - 23:00" }
+      ],
+      "descripcion": "Taquería local con variedad de tacos y comida mexicana, conocida en la zona por su servicio nocturno.",
+      "lat": 20.3235,
+      "lng": -90.0540
+    },
+
+    {
+      "nombre": "Restaurant Las Banquetas",
+      "direccion": "San Pastor, Dzitbalché, Campeche, Mexico, 24920",
+      "telefono": "9961023345",
+      "imagen_principal": "lib/assets/images/DZ/banquetas_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/DZ/banquetas1.jpg",
+        "lib/assets/images/DZ/banquetas2.jpg"
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "8:00 - 16:00" },
+        { "dia": "Martes", "hora": "8:00 - 16:00" },
+        { "dia": "Miércoles", "hora": "8:00 - 16:00" },
+        { "dia": "Jueves", "hora": "8:00 - 16:00" },
+        { "dia": "Viernes", "hora": "8:00 - 16:00" },
+        { "dia": "Sábado", "hora": "8:00 - 16:00" },
+        { "dia": "Domingo", "hora": "8:00 - 16:00" }
+      ],
+      "descripcion": "Restaurante de comida mexicana tradicional con ambiente familiar y platillos típicos de la región.",
+      "lat": 20.3195,
+      "lng": -90.0565
+    }
+  ]
+}

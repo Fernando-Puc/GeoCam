@@ -1,0 +1,27 @@
+{
+  "centrosreligiosos": [
+    {
+      "nombre": "Parroquia de la Asunción de María",
+      "direccion": "C. 20 70, Zona Centro, 24920 Dzitbalché, Camp.",
+      "telefono": "9964310138",
+      "imagen_principal": "lib/assets/images/DZ/maria_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/DZ/maria1.jpg",
+        "lib/assets/images/DZ/maria2.jpg",
+        "lib/assets/images/DZ/maria3.jpg"
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "7:00 - 19:00" },
+        { "dia": "Martes", "hora": "7:00 - 19:00" },
+        { "dia": "Miércoles", "hora": "7:00 - 19:00" },
+        { "dia": "Jueves", "hora": "7:00 - 19:00" },
+        { "dia": "Viernes", "hora": "7:00 - 19:00" },
+        { "dia": "Sábado", "hora": "7:00 - 20:00" },
+        { "dia": "Domingo", "hora": "7:00 - 20:00" }
+      ],
+      "descripcion": "Iglesia principal de Dzitbalche.",
+      "lat": 20.319822499835688, 
+      "lng": -90.05632465692464
+    }
+  ]
+}

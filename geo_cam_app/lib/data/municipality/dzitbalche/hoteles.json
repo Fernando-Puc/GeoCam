@@ -1,0 +1,26 @@
+{
+  "hoteles": [
+    {
+      "nombre": "Hotel KOMCHEN",
+      "direccion": "C. 23 entre 24 Y 22, Zona Centro, 24920 Dzitbalché, Camp.",
+      "telefono": "9961053747",
+      "imagen_principal": "lib/assets/images/DZ/komchen_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/DZ/komchen1.jpg",
+        "lib/assets/images/DZ/komchen2.jpg",
+        "lib/assets/images/DZ/komchen3.jpg"],
+"horario": [
+        { "dia": "Lunes", "hora": "0:00 - 24:00" },
+        { "dia": "Martes", "hora": "0:00 - 24:00" },
+        { "dia": "Miércoles", "hora": "0:00 - 24:00" },
+        { "dia": "Jueves", "hora": "0:00 - 24:00" },
+        { "dia": "Viernes", "hora": "0:00 - 24:00" },
+        { "dia": "Sábado", "hora": "0:00 - 24:00" },
+        { "dia": "Domingo", "hora": "0:00 - 24:00" }
+      ],
+      "descripcion": "Bienvenido a Hotel Komchén Dzitbalché",
+      "lat": 20.318859779253188, 
+      "lng": -90.0539931001029
+    }
+  ]
+}

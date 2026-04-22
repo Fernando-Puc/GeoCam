@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class FavoritosBCService {
-  static const String _key = 'favoritos_becal';
+  static const String _key = 'favoritos_bécal';
 
   // ✅ obtener todos los favoritos
   static Future<List<Map<String, dynamic>>> getFavoritos() async {

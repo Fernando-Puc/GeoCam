@@ -1,0 +1,45 @@
+{
+  "transporte": [
+    {
+      "nombre": "Terminal de Autobuses ADO Calkiní  NK",
+      "direccion": "Centro, 24900 Calkiní, Camp.",
+      "telefono": "9969611177",
+      "imagen_principal": "lib/assets/images/locales/transporteck/ado_principal.jpg",
+      "imagenes": [
+        "lib/assets/images/locales/transporteck/ado1.jpg",
+        "lib/assets/images/locales/transporteck/ado2.jpg"
+      ],
+      "horario": [
+        { "dia": "Lunes", "hora": "5:00 - 22:00" },
+        { "dia": "Martes", "hora": "5:00 - 22:00" },
+        { "dia": "Miércoles", "hora": "5:00 - 22:00" },
+        { "dia": "Jueves", "hora": "5:00 - 22:00" },
+        { "dia": "Viernes", "hora": "5:00 - 22:00" },
+        { "dia": "Sábado", "hora": "5:00 - 22:00" },
+        { "dia": "Domingo", "hora": "5:00 - 22:00" }
+      ],
+      "descripcion": "Terminal principal de autobuses con rutas regionales.",
+      "lat": 20.369911135905568, 
+      "lng": -90.05260493617807
+    },
+    {
+      "nombre": "Terminal UNTRAC Combis Calkiní a Mérida",
+      "direccion": "C. 20 629, Centro, 24900 Calkiní, Camp.",
+      "telefono": "",
+      "imagen_principal": "lib/assets/images/locales/transporteck/untrac_principal.jpg",
+      "imagenes": [],
+      "horario": [
+     { "dia": "Lunes", "hora": "5:00 - 20:00" },
+        { "dia": "Martes", "hora": "5:00 - 20:00" },
+        { "dia": "Miércoles", "hora": "5:00 - 20:00" },
+        { "dia": "Jueves", "hora": "5:00 - 20:00" },
+        { "dia": "Viernes", "hora": "5:00 - 20:00" },
+        { "dia": "Sábado", "hora": "5:00 - 20:00" },
+        { "dia": "Domingo", "hora": "5:00 - 20:00" }
+      ],
+      "descripcion": "Servicio de taxis disponible todo el día.",
+      "lat": 20.369541204466636, 
+      "lng": -90.05101111524043
+    }
+  ]
+}

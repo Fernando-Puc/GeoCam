@@ -139,7 +139,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                     onPressed: _goToNextScreen,
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.white,
-                      foregroundColor: Color.fromARGB(255, 156, 32, 32),
+                      foregroundColor:const Color.fromARGB(255, 156, 32, 32),
                       padding: const EdgeInsets.symmetric(
                           horizontal: 40, vertical: 14),
                       shape: RoundedRectangleBorder(

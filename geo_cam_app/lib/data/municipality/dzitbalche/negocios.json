@@ -1,0 +1,69 @@
+{
+  "negocios": [
+  {
+    "nombre": "La Popular",
+    "direccion": "Calle 20 #197 Entre 19 y 21, Zona Centro, Dzitbalché, Campeche, Mexico, 24920",
+    "telefono": "9964310311",
+    "imagen_principal": "lib/assets/images/DZ/popular_principal.jpg",
+    "imagenes": [
+      "lib/assets/images/DZ/popular1.jpg",
+      "lib/assets/images/DZ/popular2.jpg",
+      "lib/assets/images/DZ/popular3.jpg"
+    ],
+    "horario": [
+      { "dia": "Lunes", "hora": "9:00 - 21:00" },
+      { "dia": "Martes", "hora": "9:00 - 21:00" },
+      { "dia": "Miércoles", "hora": "9:00 - 21:00" },
+      { "dia": "Jueves", "hora": "9:00 - 21:00" },
+      { "dia": "Viernes", "hora": "9:00 - 21:00" },
+      { "dia": "Sábado", "hora": "9:00 - 21:00" },
+      { "dia": "Domingo", "hora": "9:00 - 14:00" }
+    ],
+    "descripcion": "Tienda de artículos para el hogar y uso diario, muy conocida en el centro de Dzitbalché.",
+    "lat": 20.3186644,
+    "lng": -90.0574973
+  },
+  {
+    "nombre": "Comidas Doña Leudy",
+    "direccion": "San Pedro, Dzitbalché, Campeche, Mexico, 24920",
+    "telefono": "9961049071",
+    "imagen_principal": "lib/assets/images/DZ/leudy_principal.jpg",
+    "imagenes": [
+    ],
+    "horario": [
+      { "dia": "Lunes", "hora": "7:00 - 22:00" },
+      { "dia": "Martes", "hora": "7:00 - 22:00" },
+      { "dia": "Miércoles", "hora": "7:00 - 22:00" },
+      { "dia": "Jueves", "hora": "7:00 - 22:00" },
+      { "dia": "Viernes", "hora": "7:00 - 22:00" },
+      { "dia": "Sábado", "hora": "7:00 - 22:00" },
+      { "dia": "Domingo", "hora": "7:00 - 22:00" }
+    ],
+    "descripcion": "Tienda de comida con servicio continuo, venta de alimentos y bebidas.",
+    "lat": 20.3222345,
+    "lng": -90.0584351
+  },
+  {
+    "nombre": "Abarrotes Dunosusa Dzitbalché",
+    "direccion": "C. 18 20, Zona Centro, Dzitbalché, Campeche, Mexico, 24920",
+    "telefono": "9994400397",
+    "imagen_principal": "lib/assets/images/DZ/dunosusa_principal.jpg",
+    "imagenes": [
+      "lib/assets/images/DZ/dunosusa1.jpg",
+      "lib/assets/images/DZ/dunosusa2.jpg"
+    ],
+    "horario": [
+      { "dia": "Lunes", "hora": "7:00 - 22:00" },
+      { "dia": "Martes", "hora": "7:00 - 22:00" },
+      { "dia": "Miércoles", "hora": "7:00 - 22:00" },
+      { "dia": "Jueves", "hora": "7:00 - 22:00" },
+      { "dia": "Viernes", "hora": "7:00 - 22:00" },
+      { "dia": "Sábado", "hora": "7:00 - 22:00" },
+      { "dia": "Domingo", "hora": "7:00 - 22:00" }
+    ],
+    "descripcion": "Supermercado con productos de despensa, alimentos, bebidas y artículos para el hogar a buen precio.",
+    "lat": 20.3211974,
+    "lng": -90.0574878
+  }
+]
+}
