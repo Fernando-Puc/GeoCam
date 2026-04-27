@@ -1,45 +1,26 @@
 {
   "transporte": [
-    {
-      "nombre": "Terminal de Autobuses ADO Calkiní  NK",
-      "direccion": "Centro, 24900 Calkiní, Camp.",
-      "telefono": "9969611177",
-      "imagen_principal": "lib/assets/images/locales/transporteck/ado_principal.jpg",
-      "imagenes": [
-        "lib/assets/images/locales/transporteck/ado1.jpg",
-        "lib/assets/images/locales/transporteck/ado2.jpg"
-      ],
-      "horario": [
-        { "dia": "Lunes", "hora": "5:00 - 22:00" },
-        { "dia": "Martes", "hora": "5:00 - 22:00" },
-        { "dia": "Miércoles", "hora": "5:00 - 22:00" },
-        { "dia": "Jueves", "hora": "5:00 - 22:00" },
-        { "dia": "Viernes", "hora": "5:00 - 22:00" },
-        { "dia": "Sábado", "hora": "5:00 - 22:00" },
-        { "dia": "Domingo", "hora": "5:00 - 22:00" }
-      ],
-      "descripcion": "Terminal principal de autobuses con rutas regionales.",
-      "lat": 20.369911135905568, 
-      "lng": -90.05260493617807
-    },
-    {
-      "nombre": "Terminal UNTRAC Combis Calkiní a Mérida",
-      "direccion": "C. 20 629, Centro, 24900 Calkiní, Camp.",
-      "telefono": "",
-      "imagen_principal": "lib/assets/images/locales/transporteck/untrac_principal.jpg",
-      "imagenes": [],
-      "horario": [
-     { "dia": "Lunes", "hora": "5:00 - 20:00" },
-        { "dia": "Martes", "hora": "5:00 - 20:00" },
-        { "dia": "Miércoles", "hora": "5:00 - 20:00" },
-        { "dia": "Jueves", "hora": "5:00 - 20:00" },
-        { "dia": "Viernes", "hora": "5:00 - 20:00" },
-        { "dia": "Sábado", "hora": "5:00 - 20:00" },
-        { "dia": "Domingo", "hora": "5:00 - 20:00" }
-      ],
-      "descripcion": "Servicio de taxis disponible todo el día.",
-      "lat": 20.369541204466636, 
-      "lng": -90.05101111524043
-    }
+  {
+  "nombre": "Transporte Nunkiní - Calkiní (Combis)",
+  "direccion": "Calle 20, Centro (frente a la Parroquia), 24910 Nunkiní, Camp.",
+  "telefono": "9384210989",
+  "imagen_principal": "lib/assets/images/NK/transporte_nk_principal.jpg",
+  "imagenes": [
+    "lib/assets/images/NK/transporte1.jpg",
+    "lib/assets/images/NK/transporte2.jpg"
+  ],
+  "horario": [
+    { "dia": "Lunes", "hora": "05:00 - 20:00" },
+    { "dia": "Martes", "hora": "05:00 - 20:00" },
+    { "dia": "Miércoles", "hora": "05:00 - 20:00" },
+    { "dia": "Jueves", "hora": "05:00 - 20:00" },
+    { "dia": "Viernes", "hora": "05:00 - 20:00" },
+    { "dia": "Sábado", "hora": "05:00 - 19:00" },
+    { "dia": "Domingo", "hora": "06:00 - 18:00" }
+  ],
+  "descripcion": "Principal ruta de transporte colectivo que conecta la localidad de Nunkiní con la cabecera municipal de Calkiní.",
+  "lat": 20.401111,
+  "lng": -90.148333
+  }
   ]
 }

@@ -1,61 +1,71 @@
 {
   "negocios": [
-    {
-      "nombre": "LA FERRE Calkiní NK",
-      "direccion": "C. 20 190, San Martín, 24900 Calkiní, Camp.",
-      "telefono": "9966880481",
-      "imagen_principal": "lib/assets/images/locales/negociosck/ferre1.jpg" ,
-      "imagenes": [ "lib/assets/images/locales/negociosck/ferre_principal.jpg"],
-      "horario": [
-        { "dia": "Lunes", "hora": "8:00 - 18:00" },
-        { "dia": "Martes", "hora": "8:00 - 18:00" },
-        { "dia": "Miércoles", "hora": "8:00 - 18:00" },
-        { "dia": "Jueves", "hora": "8:00 - 18:00" },
-        { "dia": "Viernes", "hora": "8:00 - 18:00" },
-        { "dia": "Sábado", "hora": "8:00 - 13:00" },
-        { "dia": "Domingo", "hora": "Cerrado" }
-      ],
-      "descripcion": "Ferretería especializada en materiales de construcción y acero.",
-      "lat":  20.358103759746818,
-      "lng": -90.05309550442048
-    },
-    {
-      "nombre": "Coppel La Ceiba",
-      "direccion": "C. 22 104, entre 21 y 23, Centro, 24900 Calkiní, Camp.",
-      "telefono": "9999611532",
-      "imagen_principal": "lib/assets/images/locales/negociosck/coppel_principal.jpg",
-      "imagenes": ["lib/assets/images/locales/negociosck/coppel1.jpg"],
-      "horario": [
-        { "dia": "Lunes", "hora": "9:00 - 21:00" },
-        { "dia": "Martes", "hora": "9:00 - 21:00" },
-        { "dia": "Miércoles", "hora": "9:00 - 21:00" },
-        { "dia": "Jueves", "hora": "9:00 - 21:00" },
-        { "dia": "Viernes", "hora": "9:00 - 21:00" },
-        { "dia": "Sábado", "hora": "9:00 - 21:00" },
-        { "dia": "Domingo", "hora": "10:00 - 20:00" }
-      ],
-      "descripcion": "Tienda departamental con ropa, electrónicos y artículos para el hogar.",
-      "lat": 20.36951102897528, 
-      "lng": -90.0530669036102
-    },
-    {
-      "nombre": "Juguetería y Regalos V Marín ",
-      "direccion": "Calle 20, San Luisito, Kilakán, 24903,  Calkiní, Camp.",
-      "telefono": "9961060023",
-      "imagen_principal": "lib/assets/images/locales/negociosck/jugueteria_principal.jpg",
-      "imagenes": ["lib/assets/images/locales/negociosck/jugueteria1.jpg"],
-      "horario": [
-        { "dia": "Lunes", "hora": "9:00 - 22:00" },
-        { "dia": "Martes", "hora": "9:00 - 22:00" },
-        { "dia": "Miércoles", "hora": "9:00 - 22:00" },
-        { "dia": "Jueves", "hora": "9:00 - 22:00" },
-        { "dia": "Viernes", "hora": "9:00 - 22:00" },
-        { "dia": "Sábado", "hora": "9:00 - 22:00" },
-        { "dia": "Domingo", "hora": "9:00 - 22:00" }
-      ],
-      "descripcion": "Juguetería y tienda de regalos con variedad de productos.",
-      "lat": 20.362253542040914,
-      "lng": -90.05218650113342
-    }
+  {
+    "nombre": "Abarrotes Dunosusa Nunkiní",
+    "direccion": "Jalisco C-17, San Francisco, 24910 Nunkiní, Camp.",
+    "telefono": "9994400397",
+    "imagen_principal": "lib/assets/images/NK/dunosusa_principal.jpg",
+    "imagenes": [
+
+    ],
+    "horario": [
+      { "dia": "Lunes", "hora": "07:00 - 22:00" },
+      { "dia": "Martes", "hora": "07:00 - 22:00" },
+      { "dia": "Miércoles", "hora": "07:00 - 22:00" },
+      { "dia": "Jueves", "hora": "07:00 - 22:00" },
+      { "dia": "Viernes", "hora": "07:00 - 22:00" },
+      { "dia": "Sábado", "hora": "07:00 - 22:00" },
+      { "dia": "Domingo", "hora": "07:00 - 22:00" }
+    ],
+    "descripcion": "Tienda de autoservicio con productos de abarrotes, limpieza y canasta básica.",
+    "lat": 20.4018012,
+    "lng": -90.1484448
+  },
+  {
+    "nombre": "Minisuper Querubines",
+    "direccion": "Calle 18, San Román, 24910 Nunkiní, Camp.",
+    "telefono": "9961054389",
+    "imagen_principal": "lib/assets/images/NK/querubines_principal.jpg",
+    "imagenes": [
+      "lib/assets/images/NK/querubines1.jpg",
+      "lib/assets/images/NK/querubines2.jpg",
+      "lib/assets/images/NK/querubines3.jpg"
+    ],
+    "horario": [
+      { "dia": "Lunes", "hora": "06:30 - 23:00" },
+      { "dia": "Martes", "hora": "06:30 - 23:00" },
+      { "dia": "Miércoles", "hora": "06:30 - 23:00" },
+      { "dia": "Jueves", "hora": "06:30 - 23:00" },
+      { "dia": "Viernes", "hora": "06:30 - 23:00" },
+      { "dia": "Sábado", "hora": "06:30 - 23:00" },
+      { "dia": "Domingo", "hora": "06:30 - 23:00" }
+    ],
+    "descripcion": "Minisuper local con amplio surtido y horario extendido para mayor conveniencia.",
+    "lat": 20.4084888,
+    "lng": -90.1415714
+  },
+  {
+    "nombre": "Limza Comercial Nunkini",
+    "direccion": "Mexico C-19, San Martín, 24903 Nunkiní, Camp.",
+    "telefono": "9961445897",
+    "imagen_principal": "lib/assets/images/NK/limza_principal.jpg",
+    "imagenes": [
+      "lib/assets/images/NK/limza1.jpg",
+      "lib/assets/images/NK/limza2.jpg",
+      "lib/assets/images/NK/limza3.jpg"
+    ],
+    "horario": [
+      { "dia": "Lunes", "hora": "09:00 - 14:00, 17:00 - 20:00" },
+      { "dia": "Martes", "hora": "09:00 - 14:00, 17:00 - 20:00" },
+      { "dia": "Miércoles", "hora": "09:00 - 14:00, 17:00 - 20:00" },
+      { "dia": "Jueves", "hora": "09:00 - 14:00, 17:00 - 20:00" },
+      { "dia": "Viernes", "hora": "Cerrado" },
+      { "dia": "Sábado", "hora": "09:30 - 14:00, 17:00 - 20:00" },
+      { "dia": "Domingo", "hora": "09:00 - 14:00, 17:00 - 20:00" }
+    ],
+    "descripcion": "Establecimiento enfocado en la venta de productos comerciales y artículos variados.",
+    "lat": 20.4014139,
+    "lng": -90.1509098
+  }
   ]
 }

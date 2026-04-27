@@ -22,6 +22,29 @@
       "descripcion": "Bienvenidos, servicio excelente.",
       "lat": 20.43573,
       "lng": -90.02738
-    }
+    },
+        {
+    "nombre": "Zona Arqueológica de Xcalumkín",
+    "direccion": "Dzitbalché, 24928 Hecelchakán, Camp.",
+    "telefono": "9818168179",
+    "imagen_principal": "lib/assets/images/NK/xcalumkin_principal.jpg",
+    "imagenes": [
+      "lib/assets/images/NK/xcalumkin1.jpg",
+      "lib/assets/images/NK/xcalumkin2.jpg",
+      "lib/assets/images/NK/xcalumkin3.jpg"
+    ],
+    "horario": [
+      { "dia": "Lunes", "hora": "08:00 - 17:00" },
+      { "dia": "Martes", "hora": "08:00 - 17:00" },
+      { "dia": "Miércoles", "hora": "08:00 - 17:00" },
+      { "dia": "Jueves", "hora": "08:00 - 17:00" },
+      { "dia": "Viernes", "hora": "08:00 - 17:00" },
+      { "dia": "Sábado", "hora": "08:00 - 17:00" },
+      { "dia": "Domingo", "hora": "08:00 - 17:00" }
+    ],
+    "descripcion": "Importante centro del estilo Puuc en Campeche, conocido por su abundancia en inscripciones jeroglíficas.",
+    "lat": 20.1719021,
+    "lng": -90.0107841
+  }
   ]
 }

@@ -228,6 +228,11 @@ flutter:
     - lib/assets/images/festividadesDZ/
     - lib/assets/images/DZ/
 
+    #NUNKINI
+    - lib/assets/images/festividadesNK/
+    - lib/assets/images/NK/
+
+  
 
     
   # To add assets to your application, add an assets section, like this:

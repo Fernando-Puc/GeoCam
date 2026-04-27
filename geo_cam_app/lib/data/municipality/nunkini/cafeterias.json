@@ -1,51 +1,73 @@
 {
   "cafeterias": [
-    {
-      "nombre": "Bon Appetit NK",
-      "direccion": "San Miguel Kukab, 24903 Calkiní, Camp.",
-      "telefono": "9961094003",
-      "imagen_principal": "lib/assets/images/locales/restaurantesck/bon_principal.jpg",
-      "imagenes": [
-        "lib/assets/images/locales/restaurantesck/bon1.jpg",
-        "lib/assets/images/locales/restaurantesck/bon2.jpg"
+  {
+    "nombre": "Bobba Milk",
+    "direccion": "24910, San Román, 24910 Nunkiní, Camp.",
+    "telefono": "8143355320",
+    "imagen_principal": "lib/assets/images/NK/Bobba_principal.jpg",
+    "imagenes": [
+      "lib/assets/images/NK/bobba1.jpg",
+      "lib/assets/images/NK/bobba2.jpg",
+      "lib/assets/images/NK/bobba3.jpg"
     ],
-      "horario": [
-        { "dia": "Lunes", "hora": "08:00 - 23:30" },
-        { "dia": "Martes", "hora": "08:00 - 23:30" },
-        { "dia": "Miércoles", "hora": "08:00 - 23:30" },
-        { "dia": "Jueves", "hora": "08:00 - 23:30" },
-        { "dia": "Viernes", "hora": "08:00 - 23:30" },
-        { "dia": "Sábado", "hora": "08:00 - 23:30"},
-        { "dia": "Domingo", "hora": "08:00 - 23:30" }
-      ],
-      "descripcion": "Un café, buena comida y momentos que se quedan.",
-      "lat": 20.369816851187988,
-      "lng": -90.0510146763022
-    },
-
-
-    {
-      "nombre": "Cafetería Daju",
-      "direccion": "24900, C. 15 102, San Juan, 24900 Calkiní, Camp.",
-      "telefono": "9917443172",
-      "imagen_principal": "lib/assets/images/locales/restaurantesck/daju_principal.jpg",
-      "imagenes": [
-        "lib/assets/images/locales/restaurantesck/daju3.jpg",
-        "lib/assets/images/locales/restaurantesck/daju2.jpg",
-        "lib/assets/images/locales/restaurantesck/daju1.jpg"
-      ],
-      "horario": [
-        { "dia": "Lunes", "hora": "8:00 - 19:00" },
-        { "dia": "Martes", "hora": "8:00 - 19:00" },
-        { "dia": "Miércoles", "hora": "8:00 - 19:00" },
-        { "dia": "Jueves", "hora": "8:00 - 19:00" },
-        { "dia": "Viernes", "hora": "8:00 - 20:00" },
-        { "dia": "Sábado", "hora": "9:00 - 20:00" },
-        { "dia": "Domingo", "hora": "9:00 - 17:00" }
-      ],
-      "descripcion": "Espacio moderno ideal para reuniones y café de especialidad.",
-      "lat": 20.372346053112754, 
-      "lng": -90.04926229881127
-    }
+    "horario": [
+      { "dia": "Lunes", "hora": "Cerrado" },
+      { "dia": "Martes", "hora": "Cerrado" },
+      { "dia": "Miércoles", "hora": "18:00 - 23:00" },
+      { "dia": "Jueves", "hora": "18:00 - 23:00" },
+      { "dia": "Viernes", "hora": "18:00 - 23:00" },
+      { "dia": "Sábado", "hora": "09:00 - 13:00, 18:00 - 23:00" },
+      { "dia": "Domingo", "hora": "09:00 - 13:00, 18:00 - 23:00" }
+    ],
+    "descripcion": "Especialistas en bebidas con perlas de tapioca y snacks en un ambiente agradable.",
+    "lat": 20.4031738,
+    "lng": -90.1438801
+  },
+  {
+    "nombre": "Vida'j Cafetería",
+    "direccion": "Calle 18, El Gato Negro, 24910 Nunkiní, Camp.",
+    "telefono": "9961109105",
+    "imagen_principal": "lib/assets/images/NK/vidaj_principal.jpg",
+    "imagenes": [
+      "lib/assets/images/NK/vidaj1.jpg",
+      "lib/assets/images/NK/vidaj2.jpg",
+      "lib/assets/images/NK/vidaj3.jpg"
+    ],
+    "horario": [
+      { "dia": "Lunes", "hora": "Cerrado" },
+      { "dia": "Martes", "hora": "Cerrado" },
+      { "dia": "Miércoles", "hora": "19:00 - 23:00" },
+      { "dia": "Jueves", "hora": "19:00 - 23:00" },
+      { "dia": "Viernes", "hora": "19:00 - 23:00" },
+      { "dia": "Sábado", "hora": "19:00 - 23:00" },
+      { "dia": "Domingo", "hora": "19:00 - 23:00" }
+    ],
+    "descripcion": "Un espacio local perfecto para disfrutar de un buen café y convivencia por las noches.",
+    "lat": 20.3938174,
+    "lng": -90.1500037
+  },
+  {
+    "nombre": "Cocina y cafeteria san roman",
+    "direccion": "C. 14, San Román, 24910 Nunkiní, Camp.",
+    "telefono": "9996124256",
+    "imagen_principal": "lib/assets/images/NK/sanroman_principal.jpg",
+    "imagenes": [
+      "lib/assets/images/NK/sanroman1.jpg",
+      "lib/assets/images/NK/sanroman2.jpg",
+      "lib/assets/images/NK/sanroman3.jpg"
+    ],
+    "horario": [
+      { "dia": "Lunes", "hora": "06:00 - 23:00" },
+      { "dia": "Martes", "hora": "06:00 - 23:00" },
+      { "dia": "Miércoles", "hora": "06:00 - 23:00" },
+      { "dia": "Jueves", "hora": "06:00 - 23:00" },
+      { "dia": "Viernes", "hora": "06:00 - 23:00" },
+      { "dia": "Sábado", "hora": "06:00 - 23:00" },
+      { "dia": "Domingo", "hora": "Cerrado" }
+    ],
+    "descripcion": "Servicio de cafetería y opciones de comida casera con amplio horario de atención.",
+    "lat": 20.401645,
+    "lng": -90.1437721
+  }
   ]
 }
