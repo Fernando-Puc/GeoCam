@@ -106,6 +106,9 @@ class _PantallaDZState extends State<PantallaDZ> {
                     ],
                   ),
 
+                  const SizedBox(height: 0),
+
+                  // nombre del municipio
                   Text(
                     municipalityData['title'],
                     style: const TextStyle(
@@ -118,6 +121,7 @@ class _PantallaDZState extends State<PantallaDZ> {
 
                   const SizedBox(height: 20),
 
+                  // descripción
                   Center(
                     child: Container(
                       width: 360,
@@ -136,8 +140,9 @@ class _PantallaDZState extends State<PantallaDZ> {
 
                   const SizedBox(height: 20),
 
+                  // imagen del municipio
                   Center(
-                    child: SizedBox(
+                    child: Container(
                       width: 320,
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(12),
@@ -153,45 +158,27 @@ class _PantallaDZState extends State<PantallaDZ> {
 
                   const SizedBox(height: 30),
 
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: List.generate(
-                      municipalityData['options'].length,
-                      (index) {
-                        final opcion = municipalityData['options'][index];
-                        return ElevatedButton(
-                          onPressed: () {
-                            Widget? pantallaDestino;
-                            switch (opcion) {
-                              case 'Explora':
-                                pantallaDestino = const Explora();
-                                break;
-                              case 'Guardado':
-                                pantallaDestino = const guardado();
-                                break;
-                              case 'Historia':
-                                pantallaDestino = const historia();
-                                break;
-                              default:
-                                ScaffoldMessenger.of(context).showSnackBar(
-                                  SnackBar(
-                                    content: Text('Opción no encontrada: $opcion'),
-                                  ),
-                                );
-                                return;
-                            }
+                  // botones 
+                  Column(
+                    children: [
 
+                      // Explora 
+                      SizedBox(
+                        width: 200,
+                        child: ElevatedButton(
+                          onPressed: () {
                             Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => pantallaDestino!,
+                                builder: (context) => const Explora(),
                               ),
                             );
                           },
                           style: ElevatedButton.styleFrom(
                             backgroundColor:
                                 const Color.fromARGB(255, 216, 210, 121),
-                            foregroundColor: const Color.fromARGB(255, 0, 0, 0),
+                            foregroundColor:
+                                const Color.fromARGB(255, 0, 0, 0),
                             elevation: 4,
                             padding: const EdgeInsets.symmetric(
                                 horizontal: 20, vertical: 12),
@@ -199,17 +186,88 @@ class _PantallaDZState extends State<PantallaDZ> {
                               borderRadius: BorderRadius.circular(1),
                             ),
                           ),
-                          child: Text(
-                            opcion,
-                            style: const TextStyle(
-                              fontSize: 14,
-                              fontWeight: FontWeight.bold,
-                            ),
+                          child: const Text(
+                            'Explora',
+                            style: TextStyle(
+                                fontSize: 14, fontWeight: FontWeight.bold),
                             textAlign: TextAlign.center,
                           ),
-                        );
-                      },
-                    ),
+                        ),
+                      ),
+
+                      const SizedBox(height: 10),
+
+                      // Guardado e Historia
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          SizedBox(
+                            width: 130, 
+                            child: ElevatedButton(
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => const guardado(),
+                                  ),
+                                );
+                              },
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor:
+                                    const Color.fromARGB(255, 216, 210, 121),
+                                foregroundColor:
+                                    const Color.fromARGB(255, 0, 0, 0),
+                                elevation: 4,
+                                padding: const EdgeInsets.symmetric(
+                                    horizontal: 20, vertical: 12),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(1),
+                                ),
+                              ),
+                              child: const Text(
+                                'Guardado',
+                                style: TextStyle(
+                                    fontSize: 14,
+                                    fontWeight: FontWeight.bold),
+                                textAlign: TextAlign.center,
+                              ),
+                            ),
+                          ),
+                          SizedBox(
+                            width: 130, // ✅ mismo ancho
+                            child: ElevatedButton(
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => const historia(),
+                                  ),
+                                );
+                              },
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor:
+                                    const Color.fromARGB(255, 216, 210, 121),
+                                foregroundColor:
+                                    const Color.fromARGB(255, 0, 0, 0),
+                                elevation: 4,
+                                padding: const EdgeInsets.symmetric(
+                                    horizontal: 20, vertical: 12),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(1),
+                                ),
+                              ),
+                              child: const Text(
+                                'Historia',
+                                style: TextStyle(
+                                    fontSize: 14,
+                                    fontWeight: FontWeight.bold),
+                                textAlign: TextAlign.center,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
 
                   const SizedBox(height: 20),
@@ -218,6 +276,7 @@ class _PantallaDZState extends State<PantallaDZ> {
             ),
           ),
 
+          // footer
           SizedBox(
             width: double.infinity,
             height: kToolbarHeight + MediaQuery.of(context).padding.top,

@@ -25,7 +25,9 @@ class _DiasFestivosState extends State<DiasFestivos> {
     );
     final data = json.decode(response);
     setState(() {
-      meses = data['meses'];
+      meses = (data['meses'] as List)
+          .where((mes) => (mes['festividades'] as List).isNotEmpty)
+          .toList();
       isLoading = false;
     });
   }

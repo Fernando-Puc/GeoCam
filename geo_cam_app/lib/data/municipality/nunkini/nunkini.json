@@ -4,7 +4,7 @@
   "title": "LOCALIDAD DE NUNKINI",
   "image": "lib/assets/images/nunkini.jpg",
   "description": "NUNKINÍ proviene del origen maya: NUN: nacer, I: ahí, KIN: sol; significa 'Ahí donde nace el sol'. Se encuentra a 10 km al poniente de la ciudad de Calkiní. Es conocido por su originalidad en el carnaval con los famosos disfrazados de osos y por su gran número de bailes y festividades a lo largo del año.",
-  "options": ["Explora", "Guardado", "Historia"],
+  "options": ["Más Visitados", "Guardado", "Historia"],
   "historia": {
     "titulo": "NUNKINI",
     "imagen_principal": "lib/assets/images/festividadesNK/historiaNK.jpg",
