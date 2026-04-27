@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:geo_cam_app/screens/pantallaprincipal.dart';
+import 'package:geo_cam_app/screens/login.dart'; // ✅ import del login
 
 void main() {
   runApp(const MyApp());
@@ -61,7 +61,9 @@ class _WelcomeScreenState extends State<WelcomeScreen>
   void _goToNextScreen() {
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => const pantallaprincipal()),
+      MaterialPageRoute(
+        builder: (context) => const LoginScreen(), // ✅ va al login
+      ),
     );
   }
 
@@ -88,7 +90,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  // ✅ Logo en tarjeta blanca redondeada
+                  // logo en tarjeta blanca redondeada
                   Container(
                     decoration: BoxDecoration(
                       color: Colors.white,
@@ -139,7 +141,8 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                     onPressed: _goToNextScreen,
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.white,
-                      foregroundColor:const Color.fromARGB(255, 156, 32, 32),
+                      foregroundColor:
+                          const Color.fromARGB(255, 156, 32, 32),
                       padding: const EdgeInsets.symmetric(
                           horizontal: 40, vertical: 14),
                       shape: RoundedRectangleBorder(
