@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:geo_cam_app/screens/login.dart'; // ✅ import del login
+import 'package:geo_cam_app/screens/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -62,7 +62,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => const LoginScreen(), // ✅ va al login
+        builder: (context) => const LoginScreen(),
       ),
     );
   }
@@ -82,83 +82,95 @@ class _WelcomeScreenState extends State<WelcomeScreen>
             end: Alignment.bottomRight,
           ),
         ),
-        child: Center(
-          child: FadeTransition(
-            opacity: _fadeInAnimation,
-            child: ScaleTransition(
-              scale: _scaleAnimation,
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  // logo en tarjeta blanca redondeada
-                  Container(
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(24),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black.withOpacity(0.2),
-                          blurRadius: 20,
-                          offset: const Offset(0, 8),
-                        ),
-                      ],
-                    ),
-                    padding: const EdgeInsets.all(10),
-                    child: Image.asset(
-                      'lib/assets/images/Logo_SF.png',
-                      width: 200,
-                      height: 200,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  const SizedBox(height: 60),
-                  Text(
-                    'GeoCam App',
-                    style: TextStyle(
-                      fontSize: 40,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
-                      shadows: [
-                        Shadow(
-                          blurRadius: 20,
-                          color: Colors.black.withOpacity(0.4),
-                          offset: const Offset(2, 2),
-                        ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(height: 10),
-                  const Text(
-                    '¡Bienvenido!',
-                    style: TextStyle(
-                      fontSize: 22,
-                      color: Colors.white70,
-                      letterSpacing: 2,
-                    ),
-                  ),
-                  const SizedBox(height: 40),
-                  ElevatedButton(
-                    onPressed: _goToNextScreen,
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.white,
-                      foregroundColor:
-                          const Color.fromARGB(255, 156, 32, 32),
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 40, vertical: 14),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30),
+
+        child: SingleChildScrollView(
+          child: ConstrainedBox(
+            constraints: BoxConstraints(
+              minHeight: MediaQuery.of(context).size.height,
+            ),
+            child: IntrinsicHeight(
+              child: Center(
+                child: FadeTransition(
+                  opacity: _fadeInAnimation,
+                  child: ScaleTransition(
+                    scale: _scaleAnimation,
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 40),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(24),
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.black.withOpacity(0.2),
+                                  blurRadius: 20,
+                                  offset: const Offset(0, 8),
+                                ),
+                              ],
+                            ),
+                            padding: const EdgeInsets.all(10),
+                            child: Image.asset(
+                              'lib/assets/images/Logo_SF.png',
+                              width: 200,
+                              height: 200,
+                              fit: BoxFit.contain,
+                            ),
+                          ),
+                          const SizedBox(height: 60),
+                          Text(
+                            'GeoCam App',
+                            style: TextStyle(
+                              fontSize: 40,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                              shadows: [
+                                Shadow(
+                                  blurRadius: 20,
+                                  color: Colors.black.withOpacity(0.4),
+                                  offset: const Offset(2, 2),
+                                ),
+                              ],
+                            ),
+                          ),
+                          const SizedBox(height: 10),
+                          const Text(
+                            '¡Bienvenido!',
+                            style: TextStyle(
+                              fontSize: 22,
+                              color: Colors.white70,
+                              letterSpacing: 2,
+                            ),
+                          ),
+                          const SizedBox(height: 40),
+                          ElevatedButton(
+                            onPressed: _goToNextScreen,
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.white,
+                              foregroundColor:
+                                  const Color.fromARGB(255, 156, 32, 32),
+                              padding: const EdgeInsets.symmetric(
+                                  horizontal: 40, vertical: 14),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(30),
+                              ),
+                              elevation: 5,
+                            ),
+                            child: const Text(
+                              'Comenzar',
+                              style: TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
-                      elevation: 5,
-                    ),
-                    child: const Text(
-                      'Comenzar',
-                      style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                      ),
                     ),
                   ),
-                ],
+                ),
               ),
             ),
           ),
