@@ -34,9 +34,7 @@ class Explora extends StatelessWidget {
       floatingActionButton: Padding(
         padding: const EdgeInsets.only(bottom: 100),
         child: FloatingActionButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
+          onPressed: () => Navigator.pop(context),
           backgroundColor: const Color.fromARGB(255, 195, 57, 15),
           child: const Icon(Icons.arrow_back, color: Colors.white),
         ),
@@ -44,97 +42,102 @@ class Explora extends StatelessWidget {
       floatingActionButtonLocation: FloatingActionButtonLocation.startFloat,
       body: Column(
         children: [
-          const SizedBox(height: 50),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 60),
-            child: Container(
-              padding: const EdgeInsets.all(18),
-              decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 230, 212, 13),
-                borderRadius: BorderRadius.circular(16),
-              ),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Image.asset(
-                    'lib/assets/images/lupa.png',
-                    width: 60,
-                    height: 60,
-                  ),
-                  const SizedBox(width: 12),
-                  const Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          'BÉCAL',
-                          style: TextStyle(
-                            fontSize: 28,
-                            fontWeight: FontWeight.bold,
-                            color: Color.fromARGB(255, 3, 3, 3),
-                          ),
+          Expanded(
+            child: SingleChildScrollView(
+              child: Padding(
+                padding: const EdgeInsets.all(10),
+                child: Column(
+                  children: [
+                    const SizedBox(height: 40),
+
+                    // tarjeta BECAL
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 50),
+                      child: Container(
+                        padding: const EdgeInsets.all(18),
+                        decoration: BoxDecoration(
+                          color: const Color.fromARGB(255, 230, 212, 13),
+                          borderRadius: BorderRadius.circular(16),
                         ),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Image.asset(
+                              'lib/assets/images/lupa.png',
+                              width: 60,
+                              height: 60,
+                            ),
+                            const SizedBox(width: 12),
+                            const Expanded(
+                              child: Text(
+                                'BECAL',
+                                style: TextStyle(
+                                  fontSize: 28,
+                                  fontWeight: FontWeight.bold,
+                                  color: Color.fromARGB(255, 3, 3, 3),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+
+                    const SizedBox(height: 12),
+
+                    GridView.count(
+                      shrinkWrap: true,
+                      physics: const NeverScrollableScrollPhysics(),
+                      crossAxisCount: 3,
+                      crossAxisSpacing: 8,
+                      mainAxisSpacing: 10,
+                      childAspectRatio: 1.6,
+                      children: [
+                        _buildButton(context, "Locales Artesanales",
+                            const LocalesArtesanales(),
+                            'lib/assets/images/artesania.jpg'),
+                        _buildButton(context, "Tiendas o Negocios",
+                            const Negocios(),
+                            'lib/assets/images/tiendas.jpg'),
+                        _buildButton(context, "Restaurantes",
+                            const Restaurantes(),
+                            'lib/assets/images/restaurante.jpg'),
+                        _buildButton(context, "Hoteles", const Hoteles(),
+                            'lib/assets/images/hotel.jpeg'),
+                        _buildButton(context, "Balnearios",
+                            const Balnearios(),
+                            'lib/assets/images/piscina.png'),
+                        _buildButton(context, "Zona Arqueológicas",
+                            const ZonasArq(),
+                            'lib/assets/images/zonaarq.jpg'),
+                        _buildButton(context, "Centros Religiosos",
+                            const CentrosReligiosos(),
+                            'lib/assets/images/religion.jpg'),
+                        _buildButton(context, "Cafeterías",
+                            const Cafeterias(),
+                            'lib/assets/images/cafeteria.jpg'),
+                        _buildButton(context, "Transporte",
+                            const Transporte(),
+                            'lib/assets/images/transporte.png'),
                       ],
                     ),
-                  ),
-                ],
-              ),
-            ),
-          ),
-          const SizedBox(height: 12),
 
-          Expanded(
-            child: Padding(
-              padding: const EdgeInsets.all(10),
-              child: Column(
-                children: [
-                  // ✅ grid sin Expanded, se ajusta a su contenido
-                  GridView.count(
-                    shrinkWrap: true, // ✅ ocupa solo lo necesario
-                    physics: const NeverScrollableScrollPhysics(), // ✅ scroll lo maneja el padre
-                    crossAxisCount: 3,
-                    crossAxisSpacing: 8,
-                    mainAxisSpacing: 10,
-                    childAspectRatio: 1.6,
-                    children: [
-                      _buildButton(context, "Locales Artesanales", const LocalesArtesanales(),
-                          'lib/assets/images/artesania.jpg'),
-                      _buildButton(context, "Tiendas o Negocios", const Negocios(),
-                          'lib/assets/images/tiendas.jpg'),
-                      _buildButton(context, "Restaurantes", const Restaurantes(),
-                          'lib/assets/images/restaurante.jpg'),
-                      _buildButton(context, "Hoteles", const Hoteles(),
-                          'lib/assets/images/hotel.jpeg'),
-                      _buildButton(context, "Balnearios", const Balnearios(),
-                          'lib/assets/images/piscina.png'),
-                      _buildButton(context, "Zona Arqueológicas", const ZonasArq(),
-                          'lib/assets/images/zonaarq.jpg'),
-                      _buildButton(context, "Centros Religiosos", const CentrosReligiosos(),
-                          'lib/assets/images/religion.jpg'),
-                      _buildButton(context, "Cafeterías", const Cafeterias(),
-                          'lib/assets/images/cafeteria.jpg'),
-                      _buildButton(context, "Transporte", const Transporte(),
-                          'lib/assets/images/transporte.png'),
-                    ],
-                  ),
+                    const SizedBox(height: 20),
 
-                  const SizedBox(height: 20),
+                    _buildWideButton(
+                      context,
+                      'Días Festivos',
+                      const DiasFestivos(),
+                      'lib/assets/images/diaFestivoCK.jpg',
+                    ),
 
-                  // ✅ Días Festivos justo debajo del grid
-                  _buildWideButton(
-                    context,
-                    'Días Festivos',
-                    const DiasFestivos(),
-                    'lib/assets/images/diaFestivoCK.jpg',
-                  ),
-
-                  const SizedBox(height: 20),
-                ],
+                    const SizedBox(height: 20),
+                  ],
+                ),
               ),
             ),
           ),
 
-          // ✅ footer
           SizedBox(
             width: double.infinity,
             height: kToolbarHeight + MediaQuery.of(context).padding.top,
@@ -149,21 +152,21 @@ class Explora extends StatelessWidget {
   }
 }
 
-class ExploraBC extends StatelessWidget {
-  const ExploraBC({super.key});
+class ExploraCK extends StatelessWidget {
+  const ExploraCK({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("pantalla explora para bécal")),
+      appBar: AppBar(title: const Text("pantalla explora para Becal")),
       body: const Center(
-        child: Text("Esta pantalla es para explorar el municipio de bécal"),
+        child: Text("Esta pantalla es para explorar la localidad de Becal"),
       ),
     );
   }
 }
 
-// botón normal para el grid
+
 Widget _buildButton(
   BuildContext context,
   String text,
@@ -219,7 +222,6 @@ Widget _buildButton(
   );
 }
 
-// botón ancho para Días Festivos
 Widget _buildWideButton(
   BuildContext context,
   String text,

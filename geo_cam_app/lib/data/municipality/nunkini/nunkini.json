@@ -1,21 +1,17 @@
 {
   "name": "Nunkini",
   "appbarimage": "lib/assets/images/DiseñoHF.png",
-  "title": "MUNICIPIO DE NUNKINI",
-  "image": "lib/assets/images/calkini.jpg",
-  "description": "En lengua maya significa \"garganta del sol\" conocida como la \"Atenas del camino real\" y llamada \"Cuna de las Artesanías Campechanas\"; cuenta con una gran riqueza cultural, natural y artesanal así como servicios indispensables para disfrutar en familia.",
-  "options": ["Explora", "Guardado", "Historia"],
+  "title": "LOCALIDAD DE NUNKINI",
+  "image": "lib/assets/images/nunkini.jpg",
+  "description": "NUNKINÍ proviene del origen maya: NUN: nacer, I: ahí, KIN: sol; significa 'Ahí donde nace el sol'. Se encuentra a 10 km al poniente de la ciudad de Calkiní. Es conocido por su originalidad en el carnaval con los famosos disfrazados de osos y por su gran número de bailes y festividades a lo largo del año.",
+  "options": ["Más Visitados", "Guardado", "Historia"],
   "historia": {
     "titulo": "NUNKINI",
-    "imagen_principal": "lib/assets/images/festividadesCK/historiaCK.png",
+    "imagen_principal": "lib/assets/images/festividadesNK/historiaNK.jpg",
     "secciones": [
       {
         "subtitulo": "",
-        "contenido": "NUNKINI es un municipio en el estado de Campeche, México. Este lugar es conocido por la elaboración de sombreros de jípi y la fabricación de petates. Además, el linaje de los Ah Canul, según el Códice de Calkiní, se originó en el Petén, Guatemala. Conocida como la famosa Garganta del Sol, en el extremo norte de Campeche, es uno de los pueblos mayas coloniales menos apreciados y más meritorios de la Península."
-      },
-      {
-        "subtitulo": "La cabeza de cochino",
-        "contenido": "Se efectúa al término de una festividad religiosa y consiste en adornar una cabeza de cochino con bordados relucientes y otros objetos, como panes, papeles de colores, etc. Luego se baila con ella, en casa del patrón donde se realiza la festividad, principalmente con mujeres ataviadas con terno de mestiza, o en las calles de la comunidad, al compás de la música de una charanga.\n\nEste baile también se verifica al inicio de una Vaquería, fiesta propia de la región; se acompaña de la primera pieza llamada \"Los Aires del Mayab\", y con el trueno de \"voladores\"."
+        "contenido": "Para llegar al pueblo de Nunkiní, se hace un recorrido de 10 km al poniente de la ciudad de Calkiní. Aunque se desconoce con exactitud la fecha de la fundación del pueblo, se conjetura que pudiera haberse efectuado durante el Preclásico Maya, ya que, después de la desintegración de Mayapán, los siete hermanos Canul fundaron sus respectivos cacicazgos en el territorio de lo que hoy comprende varias poblaciones del Estado de Campeche, en el área denominada como Camino Real, siendo una de éstas precisamente Nunkiní. "
       }
     ]
   }

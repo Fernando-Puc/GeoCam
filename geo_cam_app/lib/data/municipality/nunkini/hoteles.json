@@ -1,116 +1,48 @@
 {
   "hoteles": [
     {
-      "nombre": "Hotel Mayt NK",
-      "direccion": "Calle 26 entre 11 y 15 Col. San Luis Obispo, Calkiní, Mexico, 24902",
-      "telefono": "9961116529",
-      "imagen_principal": "lib/assets/images/hoteles/hotelck/mayte_principal.jpg",
-      "imagenes": [
-        "lib/assets/images/hoteles/hotelck/mayte1.jpg",
-        "lib/assets/images/hoteles/hotelck/mayte2.jpg",
-        "lib/assets/images/hoteles/hotelck/mayte3.jpg"],
-      "horario": [
-        { "dia": "Lunes", "hora": "6:00 - 22:00" },
-        { "dia": "Martes", "hora": "6:00 - 22:00" },
-        { "dia": "Miércoles", "hora": "6:00 - 22:00" },
-        { "dia": "Jueves", "hora": "6:00 - 22:00" },
-        { "dia": "Viernes", "hora": "6:00 - 22:00" },
-        { "dia": "Sábado", "hora": "7:00 - 22:00" },
-        { "dia": "Domingo", "hora": "7:00 - 22:00" }
-      ],
-      "descripcion": "Un lugar propio para descansar",
-      "lat": 20.376248111043267,
-      "lng": -90.05780559219392
-    },
-    {
-      "nombre": "Hotel Maya Real",
-      "direccion": "Merida - Campeche km 86, Guadalupe, 24903 Calkiní, Camp.",
-      "telefono": "9994177797",
-      "imagen_principal": "lib/assets/images/hoteles/hotelck/maya_principal.jpg",
-      "imagenes": [
-        "lib/assets/images/hoteles/hotelck/maya1.jpg",
-        "lib/assets/images/hoteles/hotelck/maya2.jpg",
-        "lib/assets/images/hoteles/hotelck/maya3.jpg"],
-      "horario": [
-        { "dia": "Lunes", "hora": "0:00 - 24:00" },
-        { "dia": "Martes", "hora": "0:00 - 24:00" },
-        { "dia": "Miércoles", "hora": "0:00 - 24:00" },
-        { "dia": "Jueves", "hora": "0:00 - 24:00" },
-        { "dia": "Viernes", "hora": "0:00 - 24:00" },
-        { "dia": "Sábado", "hora": "0:00 - 24:00" },
-        { "dia": "Domingo", "hora": "0:00 - 24:00" }
-      ],
-      "descripcion": "Bienvenidos a este paraiso del mayab, disfrute su estancia en comodas habtitaciones, piscina, areas, verdes y confortable tranquilidad.",
-      "lat": 20.361151704606208,
-      "lng": -90.0410707753403
-    },
-    {
-      "nombre": "Hotel La Ceiba",
-      "direccion": "C. 24 entre 19 y 23, La Fatima, 24904 Calkiní, Camp.",
-      "telefono": "+529997481294",
-      "imagen_principal": "lib/assets/images/hoteles/hotelck/ceiba_principal.jpg",
-      "imagenes": [
-        "lib/assets/images/hoteles/hotelck/ceiba1.jpg",
-        "lib/assets/images/hoteles/hotelck/ceiba2.jpg",
-        "lib/assets/images/hoteles/hotelck/ceiba3.jpg"
-      ],
-      "horario": [
-        { "dia": "Lunes", "hora": "0:00 - 24:00" },
-        { "dia": "Martes", "hora": "0:00 - 24:00" },
-        { "dia": "Miércoles", "hora": "0:00 - 24:00" },
-        { "dia": "Jueves", "hora": "0:00 - 24:00" },
-        { "dia": "Viernes", "hora": "0:00 - 24:00" },
-        { "dia": "Sábado", "hora": "0:00 - 24:00" },
-        { "dia": "Domingo", "hora": "0:00 - 24:00" }
-      ],
-      "descripcion": "En el corazón de Calkiní, te espera un lugar donde la tranquilidad, la hospitalidad y el encanto del pueblo campechano se unen para brindarte una estancia inolvidable.",
-      "lat": 20.37021216015106,
-      "lng": -90.0549834301773
-    },
-    {
-      "nombre": "Hotel María Noemí",
-      "direccion": "C. 20 54, San Juan, 24902 Calkiní, Camp.",
-      "telefono": "9969610830",
-      "imagen_principal": "lib/assets/images/hoteles/hotelck/noemi_principal.jpg",
-      "imagenes": [
-        "lib/assets/images/hoteles/hotelck/noemi1.jpg",
-        "lib/assets/images/hoteles/hotelck/noemi2.jpg",
-        "lib/assets/images/hoteles/hotelck/noemi3.jpg"],
-      "horario": [
-        { "dia": "Lunes", "hora": "0:00 - 24:00" },
-        { "dia": "Martes", "hora": "0:00 - 24:00" },
-        { "dia": "Miércoles", "hora": "0:00 - 24:00" },
-        { "dia": "Jueves", "hora": "0:00 - 24:00" },
-        { "dia": "Viernes", "hora": "0:00 - 24:00" },
-        { "dia": "Sábado", "hora": "0:00 - 24:00" },
-        { "dia": "Domingo", "hora": "0:00 - 24:00" }
-      ],
-      "descripcion": "Brindamos servicios de alojamiento a las personas.",
-      "lat": 20.375582526618196,
-      "lng": -90.04953402995639
-    },
-    {
-      "nombre": "Hotel Brenda María",
-      "direccion": "C. 16 89 D, entre 13 y 25, San Juan, 24900 Calkiní, Camp.",
-      "telefono": "9995069050",
-      "imagen_principal": "lib/assets/images/hoteles/hotelck/brenda_principal.jpg",
-      "imagenes": [
-        "lib/assets/images/hoteles/hotelck/brenda1.jpg",
-        "lib/assets/images/hoteles/hotelck/brenda2.jpg",
-        "lib/assets/images/hoteles/hotelck/brenda3.jpg"],
-
-      "horario": [
-        { "dia": "Lunes", "hora": "0:00 - 24:00" },
-        { "dia": "Martes", "hora": "0:00 - 24:00" },
-        { "dia": "Miércoles", "hora": "0:00 - 24:00" },
-        { "dia": "Jueves", "hora": "0:00 - 24:00" },
-        { "dia": "Viernes", "hora": "0:00 - 24:00" },
-        { "dia": "Sábado", "hora": "0:00 - 24:00" },
-        { "dia": "Domingo", "hora": "0:00 - 24:00" }
-      ],
-      "descripcion": "Un estilo de vida diferente.",
-      "lat": 20.371937075971125,
-      "lng": -90.04630621120738
-    }
+    "nombre": "Hotel San Román",
+    "direccion": "Calle 14 entre 17 y 19, San Román, 24910 Nunkiní, Camp.",
+    "telefono": "9964312111",
+    "imagen_principal": "lib/assets/images/NK/sanroman_h_principal.jpg",
+    "imagenes": [
+      "lib/assets/images/NK/sanroman_h1.jpg"
+    ],
+    "horario": [
+      { "dia": "Lunes", "hora": "Abierto 24 horas" },
+      { "dia": "Martes", "hora": "Abierto 24 horas" },
+      { "dia": "Miércoles", "hora": "Abierto 24 horas" },
+      { "dia": "Jueves", "hora": "Abierto 24 horas" },
+      { "dia": "Viernes", "hora": "Abierto 24 horas" },
+      { "dia": "Sábado", "hora": "Abierto 24 horas" },
+      { "dia": "Domingo", "hora": "Abierto 24 horas" }
+    ],
+    "descripcion": "Ubicado en el corazón de Nunkiní, ofrece una estancia cómoda y accesible.",
+    "lat": 20.4021583,
+    "lng": -90.1441607
+  },
+  {
+    "nombre": "Hospedaje Los Flamboyanes",
+    "direccion": "Calle 19, San Román, 24910 Nunkiní, Camp.",
+    "telefono": "9961054321",
+    "imagen_principal": "lib/assets/images/NK/flamboyanes_principal.jpg",
+    "imagenes": [
+      "lib/assets/images/NK/flamboyanes1.jpg",
+      "lib/assets/images/NK/flamboyanes2.jpg",
+      "lib/assets/images/NK/flamboyanes3.jpg"
+    ],
+    "horario": [
+      { "dia": "Lunes", "hora": "Abierto 24 horas" },
+      { "dia": "Martes", "hora": "Abierto 24 horas" },
+      { "dia": "Miércoles", "hora": "Abierto 24 horas" },
+      { "dia": "Jueves", "hora": "Abierto 24 horas" },
+      { "dia": "Viernes", "hora": "Abierto 24 horas" },
+      { "dia": "Sábado", "hora": "Abierto 24 horas" },
+      { "dia": "Domingo", "hora": "Abierto 24 horas" }
+    ],
+    "descripcion": "Negocio local que ofrece servicios de alojamiento básico y descanso para visitantes.",
+    "lat": 20.401520,
+    "lng": -90.144850
+  }
   ]
 }

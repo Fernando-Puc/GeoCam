@@ -1,0 +1,14 @@
+{
+    "usuarios": [
+        {
+        "username": "usuario",
+        "password": "1234",
+        "nombre": "Usuario"
+        },
+        {
+        "username": "usuario2",
+        "password": "usuario",
+        "nombre": "Usuario GeoCam"
+        }
+    ]
+}

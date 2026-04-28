@@ -1,73 +1,73 @@
 {
   "centrosreligiosos": [
     {
-      "nombre": "Capilla de San Luis Obispo NK",
-      "direccion": "C. 17 24, San Luis Obispo, 24900 Calkiní, Camp.",
-      "telefono": "9967306632",
-      "imagen_principal": "lib/assets/images/locales/religiososck/sanluis_principales.jpg",
+      "nombre": "Parroquia de San Diego de Alcalá",
+      "direccion": "San Francisco, 24910 Nunkiní, Camp.",
+      "telefono": "9993024589",
+      "imagen_principal": "lib/assets/images/NK/parroquia_principal.jpg",
       "imagenes": [
-        "lib/assets/images/locales/religiososck/sanluis1.jpg",
-        "lib/assets/images/locales/religiososck/sanluis2.jpg",
-        "lib/assets/images/locales/religiososck/sanluis3.jpeg"
+        "lib/assets/images/NK/parroquia1.jpg",
+        "lib/assets/images/NK/parroquia2.jpg",
+        "lib/assets/images/NK/parroquia3.jpg"
       ],
       "horario": [
-        { "dia": "Lunes", "hora": "7:00 - 19:00" },
-        { "dia": "Martes", "hora": "7:00 - 19:00" },
-        { "dia": "Miércoles", "hora": "7:00 - 19:00" },
-        { "dia": "Jueves", "hora": "7:00 - 19:00" },
-        { "dia": "Viernes", "hora": "7:00 - 19:00" },
-        { "dia": "Sábado", "hora": "7:00 - 20:00" },
-        { "dia": "Domingo", "hora": "7:00 - 20:00" }
+        { "dia": "Lunes", "hora": "09:00 - 13:00, 17:00 - 20:00" },
+        { "dia": "Martes", "hora": "09:00 - 13:00, 17:00 - 20:00" },
+        { "dia": "Miércoles", "hora": "09:00 - 13:00, 17:00 - 20:00" },
+        { "dia": "Jueves", "hora": "09:00 - 13:00, 17:00 - 20:00" },
+        { "dia": "Viernes", "hora": "09:00 - 13:00, 17:00 - 20:00" },
+        { "dia": "Sábado", "hora": "09:00 - 13:00, 17:00 - 20:00" },
+        { "dia": "Domingo", "hora": "07:00 - 12:00, 18:00 - 21:00" }
       ],
-      "descripcion": "Capilla dedicada a San Luis Obispo.",
-      "lat": 20.37408401839364, 
-      "lng": -90.05496622051092
+      "descripcion": "Principal recinto religioso de la comunidad, dedicado a San Diego de Alcalá.",
+      "lat": 20.4012286,
+      "lng": -90.1481726
     },
     {
-      "nombre": "Parroquia de San Luis Obispo",
-      "direccion": "Calle 17 entre 20 y 22 Colonia Centro, Calkiní, Calkiní, Mexico",
-      "telefono": "9961114718",
-      "imagen_principal": "lib/assets/images/locales/religiososck/iglesia_principal.jpg",
+      "nombre": "Capilla de San Jose",
+      "direccion": "Chihuahua C-21 77, El Gato Negro, 24910 Nunkiní, Camp.",
+      "telefono": "9941089732",
+      "imagen_principal": "lib/assets/images/NK/sanjose_principal.jpg",
       "imagenes": [
-        "lib/assets/images/locales/religiososck/iglesia1.jpg",
-        "lib/assets/images/locales/religiososck/iglesia2.jpg",
-        "lib/assets/images/locales/religiososck/iglesia3.jpg"
+        "lib/assets/images/NK/sanjose1.jpg",
+        "lib/assets/images/NK/sanjose2.jpg",
+        "lib/assets/images/NK/sanjose3.jpg"
       ],
       "horario": [
-        { "dia": "Lunes", "hora": "7:00 - 18:00" },
-        { "dia": "Martes", "hora": "7:00 - 18:00" },
-        { "dia": "Miércoles", "hora": "7:00 - 18:00" },
-        { "dia": "Jueves", "hora": "7:00 - 18:00" },
-        { "dia": "Viernes", "hora": "7:00 - 18:00" },
-        { "dia": "Sábado", "hora": "7:00 - 19:00" },
-        { "dia": "Domingo", "hora": "7:00 - 19:00" }
+        { "dia": "Lunes", "hora": "10:00 - 20:00" },
+        { "dia": "Martes", "hora": "10:00 - 20:00" },
+        { "dia": "Miércoles", "hora": "10:00 - 20:00" },
+        { "dia": "Jueves", "hora": "10:00 - 20:00" },
+        { "dia": "Viernes", "hora": "10:00 - 20:00" },
+        { "dia": "Sábado", "hora": "10:00 - 20:00" },
+        { "dia": "Domingo", "hora": "10:00 - 20:00" }
       ],
-      "descripcion": "Templo religioso importante en la comunidad de Calkiní.",
-      "lat": 20.373337179397247, 
-      "lng": -90.05775381997951
+      "descripcion": "Capilla comunitaria ubicada en el sector de El Gato Negro.",
+      "lat": 20.3987524,
+      "lng": -90.1442848
     },
     {
-      "nombre": "Capilla de Nuestra Señora de Fátima",
-      "direccion": "C. 5 110B, Fátima, 24902 Calkiní, Camp.",
-      "telefono": "",
-      "imagen_principal": "lib/assets/images/locales/religiososck/fatima_principal.jpg",
+      "nombre": "Capilla Santa Maria de Guadalupe",
+      "direccion": "Diag. 18-A 6, La Guadalupe, 24903 Nunkiní, Camp.",
+      "telefono": "9967302062",
+      "imagen_principal": "lib/assets/images/NK/guadalupe_principal.jpg",
       "imagenes": [
-        "lib/assets/images/locales/religiososck/fatima1.jpg",
-        "lib/assets/images/locales/religiososck/fatima2.jpg",
-        "lib/assets/images/locales/religiososck/fatima3.jpg"
+        "lib/assets/images/NK/guadalupe1.jpg",
+        "lib/assets/images/NK/guadalupe2.jpg",
+        "lib/assets/images/NK/guadalupe3.jpg"
       ],
       "horario": [
-        { "dia": "Lunes", "hora": "8:00 - 18:00" },
-        { "dia": "Martes", "hora": "8:00 - 18:00" },
-        { "dia": "Miércoles", "hora": "8:00 - 18:00" },
-        { "dia": "Jueves", "hora": "8:00 - 18:00" },
-        { "dia": "Viernes", "hora": "8:00 - 18:00" },
-        { "dia": "Sábado", "hora": "8:00 - 18:00" },
-        { "dia": "Domingo", "hora": "8:00 - 18:00" }
+        { "dia": "Lunes", "hora": "07:00 - 17:00" },
+        { "dia": "Martes", "hora": "07:00 - 17:00" },
+        { "dia": "Miércoles", "hora": "07:00 - 17:00" },
+        { "dia": "Jueves", "hora": "07:00 - 17:00" },
+        { "dia": "Viernes", "hora": "07:00 - 17:00" },
+        { "dia": "Sábado", "hora": "07:00 - 17:00" },
+        { "dia": "Domingo", "hora": "07:00 - 17:00" }
       ],
-      "descripcion": "Capilla dedicada a Nuestra Señora de Fátima, perteneciente a la Parroquia María Esperanza Nuestra.",
-      "lat": 20.380349260902275, 
-      "lng": -90.05189496254177
+      "descripcion": "Centro de culto dedicado a la Virgen de Guadalupe en la zona norte de la localidad.",
+      "lat": 20.4061472,
+      "lng": -90.1432155
     }
   ]
 }

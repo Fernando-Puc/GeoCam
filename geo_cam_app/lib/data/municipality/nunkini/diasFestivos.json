@@ -1,5 +1,5 @@
 {
-  "descripcion_general": "NUNKINI, conocida como la 'Garganta del Sol', es uno de los pueblos mayas coloniales más meritorios de la Península. También llamada la 'Atenas del Camino Real' y 'Cuna de las Artesanías Campechanas', cuenta con una gran riqueza cultural, natural y artesanal, así como servicios indispensables para disfrutar en familia.",
+  "descripcion_general": "NUNKINÍ proviene del origen maya: NUN: nacer, I: ahí, KIN: sol; significa 'Ahí donde nace el sol'. Se encuentra a 10 km al poniente de la ciudad de Calkiní. Es conocido por su originalidad en el carnaval con los famosos disfrazados de osos, una tradición que data de los años veinte del siglo pasado. Nunkiní es también reconocido por su gran número de bailes y festividades a lo largo del año.",
   "meses": [
     {
       "nombre": "ENERO",
@@ -9,72 +9,104 @@
       "nombre": "FEBRERO",
       "festividades": [
         {
-        "titulo": "El Carnaval de Calkiní",
-        "descripcion": "El carnaval en Calkiní es practicado por niños, jóvenes y viejos, sin límite de edad. Por su originalidad y colorido es un festejo único en el Camino Real. Es tanta su fuerza de seducción que en esas fechas se acrecienta la visita de amigos y familiares de otros estados.",
-        "fecha_celebracion": "del 07 al 17 de febrero",
-        "imagen_principal": "lib/assets/images/festividadesCK/carnaval_principal.jpg",
-        "imagenes": [
-            "lib/assets/images/festividadesCK/carnaval1.jpg",
-            "lib/assets/images/festividadesCK/carnaval2.jpg",
-            "lib/assets/images/festividadesCK/carnaval3.jpg",
-            "lib/assets/images/festividadesCK/carnaval4.jpg",
-            "lib/assets/images/festividadesCK/carnaval5.jpg",
-            "lib/assets/images/festividadesCK/carnaval6.jpg"
-        ],
+          "titulo": "Carnaval de Nunkiní 2026 (Osos de Nunkiní)",
+          "descripcion": "Uno de los pueblos que más ha llamado la atención por la originalidad de su carnaval es Nunkiní, donde los disfrazados de osos se cuentan por centenas. El disfraz está hecho con costales, sabucán, piel de venado, reata y cencerros, convirtiéndolo en uno de los carnavales más famosos del Camino Real. Esta costumbre tiene sus orígenes en los años veinte del siglo pasado cuando el circo de los hermanos Acereto llegó al pueblo. En el Barrio de San Isidro se realiza la quema de Juan Carnaval como tradición de liberación o despedida del disfraz del oso.",
+          "fecha_celebracion": "del 13 al 17 de febrero",
+          "imagen_principal": "lib/assets/images/festividadesNK/carnaval_principal.jpg",
+          "imagenes": [
+            "lib/assets/images/festividadesNK/carnaval1.jpg",
+            "lib/assets/images/festividadesNK/carnaval2.webp",
+            "lib/assets/images/festividadesNK/carnaval3.jpg",
+            "lib/assets/images/festividadesNK/carnaval4.jpg",
+            "lib/assets/images/festividadesNK/carnaval5.jpg",
+            "lib/assets/images/festividadesNK/carnaval6.jpg"
+          ],
           "eventos": [
-            { "dia": "07 de febrero", "evento": "Gallo precarnavalesco y Quema del mal humor", "hora": "6:00 p.m.", "lugar": "Arco Maya y Parque Principal" },
-            { "dia": "09 de febrero", "evento": "Coronación de la reina LGBTTTIQT+", "hora": "7:00 p.m.", "lugar": "Parque Principal" },
-            { "dia": "10 de febrero", "evento": "Presentación de comparsas de preescolar y primaria", "hora": "5:00 p.m.", "lugar": "Parque Principal" },
-            { "dia": "11 de febrero", "evento": "Coronación de los reyes del DIF municipal", "hora": "5:00 p.m.", "lugar": "Parque Principal" },
-            { "dia": "12 de febrero", "evento": "Coronación infantil", "hora": "7:00 p.m.", "lugar": "Parque Principal" },
-            { "dia": "13 de febrero", "evento": "Corso Infantil y Coronación de los reyes del carnaval 2026", "hora": "5:00 p.m.", "lugar": "Calle principal" },
-            { "dia": "14 de febrero", "evento": "Bando tradicional y concurso de carros alegóricos", "hora": "5:00 p.m.", "lugar": "Calle principal" },
-            { "dia": "15 de febrero", "evento": "Concurso de mascotas y primer baile de disfraces", "hora": "10:00 a.m.", "lugar": "Barrio Kilakán y Parque Principal" },
-            { "dia": "16 de febrero", "evento": "Concurso de disfraz infantil y segundo baile de disfraz", "hora": "5:00 p.m.", "lugar": "Explanada del palacio municipal" },
-            { "dia": "17 de febrero", "evento": "Pintadera, Toro Petate y Quema de Juan Carnaval", "hora": "12:00 p.m.", "lugar": "Barrios de la ciudad y Parque Principal" }
+            { "dia": "13 de febrero", "evento": "Coronación de los soberanos electos edición 2026 — Reyes juveniles, Reyes mujeres maravilla, Reyes infantiles e inclusión", "hora": "7:00 p.m.", "lugar": "Nunkiní" },
+            { "dia": "14 de febrero", "evento": "Tradicional sábado de bando en la explanada del palacio con presentación de materiales reciclados", "hora": "5:00 p.m.", "lugar": "Explanada del palacio, Nunkiní" },
+            { "dia": "15 de febrero", "evento": "Demostración de comparsa en la explanada del palacio y presentación de reyes estudiantiles", "hora": "6:00 p.m.", "lugar": "Explanada del palacio, Nunkiní" },
+            { "dia": "16 de febrero", "evento": "Tradicional concurso de disfraces con elementos reciclados", "hora": "10:00 p.m.", "lugar": "Nunkiní" },
+            { "dia": "17 de febrero", "evento": "Tradicional martes de pintadera en el centro de la comunidad", "hora": "11:00 a.m. - 3:00 p.m.", "lugar": "Centro de Nunkiní" },
+            { "dia": "17 de febrero", "evento": "Tradicional cierre de carnaval — grupos de cada barrio bailan al ritmo de charanga y cumbia", "hora": "7:00 p.m.", "lugar": "Nunkiní" }
           ]
         }
       ]
     },
     {
       "nombre": "MARZO",
-      "festividades": []
+      "festividades": [
+        {
+          "titulo": "Feria de la Sandía 2026",
+          "descripcion": "La Feria de la Sandía se ha colocado como una de las más importantes en todo el Camino Real. Es destacada por las actividades sanas que se realizan y porque la población local y foránea llega para degustar la sandía que producen los pobladores. Se realizan coronaciones, exposiciones artesanales, academias de danza, jaranas y el tradicional concurso de la sandía más grande.",
+          "fecha_celebracion": "del 13 al 15 de marzo",
+          "imagen_principal": "lib/assets/images/festividadesNK/sandia_principal.jpg",
+          "imagenes": [
+            "lib/assets/images/festividadesNK/sandia1.jpg",
+            "lib/assets/images/festividadesNK/sandia2.jpg",
+            "lib/assets/images/festividadesNK/sandia3.jpg",
+            "lib/assets/images/festividadesNK/sandia4.jpg",
+            "lib/assets/images/festividadesNK/sandia5.jpg"
+          ],
+          "eventos": [
+            { "dia": "13 de marzo", "evento": "Coronación de la embajadora de la Feria de la Sandía y presentación de academias de ballet folklórico", "hora": "8:00 p.m.", "lugar": "Nunkiní" },
+            { "dia": "14 de marzo", "evento": "Exposición artesanal y agrícola, academias de danza, tradicional jarana y baile de sonido", "hora": "11:00 a.m. / 10:00 p.m.", "lugar": "Explanada del Palacio, Nunkiní" },
+            { "dia": "15 de marzo", "evento": "Concurso de la sandía más grande, grabación del programa 'Vamos a bailar' y presentación musical", "hora": "11:00 a.m. / 3:00 p.m. / 8:00 p.m.", "lugar": "Nunkiní" }
+          ]
+        }
+      ]
     },
     {
       "nombre": "ABRIL",
-      "festividades": []
+      "festividades": [
+        {
+          "titulo": "Feria Patronal en honor a San Diego de Alcalá",
+          "descripcion": "Una de las celebraciones con mayor arraigo en Nunkiní es la Fiesta tradicional con corridas de toros y festividades religiosas en honor a San Diego de Alcalá. Se realizan vaquerías, corridas de toros, la quema de los muñecos la Mestiza (Xunáan K'áak) y el Caballero de Fuego (Ts'uulil K'áak'), procesiones y el tradicional baile bajo el ceibo. La quema de estos muñecos simboliza la absorción del mal y la preservación de la comunidad.",
+          "fecha_celebracion": "del 09 al 13 de abril",
+          "imagen_principal": "lib/assets/images/festividadesNK/sandiego_principal.jpg",
+          "imagenes": [
+            "lib/assets/images/festividadesNK/sandiego2.jpg",
+            "lib/assets/images/festividadesNK/sandiego3.jpg",
+            "lib/assets/images/festividadesNK/sandiego4.jpg",
+            "lib/assets/images/festividadesNK/sandiego5.jpg",
+            "lib/assets/images/festividadesNK/sandiego6.jpg",
+            "lib/assets/images/festividadesNK/sandiego7.jpg"
+          ],
+          "eventos": [
+            { "dia": "09 de abril", "evento": "Primera corrida de toros", "hora": "5:00 p.m.", "lugar": "Plazuela del pueblo, Nunkiní" },
+            { "dia": "09 de abril", "evento": "Vaquería", "hora": "10:00 p.m.", "lugar": "Nunkiní" },
+            { "dia": "10 de abril", "evento": "Gran Bailazo", "hora": "10:00 p.m.", "lugar": "Nunkiní" },
+            { "dia": "11 de abril", "evento": "Tercera corrida de toros", "hora": "5:00 p.m.", "lugar": "Nunkiní" },
+            { "dia": "11 de abril", "evento": "Noche Disco", "hora": "10:00 p.m.", "lugar": "Nunkiní" },
+            { "dia": "12 de abril", "evento": "Cuarta corrida de toros", "hora": "5:00 p.m.", "lugar": "Nunkiní" },
+            { "dia": "12 de abril", "evento": "Ceremonia religiosa — bendición de alimentos y ofrendas", "hora": "Noche", "lugar": "Iglesia de Nunkiní" },
+            { "dia": "12 de abril", "evento": "Tardeada y baile bajo el ceibo", "hora": "3:00 p.m.", "lugar": "Bajo el ceibo, Nunkiní" },
+            { "dia": "12 de abril", "evento": "Quema de la Mestiza (Xunáan K'áak) y el Caballero de Fuego (Ts'uulil K'áak')", "hora": "2:00 p.m.", "lugar": "Frente a la iglesia, Nunkiní" },
+            { "dia": "13 de abril", "evento": "Beneficio de la iglesia — última corrida de toros y baile", "hora": "4:00 p.m. / 10:00 p.m.", "lugar": "Nunkiní" }
+          ]
+        }
+      ]
     },
     {
       "nombre": "MAYO",
       "festividades": [
         {
-          "titulo": "Fiesta Patronal de San Isidro Labrador",
-          "descripcion": "Las Fiestras Patronales son la expresión de la Fe católica que acompañado de otros eventos paganos permitan a los habitantes de la comunidad y aun los que no pertenecen a ella participar en los diversos eventos que se desarrollan en ellas. \n  \n En la ciudad de Calkiní se celebra con gran fervor al Santo Patrono Isidro Labrador. Durante este festejo se realizan procesiones, misas, novenarios, bailes populares, novilladas, veladas culturales y danzas regionales como la tradicional Vaquería y la Cabeza de Cochino." ,
-          "fecha_celebracion": "del 12 al 15 de mayo",
-        "imagen_principal": "lib/assets/images/festividadesCK/sanisidro_principal.jpg",
-        "imagenes": [
-            "lib/assets/images/festividadesCK/sanisidro1.jpg",
-            "lib/assets/images/festividadesCK/sanisidro2.jpg",
-            "lib/assets/images/festividadesCK/sanisidro3.jpg"
-        ],
+          "titulo": "Fiesta Tradicional en honor a San Isidro Labrador",
+          "descripcion": "En el barrio de San Isidro de Nunkiní se realiza la tradición a San Isidro Labrador, el santo de la agricultura y ganadería. Se realizan durante nueve noches rezos hasta el día más grande que se festeja el 15 de mayo con corridas de toros, vaquerías, procesiones y el reparto de cochinita y sakab. La celebración finaliza el lunes con la última corrida y baile con beneficio a la capilla.",
+          "fecha_celebracion": "del 15 al 18 de mayo",
+          "imagen_principal": "lib/assets/images/festividadesNK/sanisidro_principal.jpg",
+          "imagenes": [
+            "lib/assets/images/festividadesNK/sanisidro1.jpg",
+            "lib/assets/images/festividadesNK/sanisidro2.jpg",
+            "lib/assets/images/festividadesNK/sanisidro3.jpg",
+            "lib/assets/images/festividadesNK/sanisidro4.jpg",
+            "lib/assets/images/festividadesNK/sanisidro5.jpg"
+          ],
           "eventos": [
-            { "dia": "12 al 15 de mayo", "evento": "Fiesta Patronal de San Isidro Labrador", "hora": "Todo el día", "lugar": "Ciudad de Calkiní" }
-          ]
-        },
-        {
-          "titulo": "Feria Tradicional de la Colonia Fátima",
-          "descripcion": "La Sociedad Cultural y Deportiva 'La Fátima de Calkiní A.C.' organiza una serie de actividades en honor a la Santísima Virgen de Fátima, patrona de la colonia. Se realizan eventos taurinos, bailes populares, venta de antojitos regionales, festivales culturales, misas, rosarios y procesiones.",
-          "fecha_celebracion": "del 13 al 20 de mayo",
-        "imagen_principal": "lib/assets/images/festividadesCK/fatima_principal.jpg",
-        "imagenes": [
-            "lib/assets/images/festividadesCK/fatima1.jpg",
-            "lib/assets/images/festividadesCK/fatima2.jpg",
-            "lib/assets/images/festividadesCK/fatima3.jpg",
-            "lib/assets/images/festividadesCK/fatima4.jpg",
-            "lib/assets/images/festividadesCK/fatima5.jpg"
-        ],
-          "eventos": [
-            { "dia": "13 al 20 de mayo", "evento": "Feria Tradicional en honor a la Virgen de Fátima", "hora": "Todo el día", "lugar": "Colonia Fátima, Calkiní" }
+            { "dia": "15 de mayo", "evento": "Primera corrida de toros y Vaquería", "hora": "5:00 p.m. / Noche", "lugar": "Barrio San Isidro, Nunkiní" },
+            { "dia": "16 de mayo", "evento": "Segunda corrida de toros y baile", "hora": "5:00 p.m. / Noche", "lugar": "Barrio San Isidro, Nunkiní" },
+            { "dia": "17 de mayo", "evento": "Ceremonia de acción de gracias, procesión y reparto de cochinita y sakab", "hora": "Mañana", "lugar": "Barrio San Isidro, Nunkiní" },
+            { "dia": "17 de mayo", "evento": "Tercera corrida de toros y segundo gran baile", "hora": "Tarde / Noche", "lugar": "Barrio San Isidro, Nunkiní" },
+            { "dia": "18 de mayo", "evento": "Última corrida y baile con beneficio a la capilla", "hora": "Tarde / Noche", "lugar": "Barrio San Isidro, Nunkiní" }
           ]
         }
       ]
@@ -93,63 +125,107 @@
     },
     {
       "nombre": "SEPTIEMBRE",
-      "festividades": []
+      "festividades": [
+        {
+          "titulo": "Novenario del Santo Cristo del Amor",
+          "descripcion": "En Nunkiní se festeja al Santo Cristo del Amor del 01 al 14 de septiembre. Se realizan gremios y bailes en la casa de los socios. Los gremios ingresan a las 5:00 p.m. en la iglesia donde se realiza una misa y son devueltos en casa de los socios al día siguiente. Se regala cochinita, tortas o tacos. El día 14 de septiembre es el día más grande, donde los devotos forman una procesión para acompañar la imagen del Cristo por el centro de la comunidad.",
+          "fecha_celebracion": "del 01 al 14 de septiembre",
+          "imagen_principal": "lib/assets/images/festividadesNK/camor_principal.jpg",
+          "imagenes": [
+            "lib/assets/images/festividadesNK/camor1.jpg",
+            "lib/assets/images/festividadesNK/camor2.jpg",
+            "lib/assets/images/festividadesNK/camor3.jpg",
+            "lib/assets/images/festividadesNK/camor4.jpg",
+            "lib/assets/images/festividadesNK/camor5.jpg"
+
+          ],
+          "eventos": [
+            { "dia": "01 al 13 de septiembre", "evento": "Gremios y bailes en casas de los socios con misa en la iglesia", "hora": "5:00 p.m.", "lugar": "Iglesia y casas de socios, Nunkiní" },
+            { "dia": "14 de septiembre", "evento": "Día principal — procesión del Santo Cristo del Amor por el centro de la comunidad", "hora": "Por confirmar", "lugar": "Centro de Nunkiní" }
+          ]
+        }
+      ]
     },
     {
       "nombre": "OCTUBRE",
       "festividades": [
         {
-          "titulo": "Feria Artesanal y Cultural",
-          "descripcion": "Durante octubre se celebra la Feria Artesanal y Cultural de Calkiní con una gran cantidad de eventos religiosos, culturales y deportivos, principalmente gremios en honor al Santo Cristo de la Misericordia.",
-          "fecha_celebracion": "del 07 al 26 de octubre",
-        "imagen_principal": "lib/assets/images/festividadesCK/fartesanal_principal.jpg",
-        "imagenes": [
-            "lib/assets/images/festividadesCK/fartesanal1.jpg",
-            "lib/assets/images/festividadesCK/fartesanal2.jpg",
-            "lib/assets/images/festividadesCK/fartesanal3.jpg",
-            "lib/assets/images/festividadesCK/fartesanal4.jpg",
-            "lib/assets/images/festividadesCK/fartesanal5.jpg"
-        ],
+          "titulo": "Hanal Pixán (Día de Muertos Maya)",
+          "descripcion": "Las festividades del Hanal Pixán comienzan desde el 27 de octubre. Las familias preparan altares en sus hogares adornados con flores, velas, fotografías y alimentos. El 27 de octubre se da la bienvenida a las almas de los niños. Los días 28 y 29 se dedican a las ánimas olvidadas. El 30 y 31 de octubre están destinados a los adultos fallecidos con alimentos tradicionales como el pibipollo, tamales y bebidas típicas.",
+          "fecha_celebracion": "del 27 de octubre \n al 2 de noviembre",
+          "imagen_principal": "lib/assets/images/festividadesNK/pixan_principal.jpg",
+          "imagenes": [
+            "lib/assets/images/festividadesNK/pixan1.jpg",
+            "lib/assets/images/festividadesNK/pixan3.jpg",
+            "lib/assets/images/festividadesNK/pixan4.jpg",
+            "lib/assets/images/festividadesNK/pixan5.jpg",
+            "lib/assets/images/festividadesNK/pixan6.jpg"
+          ],
           "eventos": [
-            { "dia": "02 de octubre", "evento": "Ruta móvil Omnilife", "hora": "Todo el día", "lugar": "Parque ecológico barrio San Martín" },
-            { "dia": "03 de octubre", "evento": "Gremio de señoras en honor al Santo Cristo", "hora": "Todo el día", "lugar": "C. 16, No. 83 A, Barrio San Juan" },
-            { "dia": "03 de octubre", "evento": "Gremio Sistema de agua potable", "hora": "Todo el día", "lugar": "C.13, Barrio San Juan" },
-            { "dia": "04 de octubre", "evento": "Gremio de locatarios con tardeada", "hora": "Todo el día", "lugar": "C. 16 #100 Barrio Kilakan" },
-            { "dia": "04 de octubre", "evento": "Gremio de abastecedores con tardeada", "hora": "Todo el día", "lugar": "Mercado municipal José del Carmen Cuevas Sierra" },
-            { "dia": "04 de octubre", "evento": "Gremio tricicleros y colaboradores", "hora": "Todo el día", "lugar": "Campo de San Isidro C. 7x 8 S/N" },
-            { "dia": "07 de octubre", "evento": "Gremio de la nueva Unión popular", "hora": "Todo el día", "lugar": "Carretera calle 18x29 entre 31 A, frente al parque ecológico" },
-            { "dia": "09 de octubre", "evento": "Gremio capilla San Luis Conzaga", "hora": "Todo el día", "lugar": "Capilla de San Luis Gonzaga, barrio San Luisito" },
-            { "dia": "09 de octubre", "evento": "Gremio de artesanos y campesinos con tardeada", "hora": "Todo el día", "lugar": "Calle 37, entre 16 A y 18 barrio San Martín" },
-            { "dia": "09 de octubre", "evento": "Gremios tradicionales indígenas con tardeada", "hora": "Todo el día", "lugar": "C. 24 entre 29 y 31 barrio Kilakan" },
-            { "dia": "09 de octubre", "evento": "Gremio capilla barrio de la Concepción", "hora": "Todo el día", "lugar": "Capilla del barrio de la Concepción" },
-            { "dia": "10 de octubre", "evento": "Gremio de Carretilleros y cargadores", "hora": "Todo el día", "lugar": "C. 22 entre 18 y 20 barrio San Luisito" },
-            { "dia": "11 de octubre", "evento": "Gremio de la unión juvenil obrera", "hora": "Todo el día", "lugar": "Calle 13 #93 A barrio San Juan" },
-            { "dia": "14 de octubre", "evento": "Gremio colonia de Fátima con tardeada", "hora": "Todo el día", "lugar": "Parroquia y salón barrio colonia de Fátima" },
-            { "dia": "14 de octubre", "evento": "Gremio de unión campesina", "hora": "Todo el día", "lugar": "Calle 22 S/N frente al teatro Kilakán" },
-            { "dia": "15 de octubre", "evento": "Gremio capilla de San Luis Obispo", "hora": "Todo el día", "lugar": "Plazuela de la capilla de San Luis Obispo" },
-            { "dia": "21 de octubre", "evento": "Evento luz y sonido 'Noche de Halloween'", "hora": "Todo el día", "lugar": "Cancha techada colonia Fátima" },
-            { "dia": "21 de octubre", "evento": "Gremio de agricultores con tardeada", "hora": "Todo el día", "lugar": "Calle 16 S/N barrio San Miguel Kukab" },
-            { "dia": "21 de octubre", "evento": "Gremio capilla barrio San Juan Bautista", "hora": "Todo el día", "lugar": "Capilla barrio San Juan" },
-            { "dia": "22 de octubre", "evento": "Gremio capilla de San Judas Tadeo", "hora": "Todo el día", "lugar": "Capilla de San Judas Tadeo, barrio del ceibo" },
-            { "dia": "22 de octubre", "evento": "Desfile 'Celebremos Campeche 2026'", "hora": "Todo el día", "lugar": "Calle 20 y 15 esquina de la 21" },
-            { "dia": "22 de octubre", "evento": "Evento K'ii wik ko onol pixan", "hora": "Todo el día", "lugar": "Plaza del maestro" },
-            { "dia": "23 de octubre", "evento": "Gremio campesinos y tejedores de palma", "hora": "Todo el día", "lugar": "Calle privada de la 25, barrio Kilakán" },
-            { "dia": "29 de octubre", "evento": "Gremio taxistas con tardeada", "hora": "Todo el día", "lugar": "Sociedad cooperativa de transporte, barrio San Isidro" },
-            { "dia": "29 de octubre", "evento": "Ruta móvil Omnilife MEX", "hora": "Todo el día", "lugar": "Parque ecológico barrio San Martín" },
-            { "dia": "29 de octubre", "evento": "Misa en panteón municipal", "hora": "Todo el día", "lugar": "Cementerio municipal" }
+            { "dia": "27 de octubre", "evento": "Bienvenida a las almas de los niños — preparación de altares con dulces, juguetes y flores", "hora": "Por confirmar", "lugar": "Hogares de Nunkiní" },
+            { "dia": "28 y 29 de octubre", "evento": "Ofrendas a las ánimas olvidadas o solitarias", "hora": "Por confirmar", "lugar": "Hogares de Nunkiní" },
+            { "dia": "30 y 31 de octubre", "evento": "Honrar a los adultos fallecidos con pibipollo, tamales y bebidas típicas", "hora": "Por confirmar", "lugar": "Hogares de Nunkiní" },
+            { "dia": "01 de noviembre", "evento": "Visita al cementerio — Día de Todos los Santos", "hora": "Por confirmar", "lugar": "Cementerio de Nunkiní" },
+            { "dia": "02 de noviembre", "evento": "Misas, rezos y convivencias — Día de los Fieles Difuntos", "hora": "Por confirmar", "lugar": "Nunkiní" }
           ]
         }
       ]
     },
     {
       "nombre": "NOVIEMBRE",
-      "festividades": []
+      "festividades": [
+        {
+          "titulo": "Fiesta Patronal de San Diego de Alcalá (Novenarios)",
+          "descripcion": "Del 03 de noviembre al 03 de diciembre se celebra la Fiesta Patronal de San Diego de Alcalá con procesiones y novenarios en los que participan alrededor de 30 gremios. El 12 de noviembre se bendicen las ofrendas y el 13 de noviembre es el día más esperado con procesión, reparto de cochinita, relleno, tacos y sakab, la quema de los muñecos Ts'uulil K'áak' y Xunáan K'áak, y el tradicional baile bajo el ceibo.",
+          "fecha_celebracion": "del 03 de noviembre \n al 03 de diciembre",
+          "imagen_principal": "lib/assets/images/festividadesNK/novenario_principal.jpg",
+          "imagenes": [
+            "lib/assets/images/festividadesNK/novenario1.jpg",
+            "lib/assets/images/festividadesNK/novenario2.jpg",
+            "lib/assets/images/festividadesNK/novenario3.jpg",
+            "lib/assets/images/festividadesNK/novenario4.jpg"
+          ],
+          "eventos": [
+            { "dia": "03 de noviembre al 11 de noviembre", "evento": "Novenarios — procesiones, misas y gremios con quema de toritos y fuegos artificiales", "hora": "Por confirmar", "lugar": "Iglesia y plazuela del pueblo, Nunkiní" },
+            { "dia": "12 de noviembre", "evento": "Bendición de ofrendas que se repartirán el día siguiente", "hora": "Por confirmar", "lugar": "Iglesia, Nunkiní" },
+            { "dia": "13 de noviembre", "evento": "Ceremonia religiosa y procesión principal", "hora": "10:00 a.m.", "lugar": "Iglesia, Nunkiní" },
+            { "dia": "13 de noviembre", "evento": "Reparto de cochinita, relleno, tacos y sakab a turistas y habitantes", "hora": "11:30 a.m.", "lugar": "Nunkiní" },
+            { "dia": "13 de noviembre", "evento": "Quema de Ts'uulil K'áak' y Xunáan K'áak", "hora": "2:00 p.m.", "lugar": "Frente a la iglesia, Nunkiní" },
+            { "dia": "13 de noviembre", "evento": "Tradicional baile bajo el ceibo", "hora": "3:00 p.m.", "lugar": "Bajo el ceibo, Nunkiní" }
+          ]
+        }
+      ]
     },
     {
       "nombre": "DICIEMBRE",
-      "festividades": []
+      "festividades": [
+        {
+          "titulo": "Novenario a la Virgen de Guadalupe",
+          "descripcion": "Del 04 al 12 de diciembre se realizan los gremios a la Virgen de Guadalupe en el barrio La Guadalupe. Ingresan 08 gremios antes del inicio de la ceremonia religiosa y son devueltos con la bendición en la casa de los socios donde regalan tortas, jugos y panes.",
+          "fecha_celebracion": "del 04 al 12 de diciembre",
+          "imagen_principal": "lib/assets/images/festividadesNK/virgenguadalupe_principal.jpg",
+          "imagenes": [
+            "lib/assets/images/festividadesNK/virgenguadalupe1.jpg",
+            "lib/assets/images/festividadesNK/virgenguadalupe2.jpg",
+            "lib/assets/images/festividadesNK/virgenguadalupe3.jpg",
+            "lib/assets/images/festividadesNK/virgenguadalupe4.jpg"
+          ],
+          "eventos": [
+            { "dia": "04 de diciembre", "evento": "Gremio de sastres y modistas de la familia Chim Chi", "hora": "6:00 p.m.", "lugar": "Barrio San Román, con doña Reyna" },
+            { "dia": "05 de diciembre", "evento": "Gremio de Doña Julia Chan Chim", "hora": "6:00 p.m.", "lugar": "Barrio Guadalupe, rumbo a Cuch Holoch" },
+            { "dia": "06 de diciembre", "evento": "Gremio de jóvenes de la familia Gamboa Suárez", "hora": "6:00 p.m.", "lugar": "Barrio San Francisco, cerca de la Escuela Primaria Miguel Hidalgo y Costilla" },
+            { "dia": "06 de diciembre", "evento": "Gremio de Legionarias Praesidium Reina de los Ángeles de la familia Can Cauich", "hora": "6:00 p.m.", "lugar": "Barrio Gato Negro, a lado de Ronny" },
+            { "dia": "06 de diciembre", "evento": "Gremio de maestros de la familia Gamboa Uc", "hora": "6:00 p.m.", "lugar": "Barrio San Martín, casa de la maestra Elvia" },
+            { "dia": "07 de diciembre", "evento": "Gremio de reposteros y panaderos de la familia Yerbes Chím", "hora": "6:00 p.m.", "lugar": "Barrio San Román, en frente de doña Cris" },
+            { "dia": "07 de diciembre", "evento": "Gremio de Niños de la familia Moo Pat", "hora": "6:00 p.m.", "lugar": "Barrio San Francisco, calle 13 x 18 y 20" },
+            { "dia": "08 de diciembre", "evento": "Gremio de comerciantes de la familia Kantun Chi", "hora": "6:00 p.m.", "lugar": "Calle 19, con la familia del Padre Juan" },
+            { "dia": "09 de diciembre", "evento": "Gremio de Horticultores de la familia Colli Chim", "hora": "6:00 p.m.", "lugar": "Barrio San Francisco Calle 17, por donde venden materiales" },
+            { "dia": "10 de diciembre", "evento": "Gremio de Trabajadores de la Salud de Eligia Eugenia Chi Tzeek", "hora": "6:00 p.m.", "lugar": "Barrio Gato Negro, calle 16 a tres casas de la capilla de San José" },
+            { "dia": "11 de diciembre", "evento": "Misa de acción de gracias — familias esperan a los peregrinos con alimentos y aplausos", "hora": "Por confirmar", "lugar": "Nunkiní" },
+            { "dia": "12 de diciembre", "evento": "Gremio de artesanos de la familia Naal Tzeek", "hora": "6:00 p.m.", "lugar": "Barrio Gato Negro, calle 23, en frente de don Venus, el ministro" }
+          ]
+        }
+      ]
     }
- ]
+  ]
 }
-
-

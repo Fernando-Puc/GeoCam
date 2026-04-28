@@ -4,7 +4,7 @@
   "title": "LOCALIDAD DE BÉCAL",
   "image": "lib/assets/images/becal.jpeg",
   "description": "Bécal, hermosa villa de raíces mayas y pobladores de manos talentosas, ubicado en el estado de Campeche, municipio de Calkiní, su nombre derivado de sus característico clima y la imaginación de quienes ahí habitaron, fue fundado en 1450 por el cacique de Calkiní Ah-Tzab-Canul.",
-  "options": ["Explora", "Guardado", "Historia"],
+  "options": ["Más Visitados", "Guardado", "Historia"],
   "historia": {
     "titulo": "BÉCAL",
     "imagen_principal": "lib/assets/images/festividadesBC/historiaBC.jpg",

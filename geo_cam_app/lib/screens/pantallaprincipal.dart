@@ -5,7 +5,6 @@ import 'pantallaBC.dart';
 import 'pantallaDZ.dart';
 import 'pantallaNK.dart';
 
-// Pantalla de los municipios
 class pantallaprincipal extends StatelessWidget {
   const pantallaprincipal({super.key});
 
@@ -24,81 +23,89 @@ class pantallaprincipal extends StatelessWidget {
           )
         ],
       ),
-      body: Column(
-        children: [
-          const SizedBox(height: 50),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Container(
-              padding: const EdgeInsets.all(18),
-              decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 255, 255, 255),
-                borderRadius: BorderRadius.circular(16),
-              ),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Image.asset(
-                    'lib/assets/images/tutorial.png',
-                    width: 80,
-                    height: 80,
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.only(bottom: 20),
+          child: Column(
+            children: [
+              const SizedBox(height: 50),
+
+              // tarjeta de bienvenida
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: Container(
+                  padding: const EdgeInsets.all(18),
+                  decoration: BoxDecoration(
+                    color: const Color.fromARGB(255, 255, 255, 255),
+                    borderRadius: BorderRadius.circular(16),
                   ),
-                  const SizedBox(width: 12),
-                  const Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          '¡BIENVENIDO!',
-                          style: TextStyle(
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
-                            color: Color.fromARGB(255, 3, 3, 3),
-                          ),
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Image.asset(
+                        'lib/assets/images/tutorial.png',
+                        width: 80,
+                        height: 80,
+                      ),
+                      const SizedBox(width: 12),
+                      const Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              '¡BIENVENIDO!',
+                              style: TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                                color: Color.fromARGB(255, 3, 3, 3),
+                              ),
+                            ),
+                            SizedBox(height: 6),
+                            Text(
+                              'Toca el ícono (?) para aprender cómo usar la app.',
+                              style: TextStyle(
+                                fontSize: 14,
+                                color: Color.fromARGB(255, 0, 0, 0),
+                              ),
+                            ),
+                          ],
                         ),
-                        SizedBox(height: 6),
-                        Text(
-                          'Toca el ícono (?) para aprender cómo usar la app.',
-                          style: TextStyle(
-                            fontSize: 14,
-                            color: Color.fromARGB(255, 0, 0, 0),
-                          ),
-                        ),
-                      ],
-                    ),
+                      ),
+                    ],
                   ),
-                ],
+                ),
               ),
-            ),
-          ),
-          const SizedBox(height: 30),
-          Expanded(
-            child: Padding(
-              padding: const EdgeInsets.all(30),
-              child: GridView.count(
-                crossAxisCount: 2,
-                crossAxisSpacing: 10,
-                mainAxisSpacing: 10,
-                childAspectRatio: 1,
-                children: [
-                  _buildButton(context, "Calkiní", const PantallaCK(),
-                      'lib/assets/images/calkinibtn.png'),
-                  _buildButton(context, "Bécal", const PantallaBC(),
-                      'lib/assets/images/becalbtn.jpg'),
-                  _buildButton(context, "Dzitbalché", const PantallaDZ(),
-                      'lib/assets/images/dzitbalchebtn.jpeg'),
-                  _buildButton(context, "Nunkiní", const PantallaNK(),
-                      'lib/assets/images/nunkinibtn.jpg'),
-                ],
+
+              const SizedBox(height: 30),
+
+              Padding(
+                padding: const EdgeInsets.all(30),
+                child: GridView.count(
+                  crossAxisCount: 2,
+                  crossAxisSpacing: 10,
+                  mainAxisSpacing: 10,
+                  childAspectRatio: 1,
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  children: [
+                    _buildButton(context, "Calkiní", const PantallaCK(),
+                        'lib/assets/images/calkinibtn.png'),
+                    _buildButton(context, "Bécal", const PantallaBC(),
+                        'lib/assets/images/becalbtn.jpg'),
+                    _buildButton(context, "Dzitbalché", const PantallaDZ(),
+                        'lib/assets/images/dzitbalchebtn.jpeg'),
+                    _buildButton(context, "Nunkiní", const PantallaNK(),
+                        'lib/assets/images/nunkinibtn.jpg'),
+                  ],
+                ),
               ),
-            ),
+            ],
           ),
-        ],
+        ),
       ),
     );
   }
 
-  // Aquí se controlan los botones
   Widget _buildButton(
     BuildContext context,
     String text,

@@ -4,7 +4,7 @@
   "title": "LOCALIDAD DE DZITBALCHÉ",
   "image": "lib/assets/images/dzitbalche.jpg",
   "description": "Dzitbalché es una localidad del estado de Campeche, con profundas raíces mayas y una rica tradición cultural. Su nombre proviene del maya y está asociado a elementos naturales de la región. Es conocida por su historia, su identidad comunitaria y por preservar costumbres ancestrales que reflejan el legado del pueblo maya.",
-  "options": ["Explora", "Guardado", "Historia"],
+  "options": ["Más Visitados", "Guardado", "Historia"],
   "historia": {
     "titulo": "DZITBALCHÉ",
     "imagen_principal": "lib/assets/images/festividadesDZ/historiaDZ.jpg",
