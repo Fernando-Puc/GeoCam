@@ -52,7 +52,7 @@ class _LoginScreenState extends State<LoginScreen> {
       return;
     }
 
-    // ✅ buscar usuario en el JSON
+    // buscar usuario
     final usuario = _usuarios.firstWhere(
       (u) => u['username'] == username && u['password'] == password,
       orElse: () => null,
@@ -93,7 +93,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
               const SizedBox(height: 40),
 
-              // ✅ logo
+              // logo
               Container(
                 decoration: BoxDecoration(
                   color: Colors.white,
@@ -117,7 +117,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
               const SizedBox(height: 30),
 
-              // ✅ título
+              // título
               const Text(
                 'GeoCam App',
                 style: TextStyle(
@@ -140,7 +140,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
               const SizedBox(height: 40),
 
-              // ✅ campo usuario
+              // campo usuario
               Container(
                 decoration: BoxDecoration(
                   color: Colors.white,
@@ -170,7 +170,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
               const SizedBox(height: 16),
 
-              // ✅ campo contraseña
+              // campo contraseña
               Container(
                 decoration: BoxDecoration(
                   color: Colors.white,
@@ -214,7 +214,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
               const SizedBox(height: 12),
 
-              // ✅ mensaje de error
+              // mensaje de error
               if (_errorMessage != null)
                 Container(
                   width: double.infinity,
@@ -243,7 +243,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
               const SizedBox(height: 24),
 
-              // ✅ botón de login
+              // botón de login
               SizedBox(
                 width: double.infinity,
                 height: 52,
@@ -279,7 +279,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
               const SizedBox(height: 30),
 
-              // ✅ footer decorativo
+              // footer 
               const Text(
                 '"Exploremos nuestra cultura"',
                 style: TextStyle(

@@ -152,8 +152,8 @@ class Explora extends StatelessWidget {
   }
 }
 
-class ExploraCK extends StatelessWidget {
-  const ExploraCK({super.key});
+class ExploraDZ extends StatelessWidget {
+  const ExploraDZ({super.key});
 
   @override
   Widget build(BuildContext context) {

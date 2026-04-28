@@ -17,7 +17,7 @@ class _HotelesState extends State<Hoteles> {
   List<dynamic> hoteles = [];
   bool isLoading = true;
   int? _expandedIndex;
-  Map<int, bool> _favoritos = {}; //
+  Map<int, bool> _favoritos = {}; 
 
   @override
   void initState() {
@@ -37,7 +37,6 @@ class _HotelesState extends State<Hoteles> {
     await _checkFavoritos(); 
   }
 
-  // ✅ verifica el estado de favorito de cada hotel
   Future<void> _checkFavoritos() async {
     for (int i = 0; i < hoteles.length; i++) {
       final esFav = await FavoritosDZService.esFavorito(
@@ -48,7 +47,7 @@ class _HotelesState extends State<Hoteles> {
     }
   }
 
-  // ✅ agregar o quitar favorito
+  // agregar o quitar favorito
   Future<void> _toggleFavorito(int index, Map<String, dynamic> hotel) async {
     final esFav = _favoritos[index] ?? false;
     if (esFav) {
@@ -154,7 +153,7 @@ class _HotelesState extends State<Hoteles> {
                   child: Column(
                     children: [
 
-                      // ✅ fila simple con corazón
+                      // fila simple con corazón
                       InkWell(
                         borderRadius: BorderRadius.circular(12),
                         onTap: () {
@@ -195,7 +194,7 @@ class _HotelesState extends State<Hoteles> {
                                   ],
                                 ),
                               ),
-                              // ✅ botón corazón
+                              // botón corazón
                               GestureDetector(
                                 onTap: () => _toggleFavorito(
                                     index, Map<String, dynamic>.from(hotel)),
@@ -219,7 +218,7 @@ class _HotelesState extends State<Hoteles> {
                         ),
                       ),
 
-                      // ✅ tarjeta expandida
+                      // tarjeta expandida
                       if (isExpanded) ...[
                         const Divider(height: 1),
 
@@ -274,7 +273,7 @@ class _HotelesState extends State<Hoteles> {
 
                               const SizedBox(height: 12),
 
-                              // horario y dirección lado a lado
+                              // horario y dirección
                               Row(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [

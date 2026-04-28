@@ -205,7 +205,7 @@ class _CentrosReligiososState extends State<CentrosReligiosos> {
                       if (isExpanded) ...[
                         const Divider(height: 1),
 
-                        // IMAGEN / PLACEHOLDER COMPLETO
+                        // IMAGEN / PLACEHOLDER
                         if (imagenPrincipal.isNotEmpty)
                           Image.asset(imagenPrincipal,
                               width: double.infinity,

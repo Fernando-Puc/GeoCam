@@ -234,7 +234,7 @@ class _PantallaNKState extends State<PantallaNK> {
                             ),
                           ),
                           SizedBox(
-                            width: 130, // ✅ mismo ancho
+                            width: 130,
                             child: ElevatedButton(
                               onPressed: () {
                                 Navigator.push(

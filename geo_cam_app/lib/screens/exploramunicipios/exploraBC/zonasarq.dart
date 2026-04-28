@@ -213,7 +213,7 @@ class _ZonasArqState extends State<ZonasArq> {
                       if (isExpanded) ...[
                         const Divider(height: 1),
 
-                        // IMAGEN / PLACEHOLDER (igual estilo)
+                        // IMAGEN / PLACEHOLDER 
                         if (imagenPrincipal.isNotEmpty)
                           Image.asset(
                             imagenPrincipal,
@@ -256,7 +256,7 @@ class _ZonasArqState extends State<ZonasArq> {
 
                               const SizedBox(height: 12),
 
-                              // BLOQUES (igual que hoteles)
+                              // BLOQUES 
                               Row(
                                 crossAxisAlignment:
                                     CrossAxisAlignment.start,
@@ -308,7 +308,7 @@ class _ZonasArqState extends State<ZonasArq> {
 
                               const SizedBox(height: 12),
 
-                              // MAPA EXACTO
+                              // MAPA
                               ClipRRect(
                                 borderRadius: BorderRadius.circular(10),
                                 child: SizedBox(

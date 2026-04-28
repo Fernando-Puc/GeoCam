@@ -177,7 +177,7 @@ class _guardadoState extends State<guardado> {
                         child: Column(
                           children: [
 
-                            // ✅ fila simple con corazón rojo para eliminar
+                            // fila simple con corazón rojo para eliminar
                             InkWell(
                               borderRadius: BorderRadius.circular(12),
                               onTap: () {
@@ -221,7 +221,7 @@ class _guardadoState extends State<guardado> {
                                         ],
                                       ),
                                     ),
-                                    // ✅ corazón para eliminar
+                                    // corazón para eliminar
                                     GestureDetector(
                                       onTap: () => _eliminarFavorito(
                                           lugar['nombre'], lugar['tipo']),
@@ -245,7 +245,7 @@ class _guardadoState extends State<guardado> {
                               ),
                             ),
 
-                            // ✅ detalle expandido
+                            // detalle expandido
                             if (isExpanded) ...[
                               const Divider(height: 1),
 
