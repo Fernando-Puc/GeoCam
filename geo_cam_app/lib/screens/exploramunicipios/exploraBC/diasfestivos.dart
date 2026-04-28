@@ -242,7 +242,7 @@ class _FechasMesState extends State<FechasMes> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
 
-                            // ✅ header rojo con título
+                            // header rojo con título
                             Container(
                               width: double.infinity,
                               padding: const EdgeInsets.all(14),
@@ -267,7 +267,7 @@ class _FechasMesState extends State<FechasMes> {
 
                             const SizedBox(height: 4), // espacio título-imagen
 
-                            // ✅ imagen centrada con bordes redondeados
+                            // imagen centrada con bordes redondeados
                             Padding(
                               padding: const EdgeInsets.symmetric(
                                   horizontal: 14),

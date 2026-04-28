@@ -166,7 +166,7 @@ class _historiaState extends State<historia> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          // ✅ subtítulo en negrita solo si no está vacío
+                          // subtítulo en negrita solo si no está vacío
                           if (subtitulo.isNotEmpty) ...[
                             Text(
                               subtitulo,

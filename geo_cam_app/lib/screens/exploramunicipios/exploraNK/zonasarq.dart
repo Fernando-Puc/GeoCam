@@ -141,7 +141,7 @@ class _ZonasArqState extends State<ZonasArq> {
                   child: Column(
                     children: [
 
-                      // HEADER (igual que hoteles)
+                      // HEADER
                       InkWell(
                         borderRadius: BorderRadius.circular(12),
                         onTap: () {
@@ -213,7 +213,7 @@ class _ZonasArqState extends State<ZonasArq> {
                       if (isExpanded) ...[
                         const Divider(height: 1),
 
-                        // IMAGEN / PLACEHOLDER (igual estilo)
+                        // IMAGEN / PLACEHOLDER
                         if (imagenPrincipal.isNotEmpty)
                           Image.asset(
                             imagenPrincipal,

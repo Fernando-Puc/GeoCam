@@ -234,7 +234,7 @@ class _PantallaBCState extends State<PantallaBC> {
                             ),
                           ),
                           SizedBox(
-                            width: 130, // ✅ mismo ancho
+                            width: 130,
                             child: ElevatedButton(
                               onPressed: () {
                                 Navigator.push(

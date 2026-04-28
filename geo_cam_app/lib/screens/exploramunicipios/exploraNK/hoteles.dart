@@ -17,8 +17,7 @@ class _HotelesState extends State<Hoteles> {
   List<dynamic> hoteles = [];
   bool isLoading = true;
   int? _expandedIndex;
-  Map<int, bool> _favoritos = {}; // ✅ estado de favorito por índice
-
+  Map<int, bool> _favoritos = {}; 
   @override
   void initState() {
     super.initState();
@@ -34,10 +33,9 @@ class _HotelesState extends State<Hoteles> {
       hoteles = data['hoteles'];
       isLoading = false;
     });
-    await _checkFavoritos(); // ✅ verificar cuáles ya están guardados
+    await _checkFavoritos(); //
   }
 
-  // ✅ verifica el estado de favorito de cada hotel
   Future<void> _checkFavoritos() async {
     for (int i = 0; i < hoteles.length; i++) {
       final esFav = await FavoritosNKService.esFavorito(
@@ -48,7 +46,7 @@ class _HotelesState extends State<Hoteles> {
     }
   }
 
-  // ✅ agregar o quitar favorito
+  // agregar o quitar favorito
   Future<void> _toggleFavorito(int index, Map<String, dynamic> hotel) async {
     final esFav = _favoritos[index] ?? false;
     if (esFav) {
@@ -154,7 +152,7 @@ class _HotelesState extends State<Hoteles> {
                   child: Column(
                     children: [
 
-                      // ✅ fila simple con corazón
+                      // fila simple con corazón
                       InkWell(
                         borderRadius: BorderRadius.circular(12),
                         onTap: () {
@@ -195,7 +193,7 @@ class _HotelesState extends State<Hoteles> {
                                   ],
                                 ),
                               ),
-                              // ✅ botón corazón
+                              // botón corazón
                               GestureDetector(
                                 onTap: () => _toggleFavorito(
                                     index, Map<String, dynamic>.from(hotel)),
@@ -219,7 +217,7 @@ class _HotelesState extends State<Hoteles> {
                         ),
                       ),
 
-                      // ✅ tarjeta expandida
+                      // tarjeta expandida
                       if (isExpanded) ...[
                         const Divider(height: 1),
 
